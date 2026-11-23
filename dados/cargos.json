@@ -1,0 +1,866 @@
+[
+  {
+    "id": "ceo",
+    "nome": "Diretor-Presidente / CEO",
+    "nivel": "Alta Direção",
+    "cbo": "1210-05",
+    "oficial": "Diretor de planejamento estratégico",
+    "ajuste": [
+      "1210-10",
+      "Diretor geral de empresa e organizações (exceto de interesse público)",
+      "O código 1210-05 corresponde, na CBO, ao diretor de planejamento estratégico. A função descrita no manual (direção geral da empresa) corresponde ao 1210-10. Os códigos 1210-15 e 1210-20, citados no manual para as diretorias comercial e de operações, não existem na família 1210; recomenda-se confirmar com a contabilidade o enquadramento das funções acumuladas."
+    ],
+    "setor": "Alta Direção",
+    "superior": "Sócios / Conselho",
+    "subordinados": "Gerente Administrativo | Gerente de Marketing",
+    "resumo": "Ocupa o topo da estrutura da +Motor BR. Define a estratégia, responde pelo equilíbrio financeiro e comercial e assegura a padronização dos processos internos. Na empresa, acumula também as responsabilidades de diretor financeiro, comercial e de operações. É o principal guardião da cultura, dos valores e da conformidade com a NR-1, a LGPD e a CLT.",
+    "grupos": [
+      [
+        "Diário",
+        [
+          "Conferir o caixa do dia, as vendas fechadas e as entradas previstas",
+          "Ler o reporte diário de negociações enviado pelos consultores",
+          "Decidir as pendências de alta relevância: descontos fora da alçada, conflitos, exceções",
+          "Estar disponível para a equipe: ao menos um momento do dia de porta aberta",
+          "Responder às aprovações de comunicação que dependem da direção (campanhas, parcerias, reclamações públicas)"
+        ]
+      ],
+      [
+        "Semanal",
+        [
+          "Reunião com Gerente Administrativo e Gerente de Marketing: meta x realizado da semana",
+          "Revisar o estoque: veículos parados, giro e preço de cada unidade",
+          "Acompanhar NPS, avaliações online e reclamações abertas",
+          "Verificar o andamento dos financiamentos e da documentação dos veículos vendidos"
+        ]
+      ],
+      [
+        "Mensal",
+        [
+          "Fechamento financeiro: faturamento, margem de contribuição por venda e despesas x orçamento",
+          "Confirmar com o Gerente Administrativo e a contabilidade o cumprimento das obrigações fiscais e trabalhistas",
+          "Conversa individual (1:1) com cada gerente: resultados, dificuldades e desenvolvimento",
+          "Reconhecer publicamente desempenhos e comportamentos alinhados aos valores (meritocracia com justiça)",
+          "Definir com o marketing o estoque prioritário, as campanhas e as datas do mês seguinte"
+        ]
+      ],
+      [
+        "Semestral e anual",
+        [
+          "Revisar o planejamento estratégico anual e as metas comerciais",
+          "Avaliar turnover, clima organizacional e o mapeamento de riscos psicossociais (NR-1) com o RH",
+          "Revisar o Plano de Cargos, Salários e Carreiras e este documento"
+        ]
+      ],
+      [
+        "Cultura e conformidade",
+        [
+          "Nenhum colaborador é repreendido por reportar erro ou propor melhoria (segurança psicológica)",
+          "Programa de Gerenciamento de Riscos com riscos psicossociais atualizado (NR-1)",
+          "Dados de clientes e colaboradores tratados conforme a LGPD",
+          "Metas ambiciosas acompanhadas de condições de trabalho dignas"
+        ]
+      ]
+    ],
+    "kpis": [
+      "Faturamento mensal e crescimento de receita",
+      "Margem de contribuição por venda",
+      "NPS de clientes",
+      "Taxa de turnover da equipe",
+      "Índice de clima organizacional"
+    ]
+  },
+  {
+    "id": "gadm",
+    "nome": "Gerente Administrativo",
+    "nivel": "Gerência",
+    "cbo": "1421-05",
+    "oficial": "Gerente administrativo",
+    "ajuste": null,
+    "setor": "Gerência",
+    "superior": "CEO",
+    "subordinados": "Setores Operacionais e Suporte Administrativo",
+    "resumo": "Planeja, coordena e supervisiona as atividades administrativas, financeiras e de apoio operacional. Garante a conformidade legal e documental, o controle orçamentário e o suporte às áreas Comercial, Pós-Vendas e Marketing. Também supervisiona as rotinas de Departamento Pessoal.",
+    "grupos": [
+      [
+        "Diário",
+        [
+          "Conferir contas a pagar e a receber do dia",
+          "Validar a documentação para financiamento e faturamento dos veículos vendidos",
+          "Consultar a procedência de todo veículo antes da proposta: restrições, gravame, leilão, sinistro, recall e laudo cautelar",
+          "Identificar vendedor e comprador e levar à Diretoria os sinais de alerta do COAF",
+          "ATPV-e de entrada assinada em favor da loja e veículo registrado no Renave",
+          "Prontuário físico do veículo e da venda aberto, completo e arquivado com acesso restrito",
+          "Supervisionar o faturamento de veículos e serviços",
+          "Acompanhar as pendências da equipe administrativa e de financiamento",
+          "Garantir que os documentos do dia foram arquivados (físico e digital)"
+        ]
+      ],
+      [
+        "Semanal",
+        [
+          "Atualizar o fluxo de caixa projetado e apresentar ao CEO",
+          "Verificar vencimentos de contratos com fornecedores, prestadores e parceiros financeiros",
+          "Acompanhar o prazo médio de processamento dos financiamentos",
+          "Revisar com o RH as rotinas de DP: admissões, férias, ponto e afastamentos",
+          "Conduzir a reunião operacional da área"
+        ]
+      ],
+      [
+        "Mensal",
+        [
+          "Entregar ao CEO o relatório financeiro gerencial do mês",
+          "Comparar despesas realizadas x orçamento e justificar os desvios",
+          "Confirmar o pagamento das obrigações fiscais, tributárias e trabalhistas",
+          "Propor ao menos uma melhoria de processo para reduzir custo ou retrabalho",
+          "Acompanhar indicadores de clima e bem-estar da equipe sob sua responsabilidade"
+        ]
+      ],
+      [
+        "Conformidade",
+        [
+          "Arquivo documental organizado conforme as exigências legais",
+          "Acesso a dados financeiros e pessoais restrito a quem precisa (LGPD)",
+          "Legislação trabalhista, fiscal e tributária cumprida e documentada"
+        ]
+      ]
+    ],
+    "kpis": [
+      "Índice de conformidade documental",
+      "Prazo médio de processamento de financiamentos",
+      "Controle de despesas x orçamento",
+      "Taxa de cumprimento de obrigações fiscais e trabalhistas"
+    ]
+  },
+  {
+    "id": "gmkt",
+    "nome": "Gerente de Marketing",
+    "nivel": "Gerência",
+    "cbo": "1210-25",
+    "oficial": "Código não encontrado na família 1210",
+    "ajuste": [
+      "1423-15",
+      "Gerente de marketing",
+      "A família 1210 (Diretores gerais) só possui os códigos 1210-05 e 1210-10. O código oficial do gerente de marketing é o 1423-15, da família 1423 (Gerentes de comercialização, marketing e comunicação)."
+    ],
+    "setor": "Gerência",
+    "superior": "CEO",
+    "subordinados": "Assistente de Marketing / SDR",
+    "resumo": "Planeja, desenvolve e executa as estratégias de marketing da +Motor BR, com foco em geração de demanda, performance comercial e fortalecimento da marca. Gerencia a presença digital (Instagram, YouTube, Google Meu Negócio, OLX Autos e Webmotors) e é o ponto de aprovação das dúvidas dos produtores de conteúdo.",
+    "grupos": [
+      [
+        "Diário",
+        [
+          "Conferir os leads do dia por canal e o custo de cada um",
+          "Acompanhar o tempo de resposta do SDR (meta: abaixo de 5 minutos)",
+          "Responder às dúvidas de publicação (#DÚVIDA) em até 4 horas úteis",
+          "Responder às avaliações online, principalmente as negativas",
+          "Verificar anúncios ativos e consumo de verba"
+        ]
+      ],
+      [
+        "Semanal",
+        [
+          "Conduzir a reunião de pauta de segunda-feira (20 minutos) com os produtores",
+          "Analisar as campanhas de Google Ads e Meta Ads e fazer as otimizações",
+          "Atualizar OLX Autos, Webmotors e Google Meu Negócio: fotos, preços e vendidos retirados",
+          "Cruzar com o comercial: quantos leads viraram atendimento e visita"
+        ]
+      ],
+      [
+        "Mensal",
+        [
+          "Relatório ao CEO: leads, custo por lead, conversão, ROI, alcance, engajamento e avaliações",
+          "Planejar o mês com o CEO: estoque prioritário, campanhas e datas",
+          "Controlar o orçamento de marketing",
+          "Planejar eventos, feirões e ações de relacionamento",
+          "Registrar tendências do setor e do consumidor digital que mereçam teste"
+        ]
+      ],
+      [
+        "Conformidade",
+        [
+          "Listas de leads e remarketing usadas conforme a LGPD",
+          "Toda pessoa que aparece em vídeo ou foto com autorização de imagem arquivada",
+          "Guia e checklist de vídeos do Instagram aplicados pela equipe"
+        ]
+      ]
+    ],
+    "kpis": [
+      "Quantidade e custo por lead gerado",
+      "Taxa de conversão de leads em atendimentos",
+      "Alcance e engajamento nas redes sociais",
+      "ROI das campanhas de marketing",
+      "NPS e avaliações online"
+    ]
+  },
+  {
+    "id": "consultor",
+    "nome": "Consultor de Vendas",
+    "nivel": "Operacional",
+    "cbo": "5211-05",
+    "oficial": "Vendedor em comércio atacadista",
+    "ajuste": [
+      "5211-10",
+      "Vendedor de comércio varejista",
+      "O 5211-05 é o vendedor do comércio atacadista. A venda de veículos ao consumidor final, descrita no manual, corresponde ao 5211-10."
+    ],
+    "setor": "Operacional",
+    "superior": "CEO",
+    "subordinados": "Pré-Vendas | Atendente de Recepção | Auxiliar de Serviços Gerais",
+    "resumo": "Converte oportunidades comerciais em vendas, com atendimento consultivo, personalizado e orientado à necessidade do cliente. Conduz test drives, negocia com apoio do analista de financiamento, faz o pós-venda e produz conteúdo para as redes sociais. Também responde pelo checklist de recebimento e pela avaliação de veículos.",
+    "grupos": [
+      [
+        "Início do dia",
+        [
+          "Abrir o CRM e responder os leads pendentes",
+          "Conferir a agenda de visitas e test drives do dia",
+          "Apresentação pessoal e mesa de trabalho em ordem"
+        ]
+      ],
+      [
+        "Em cada atendimento",
+        [
+          "Ouvir a necessidade do cliente antes de apresentar o veículo",
+          "Informar ano, versão, quilometragem e condição real, sem omitir detalhes",
+          "Test drive com CNH do cliente conferida e rota definida",
+          "Simulação de financiamento feita com o Pré-Vendas, com apoio técnico do analista, sem prometer aprovação",
+          "Registrar o atendimento e o próximo passo no CRM"
+        ]
+      ],
+      [
+        "Recebimento e avaliação de veículos",
+        [
+          "Checklist de recebimento completo a cada veículo que entra",
+          "Avaliação de veículos para entrada ou consignação registrada",
+          "Necessidade de manutenção preventiva reportada"
+        ]
+      ],
+      [
+        "Fim do dia",
+        [
+          "Enviar ao superior o reporte do status das negociações",
+          "Produzir o conteúdo combinado (vídeo, post ou reels) seguindo o checklist de publicação"
+        ]
+      ],
+      [
+        "Semanal",
+        [
+          "Pós-venda ativo às terças-feiras: contatos agendados realizados",
+          "Prospecção ativa e revisão da carteira de clientes",
+          "Indicar ao marketing os veículos que precisam de conteúdo"
+        ]
+      ],
+      [
+        "Conformidade",
+        [
+          "Dados de clientes usados só para o atendimento (LGPD)",
+          "Nenhuma promessa que a empresa não possa cumprir"
+        ]
+      ]
+    ],
+    "kpis": [
+      "Volume de vendas mensal",
+      "Taxa de conversão de leads em vendas",
+      "Satisfação do cliente (NPS)",
+      "Tempo médio de fechamento",
+      "Engajamento nas redes sociais"
+    ]
+  },
+  {
+    "id": "financ",
+    "nome": "Analista de Financiamento e Documentação Veicular",
+    "nivel": "Operacional",
+    "cbo": "4110-10",
+    "oficial": "Assistente administrativo",
+    "ajuste": null,
+    "setor": "Operacional",
+    "superior": "Gerente Administrativo / CEO",
+    "subordinados": "Setor Administrativo",
+    "resumo": "Executa e controla os processos de financiamento, consignação e documentação de veículos. Garante conformidade legal, agilidade na aprovação de crédito e segurança nas operações, apoiando diretamente o fechamento das vendas.",
+    "grupos": [
+      [
+        "Diário",
+        [
+          "Dar suporte técnico às simulações e propostas (CDC, consórcio, leasing) feitas pelo consultor e pelo Pré-Vendas",
+          "Conferir com rigor a documentação do cliente e do veículo antes de enviar",
+          "Acompanhar junto aos bancos as propostas enviadas pelo consultor e pelo Pré-Vendas",
+          "Informar ao consultor o status de cada proposta no mesmo dia",
+          "Acompanhar as liberações de crédito",
+          "Entregar ao Gerente Administrativo os documentos do dia para o prontuário (físico e digital)"
+        ]
+      ],
+      [
+        "Semanal",
+        [
+          "Acompanhar as baixas de gravame pendentes",
+          "Andamento de transferências, registros e regularizações",
+          "Revisar contratos de consignação vigentes e seus vencimentos",
+          "Controlar prazos, margens e rentabilidade das operações"
+        ]
+      ],
+      [
+        "Mensal",
+        [
+          "Calcular taxa de aprovação, prazo médio de liberação e índice de erros",
+          "Enviar o relatório ao Gerente Administrativo",
+          "Conferir com o Gerente Administrativo o arquivo: nada faltando, nada fora do lugar"
+        ]
+      ],
+      [
+        "Conformidade",
+        [
+          "Documentos de clientes guardados em local de acesso restrito (LGPD)",
+          "Descarte seguro de cópias que não precisam ser guardadas",
+          "Nenhuma informação alterada para facilitar aprovação"
+        ]
+      ]
+    ],
+    "kpis": [
+      "Taxa de aprovação de financiamentos",
+      "Prazo médio de liberação de crédito",
+      "Índice de erros documentais",
+      "Volume de contratos processados"
+    ]
+  },
+  {
+    "id": "consig",
+    "nome": "Assistente de Consignação Veicular e Captação de Clientes",
+    "nivel": "Operacional",
+    "cbo": "5211-10",
+    "oficial": "Vendedor de comércio varejista",
+    "ajuste": null,
+    "setor": "Comercial / Operacional",
+    "superior": "Gerente Comercial / CEO",
+    "subordinados": "Não possui",
+    "resumo": "Prospecta clientes e capta veículos para consignação, ampliando o estoque e as oportunidades de venda. Faz o atendimento inicial dos proprietários, coleta as informações dos veículos e conduz as etapas iniciais de negociação e formalização do contrato.",
+    "grupos": [
+      [
+        "Diário",
+        [
+          "Prospectar por contato direto, redes sociais, plataformas digitais e indicações",
+          "Atender os proprietários interessados em consignar",
+          "Registrar todo lead e oportunidade no CRM"
+        ]
+      ],
+      [
+        "A cada veículo captado",
+        [
+          "Informações coletadas: fotos, quilometragem, histórico e estado geral",
+          "Avaliação feita com o Consultor de Vendas e o CEO",
+          "Documentação conferida com o Gerente Administrativo",
+          "Valores e condições combinados pelo Consultor de Vendas com o Gerente Administrativo",
+          "Contrato estimatório formalizado pelo Gerente Administrativo com o CEO antes da exposição",
+          "Veículo cadastrado no estoque e enviado ao marketing para divulgação"
+        ]
+      ],
+      [
+        "Semanal",
+        [
+          "Follow-up com proprietários em negociação",
+          "Atualizar o estoque consignado",
+          "Reavaliar com o proprietário os veículos parados há muito tempo"
+        ]
+      ],
+      [
+        "Mensal",
+        [
+          "Calcular veículos captados, conversão em vendas e tempo médio no estoque",
+          "Retomar contato com proprietários para novas oportunidades"
+        ]
+      ],
+      [
+        "Conformidade",
+        [
+          "Visitas externas comunicadas ao superior com antecedência",
+          "Dados dos proprietários protegidos (LGPD)"
+        ]
+      ]
+    ],
+    "kpis": [
+      "Volume de veículos captados para consignação",
+      "Taxa de conversão de captações em vendas",
+      "Prazo médio de permanência dos veículos no estoque"
+    ]
+  },
+  {
+    "id": "sdr",
+    "nome": "Pré-Vendas (SDR)",
+    "nivel": "Operacional",
+    "cbo": "5211-10",
+    "oficial": "Vendedor de comércio varejista",
+    "ajuste": null,
+    "setor": "Operacional",
+    "superior": "Gerente de Marketing / CEO",
+    "subordinados": "Não possui",
+    "resumo": "Faz o primeiro atendimento aos clientes interessados, qualifica as oportunidades e encaminha os leads com potencial à equipe comercial. Garante uma experiência positiva e profissional desde o primeiro contato, com resposta em menos de 5 minutos.",
+    "grupos": [
+      [
+        "Durante todo o dia",
+        [
+          "Responder todo lead em até 5 minutos (canais digitais, telefone e redes sociais)",
+          "Identificar perfil e necessidade do cliente",
+          "No primeiro contato, montar o perfil do cliente: tipo de veículo de que mais gosta, faixa de valor que procura e cores preferidas, registradas no CRM",
+          "Conferir no CRM e nos sites em que o veículo é anunciado as informações completas antes de responder",
+          "Ouvir os áudios dos clientes com fone de ouvido",
+          "Qualificar a oportunidade conforme os critérios comerciais",
+          "Fazer a pré-análise de perfil de financiamento, sem prometer aprovação",
+          "Registrar cada interação no CRM com precisão",
+          "Responder comentários e mensagens dos vídeos publicados"
+        ]
+      ],
+      [
+        "Agendamentos",
+        [
+          "Agendar atendimentos e visitas com os consultores",
+          "Confirmar na véspera os agendamentos do dia seguinte",
+          "Registrar comparecimento ou falta de cada agendado"
+        ]
+      ],
+      [
+        "Semanal",
+        [
+          "Follow-up ativo dos clientes em negociação",
+          "Atualizar o banco de dados de clientes e leads",
+          "Registrar o motivo de cada lead perdido",
+          "Apoiar as ações de captação e relacionamento"
+        ]
+      ],
+      [
+        "Mensal",
+        [
+          "Calcular leads qualificados, conversão, tempo médio de resposta e comparecimento",
+          "Levar à reunião com o marketing quais conteúdos mais geraram contatos"
+        ]
+      ],
+      [
+        "Conformidade",
+        [
+          "Documentos de clientes recebidos só pelos canais oficiais (LGPD)",
+          "Acesso total ao CRM e aos sites de anúncio usado só para o atendimento; nenhum dado de cliente audível para terceiros (fone de ouvido)",
+          "Atendimento cordial mesmo com cliente difícil"
+        ]
+      ]
+    ],
+    "kpis": [
+      "Quantidade de leads qualificados por período",
+      "Conversão de leads para atendimento de vendas",
+      "Tempo médio de resposta ao cliente (meta: abaixo de 5 minutos)",
+      "Comparecimento dos clientes agendados",
+      "Avaliação de qualidade do primeiro atendimento"
+    ]
+  },
+  {
+    "id": "recep",
+    "nome": "Atendente de Recepção / Balcão de Clientes",
+    "nivel": "Operacional",
+    "cbo": "4221-05",
+    "oficial": "Recepcionista, em geral",
+    "ajuste": null,
+    "setor": "Operacional",
+    "superior": "Consultor de Vendas / Gerente de Marketing / CEO",
+    "subordinados": "Auxiliar de Serviços Gerais",
+    "resumo": "Recepciona, atende e orienta clientes, visitantes e fornecedores. Organiza o fluxo de informações e a agenda de atendimentos, cuida do cadastro de clientes conforme a LGPD e zela pela imagem institucional no primeiro contato presencial.",
+    "grupos": [
+      [
+        "Abertura",
+        [
+          "Recepção limpa e organizada, com água e café disponíveis",
+          "Sistema de atendimento aberto e agenda do dia conferida",
+          "Consultores avisados das visitas agendadas"
+        ]
+      ],
+      [
+        "Durante o atendimento",
+        [
+          "Receber cada pessoa com cordialidade e identificar a necessidade",
+          "Direcionar ao setor ou profissional correto",
+          "Informar produtos, serviços, procedimentos e horários",
+          "Encaminhar o cliente ao Consultor de Vendas, que faz o acolhimento comercial e pergunta como ele conheceu a +Motor BR",
+          "Registrar atendimentos e solicitações no sistema; reclamação e garantia vão ao Consultor de Vendas e ao Gerente Administrativo",
+          "Cadastrar ou atualizar dados de clientes conforme a LGPD",
+          "Controlar entrada e saída de correspondências"
+        ]
+      ],
+      [
+        "Fechamento",
+        [
+          "Agenda do dia seguinte organizada",
+          "Documentos e formulários do dia guardados",
+          "Pendências e reclamações repassadas aos responsáveis"
+        ]
+      ],
+      [
+        "Mensal",
+        [
+          "Levantar avaliação de atendimento, tempo médio e assertividade de direcionamento",
+          "Revisar com o superior as reclamações registradas e o que foi resolvido"
+        ]
+      ]
+    ],
+    "kpis": [
+      "Avaliação de qualidade do atendimento",
+      "Tempo médio de atendimento na recepção",
+      "Assertividade no direcionamento ao setor correto"
+    ]
+  },
+  {
+    "id": "assadm",
+    "nome": "Assistente Administrativo",
+    "nivel": "Suporte Administrativo",
+    "cbo": "4110-05",
+    "oficial": "Auxiliar de escritório",
+    "ajuste": [
+      "4110-10",
+      "Assistente administrativo",
+      "O 4110-05 é o auxiliar de escritório. Para o cargo com o nome e as atribuições de assistente administrativo, o código oficial é o 4110-10."
+    ],
+    "setor": "Administrativo / Operacional",
+    "superior": "Gerente Administrativo / CEO",
+    "subordinados": "Não possui",
+    "resumo": "Executa e apoia as rotinas administrativas, garantindo organização dos processos, controle de documentos, suporte às áreas internas e eficiência operacional.",
+    "grupos": [
+      [
+        "Diário",
+        [
+          "Executar as demandas administrativas do setor",
+          "Organizar, arquivar e controlar documentos físicos e digitais",
+          "Atualizar cadastros e registros nos sistemas internos",
+          "Controlar correspondências, protocolos e tramitação de documentos",
+          "Atender clientes, fornecedores e colaboradores e encaminhar as demandas"
+        ]
+      ],
+      [
+        "Semanal",
+        [
+          "Atualizar planilhas e controles administrativos",
+          "Organizar agendas, reuniões e eventos internos",
+          "Apoiar compras, faturamento e controle financeiro básico",
+          "Conferir contratos e documentos antes da assinatura"
+        ]
+      ],
+      [
+        "Mensal",
+        [
+          "Entregar os relatórios do mês ao Gerente Administrativo",
+          "Revisar o arquivo e eliminar pendências antigas"
+        ]
+      ],
+      [
+        "Conformidade",
+        [
+          "Discrição com informações da empresa e de clientes (LGPD)"
+        ]
+      ]
+    ],
+    "kpis": [
+      "Índice de organização documental",
+      "Prazo de atendimento às solicitações internas",
+      "Assertividade e qualidade dos relatórios produzidos"
+    ]
+  },
+  {
+    "id": "rh",
+    "nome": "Assistente de Recursos Humanos (Gestão de Pessoal)",
+    "nivel": "Suporte Administrativo",
+    "cbo": "4110-15",
+    "oficial": "Atendente de judiciário",
+    "ajuste": [
+      "4110-30",
+      "Auxiliar de pessoal",
+      "O 4110-15 corresponde ao atendente de judiciário. Para as rotinas de administração de pessoal descritas no manual, o código oficial mais próximo é o 4110-30."
+    ],
+    "setor": "Administrativo",
+    "superior": "CEO / Gerente Administrativo",
+    "subordinados": "Auxiliar de Serviços Gerais | Assistente Administrativo",
+    "resumo": "Executa e apoia a administração de pessoal e a gestão de pessoas. Assegura o cumprimento da legislação trabalhista, o controle dos registros funcionais e a conformidade com a NR-1, além de dar suporte a colaboradores e gestores.",
+    "grupos": [
+      [
+        "Diário",
+        [
+          "Conferir ponto e ocorrências (faltas, atrasos, horas extras)",
+          "Atender as solicitações de colaboradores e gestores",
+          "Manter registros funcionais atualizados"
+        ]
+      ],
+      [
+        "A cada admissão",
+        [
+          "Documentos coletados e conferidos",
+          "Exame admissional realizado",
+          "Contrato e cadastro do colaborador concluídos",
+          "Benefícios ativados conforme cargo e tempo de empresa",
+          "Integração com padrinho ou madrinha definida",
+          "Feedbacks de 30, 60 e 90 dias agendados com o gestor"
+        ]
+      ],
+      [
+        "A cada desligamento",
+        [
+          "Documentação e prazos rescisórios cumpridos",
+          "Entrevista de desligamento realizada e registrada"
+        ]
+      ],
+      [
+        "Mensal",
+        [
+          "Enviar as informações para a folha de pagamento",
+          "Fechar o banco de horas",
+          "Conferir benefícios (vale-transporte, vale-alimentação, plano de saúde)",
+          "Controlar férias, afastamentos e prazos trabalhistas",
+          "Calcular turnover e absenteísmo"
+        ]
+      ],
+      [
+        "Semestral e anual",
+        [
+          "Aplicar a pesquisa de clima organizacional",
+          "Apoiar o mapeamento de riscos psicossociais (NR-1)",
+          "Revisar a comunicação interna sobre gestão de pessoas"
+        ]
+      ],
+      [
+        "Conformidade",
+        [
+          "Sigilo absoluto sobre dados funcionais e de saúde (LGPD)",
+          "Normas trabalhistas, previdenciárias e acordos coletivos cumpridos"
+        ]
+      ]
+    ],
+    "kpis": [
+      "Índice de conformidade trabalhista e previdenciária",
+      "Prazo de processamento de admissões e demissões",
+      "Satisfação de colaboradores com o suporte de RH",
+      "Índice de turnover e absenteísmo monitorado"
+    ]
+  },
+  {
+    "id": "motorista",
+    "nome": "Motorista",
+    "nivel": "Suporte Administrativo",
+    "cbo": "7823-05",
+    "oficial": "Motorista de carro de passeio",
+    "ajuste": null,
+    "setor": "Administrativo / Operacional",
+    "superior": "Alta Direção / Gerência / Operacional / Administrativo",
+    "subordinados": "Não possui",
+    "resumo": "Transporta com segurança os veículos da concessionária, assegurando a integridade dos automóveis, o cumprimento dos prazos e o bom atendimento a clientes internos e externos. Também transporta documentos dos processos de compra e venda.",
+    "grupos": [
+      [
+        "Antes de cada deslocamento",
+        [
+          "CNH válida e documentos do veículo em mãos",
+          "Antes de sair para levar ou buscar qualquer veículo, por qualquer finalidade: fotos do veículo por fora",
+          "Fotos dos detalhes que mereçam destaque: defeitos, alterações, marcas, estado externo, acessórios e pneus",
+          "Fotos internas do veículo, com destaque para qualquer detalhe",
+          "Foto do painel com destaque na quilometragem e no combustível",
+          "Rota definida no aplicativo de navegação",
+          "Documentos transportados conferidos e protegidos"
+        ]
+      ],
+      [
+        "Durante",
+        [
+          "Localização em tempo real enviada ao grupo do Motorista com os Consultores de Vendas e o CEO, desde a saída até a chegada",
+          "Normas do Código de Trânsito cumpridas, sem uso do celular ao volante",
+          "Ocorrência ou irregularidade comunicada imediatamente"
+        ]
+      ],
+      [
+        "Na entrega ou no retorno",
+        [
+          "Nova vistoria e registro de quilometragem e combustível",
+          "Veículo limpo e em condições para entrega ao cliente",
+          "Entrega de chaves e documentos registrada com protocolo"
+        ]
+      ],
+      [
+        "Todos os dias, antes das 9h",
+        [
+          "Subir do estacionamento para a área de gravação os veículos indicados pelo Social Media na véspera"
+        ]
+      ],
+      [
+        "Preparação do veículo",
+        [
+          "Orçar os serviços de preparação com prazo e levar ao CEO para aprovar",
+          "Acompanhar o prazo do serviço com o fornecedor e avisar qualquer atraso",
+          "Lançar os custos da preparação para o Gerente Administrativo",
+          "Higienização e estética final do veículo antes da exposição e da entrega",
+          "Veículo do agendamento separado, limpo e ligado",
+          "Checklist 2 de Entrega conferido junto com o Consultor de Vendas"
+        ]
+      ],
+      [
+        "Semanal",
+        [
+          "Apoiar a organização do pátio",
+          "Conferir o registro dos deslocamentos da semana"
+        ]
+      ]
+    ],
+    "kpis": [
+      "Entregas e retiradas realizadas no prazo",
+      "Avarias registradas em deslocamento",
+      "Multas e ocorrências de trânsito"
+    ]
+  },
+  {
+    "id": "asg",
+    "nome": "Auxiliar de Serviços Gerais",
+    "nivel": "Suporte Administrativo",
+    "cbo": "5143-20",
+    "oficial": "Faxineiro",
+    "ajuste": null,
+    "setor": "Administrativo / Operacional",
+    "superior": "Alta Direção / Gerência / Operacional",
+    "subordinados": "Não possui",
+    "resumo": "Executa os serviços de limpeza, conservação e organização das instalações, garantindo um ambiente adequado, seguro e higienizado para clientes e colaboradores.",
+    "grupos": [
+      [
+        "Antes da abertura",
+        [
+          "EPIs vestidos e em bom estado",
+          "Showroom, recepção, salas e áreas comuns limpos",
+          "Banheiros higienizados e abastecidos",
+          "Lixo recolhido e descartado conforme as normas"
+        ]
+      ],
+      [
+        "Durante o dia",
+        [
+          "Banheiros revisados em horários definidos",
+          "Copa e área de café organizadas",
+          "Piso molhado sempre sinalizado"
+        ]
+      ],
+      [
+        "Semanal",
+        [
+          "Limpeza pesada conforme cronograma",
+          "Estoque de materiais de limpeza e higiene conferido",
+          "Necessidades de manutenção predial comunicadas"
+        ]
+      ],
+      [
+        "Eventos",
+        [
+          "Apoio na preparação e na desmontagem de eventos e feirões"
+        ]
+      ]
+    ],
+    "kpis": [
+      "Organização e limpeza dos ambientes",
+      "Cumprimento do cronograma de limpeza",
+      "Conservação do patrimônio da empresa",
+      "Atendimento às normas de segurança e higiene"
+    ]
+  },
+  {
+    "id": "social",
+    "nome": "Social Media (Analista de Mídias Sociais)",
+    "nivel": "Operacional",
+    "cbo": "2534-05",
+    "oficial": "Analista de mídias sociais",
+    "ajuste": null,
+    "setor": "Marketing e Comunicação",
+    "superior": "Gerente de Marketing",
+    "subordinados": "Não possui",
+    "resumo": "Planeja, produz, publica e acompanha o conteúdo e o relacionamento da +Motor BR nas redes sociais, com foco no Instagram @maismotorbr. Executa o calendário dos cinco pilares do Guia de Comunicação, grava e edita com os consultores, responde a comunidade, passa ao SDR na hora toda pergunta comercial, monitora o que se fala da marca e mede o que vira conversa e lead. Publica sozinho o que está no sinal verde e leva à Gerência de Marketing o que é amarelo ou vermelho.",
+    "grupos": [
+      [
+        "Diário",
+        [
+          "Das 9h às 11h30: janela de gravação, com a meta de cerca de 10 vídeos em 20 minutos. Concluir toda a captação do dia nessa janela e acumular o máximo de material bruto para vídeos futuros e reciclados",
+          "A partir das 11h30: programação dos vídeos, edição, criação e roteiros",
+          "Colher no CRM e no site da empresa as informações detalhadas de cada veículo antes de gravar e de escrever a legenda",
+          "Conferir o quadro de pautas e o grupo \"+Motor Vídeos\": pedidos novos (#PAUTA), respostas de aprovação e alertas (#ALERTA)",
+          "Publicar os Stories do dia de loja aberta, espalhados pelo horário de atendimento",
+          "Publicar o Reels do dia conforme a grade, em horário com alguém da loja para responder",
+          "Acompanhar as 2 primeiras horas de cada post: responder comentários simples e passar ao SDR na hora, com print, toda pergunta de preço, financiamento, troca ou visita",
+          "Avisar no grupo com #NO AR e o link assim que publicar",
+          "Responder directs e comentários no mesmo dia; ocultar ou excluir ofensa, golpe e spam, guardando o print na pasta da empresa",
+          "Conferir menções, marcações e avaliações novas e levar reclamação à Gerência com #ALERTA, sem discutir em público",
+          "Mover os cartões do quadro: ideia, gravação, edição, aprovação, no ar"
+        ]
+      ],
+      [
+        "Fim do dia (meia hora antes de sair)",
+        [
+          "Conferir todos os equipamentos: carregando, desligados e organizados",
+          "Organizar as primeiras gravações do dia seguinte",
+          "Avisar o Motorista quais veículos devem subir do estacionamento para a área de gravação"
+        ]
+      ],
+      [
+        "Semanal",
+        [
+          "Participar da reunião de pauta de segunda (9h, 20 minutos) com os 3 números da semana: mensagens recebidas, leads qualificados e vídeo campeão",
+          "Toda segunda-feira: levantar as necessidades de gravação (materiais e veículos), com os veículos listados por tempo de estoque, do mais antigo para o mais novo",
+          "Priorizar mais material dos 4 veículos mais antigos no estoque e dos recém-chegados para os vídeos da semana",
+          "Montar a semana pela conta dos 5 pilares: 2 vitrine, 1 procedência, 1 entrega ou orientação e 1 equipe a cada duas semanas",
+          "Gravar em bloco com os consultores, com ano, versão, km, câmbio e preço conferidos no CRM antes de gravar",
+          "Conferir a planilha de autorizações de imagem antes de toda gravação com pessoas",
+          "Registrar no quadro o resultado de 7 dias de cada vídeo publicado",
+          "Pesquisar trend topics, memes, tipos de vídeo do setor e músicas da semana para usar nos vídeos (áudio liberado para uso comercial) e propor um teste"
+        ]
+      ],
+      [
+        "Mensal",
+        [
+          "Levantar os números do relatório em uma página (Anexo D do Guia) e entregar à Gerência antes do encontro com o CEO",
+          "Propor o que manter, o que testar e o que parar, com base nos números",
+          "Preparar a pauta das datas do mês seguinte (início do mês, IPVA, férias, Black Friday, feirões) com a Gerência",
+          "Revisar bio, link, destaques, posts fixados e dados do Google Meu Negócio (horário, fotos, posts)",
+          "Conferir acessos e segurança das contas: verificação em duas etapas, quem tem acesso e senhas trocadas quando alguém sai",
+          "Organizar o drive: material bruto com backup, vídeos públicos separados dos internos"
+        ]
+      ],
+      [
+        "Dúvida sobre um veículo (nesta ordem)",
+        [
+          "1. CRM e site da empresa",
+          "2. Consultor de Vendas",
+          "3. CEO"
+        ]
+      ],
+      [
+        "A cada publicação",
+        [
+          "Passar no Checklist de 10 itens antes de publicar; ficou em dúvida, leva à Gerência e não publica até a resposta",
+          "Sinal amarelo ou vermelho: só publica com a aprovação registrada no grupo",
+          "Legenda com gancho, prova, uma única chamada, 3 a 5 hashtags e localização da loja",
+          "Legenda na tela, português revisado e áudio liberado para uso comercial",
+          "Erro em post publicado: arquivar (não apagar), avisar com #ALERTA e corrigir junto com a Gerência"
+        ]
+      ],
+      [
+        "A cada gravação com pessoas",
+        [
+          "Termo de autorização assinado e arquivado antes de gravar: colaborador com o termo de colaborador, cliente com termo próprio",
+          "Respeitar as escolhas do termo (marcação, anúncio pago) e os pedidos de retirada, avisando a Gerência no mesmo dia",
+          "Placas de clientes e terceiros borradas; nenhum documento, tela de sistema ou conversa à vista",
+          "Criança ou adolescente, cliente conhecido ou cliente falando de preço ou banco: levar à Gerência antes de publicar"
+        ]
+      ],
+      [
+        "Conformidade",
+        [
+          "Preço, condição e dados do carro iguais aos do sistema: o que é anunciado obriga a loja (CDC, arts. 30 e 37)",
+          "Parceria, permuta ou conteúdo pago identificado como publicidade (#publi ou marcação de parceria paga), conforme o Guia de Influenciadores do CONAR",
+          "Nenhum dado pessoal de cliente em comentário, Story ou vídeo; listas e públicos usados conforme a LGPD",
+          "IA só como apoio, com revisão humana; nunca alterar rosto ou voz de colaborador e nunca colar dado de cliente em ferramenta de IA",
+          "Mensagens fora do horário apenas na escala combinada; ninguém responde sozinho a ataque ou ofensa (NR-1, riscos psicossociais)"
+        ]
+      ]
+    ],
+    "kpis": [
+      "Publicações feitas x planejadas no calendário (Reels, Stories e carrosséis)",
+      "Alcance dos Reels e contas novas alcançadas",
+      "Compartilhamentos e salvamentos por publicação",
+      "Mensagens recebidas e leads qualificados com origem nas redes sociais (CRM)",
+      "Tempo de resposta a comentários e directs e de passagem ao SDR",
+      "Publicações sem pendência de conformidade (imagem, dados, aprovação)"
+    ]
+  }
+]

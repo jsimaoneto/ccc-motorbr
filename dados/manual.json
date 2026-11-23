@@ -1,0 +1,225 @@
+{
+  "cultura": {
+    "apresentacao": [
+      "Schein (1985) descreve a cultura organizacional como o conjunto de pressupostos básicos, aprendidos pelo grupo ao resolver seus problemas de adaptação externa e integração interna, que passam a ser ensinados aos novos integrantes como a forma correta de perceber, pensar e sentir a organização. Na +Motor BR, essa cultura não nasce de um exercício abstrato de missão e visão: nasce da trajetória do fundador, Edmilson Pascoal dos Santos Junior, e da forma como a empresa decidiu se posicionar em um mercado, o de veículos usados, historicamente marcado pela desconfiança do consumidor quanto à procedência e à transparência do vendedor.",
+      "A opção da +Motor BR por descrever seus valores institucionais em detalhe, incluindo uma dimensão de propósito que ultrapassa o resultado financeiro, está alinhada ao que Deci e Ryan (1985) descrevem como motivação autodeterminada: colaboradores tendem a se engajar de forma mais consistente quando reconhecem sentido no trabalho que realizam, e não apenas uma meta a cumprir. Este manual busca traduzir esse propósito institucional em processos, papéis e responsabilidades concretas, de modo que a cultura declarada e a cultura praticada não se afastem uma da outra."
+    ],
+    "missao": "Oferecer veículos de procedência comprovada e qualidade superior, por meio de um atendimento transparente, ético e personalizado, proporcionando uma experiência de compra segura, inovadora e memorável. Construir relações duradouras baseadas em confiança, responsabilidade e excelência operacional.",
+    "visao": "Ser reconhecida como referência no mercado automotivo brasileiro pela credibilidade, pela excelência no atendimento, pela inovação nos processos comerciais e pela construção de relacionamentos sólidos e sustentáveis com clientes, parceiros e colaboradores.",
+    "valores_intro": "Os oito valores a seguir orientam decisões cotidianas, da negociação com o cliente à conduta interna entre colaboradores, e servem de critério de avaliação em situações não previstas expressamente pelas políticas internas.",
+    "valores": [
+      {
+        "nome": "Ética e Transparência",
+        "descricao": "Atuamos com clareza absoluta em todas as negociações, sem omissão de informação relevante ao cliente."
+      },
+      {
+        "nome": "Credibilidade e Compromisso",
+        "descricao": "A palavra dada é fundamento institucional; promessas feitas são integralmente cumpridas."
+      },
+      {
+        "nome": "Excelência Operacional",
+        "descricao": "Buscamos padrão elevado de qualidade em cada etapa do atendimento, do processo e da entrega do veículo."
+      },
+      {
+        "nome": "Foco na Experiência do Cliente",
+        "descricao": "Cada interação deve gerar segurança, clareza e satisfação, do primeiro contato ao pós-venda."
+      },
+      {
+        "nome": "Qualidade e Procedência",
+        "descricao": "Comercializamos apenas veículos que atendam a padrões rigorosos de procedência e conservação."
+      },
+      {
+        "nome": "Inovação Contínua",
+        "descricao": "Aprimoramos constantemente processos comerciais, ferramentas e comunicação com o mercado."
+      },
+      {
+        "nome": "Respeito às Pessoas",
+        "descricao": "Valorizamos clientes, colaboradores e parceiros como pilares do crescimento sustentável da empresa."
+      },
+      {
+        "nome": "Fé como Princípio Orientador",
+        "descricao": "Os valores da empresa são sustentados por convicções sólidas e por um sentido de propósito que transcende o resultado financeiro."
+      }
+    ]
+  },
+  "politicas": [
+    {
+      "num": "2.1",
+      "nome": "Conduta e Ética",
+      "base": "Código de Ética institucional e valores da +Motor BR",
+      "intro": [
+        "Todo colaborador representa a marca +Motor BR em qualquer interação com cliente, fornecedor ou parceiro. Espera-se conduta pautada por honestidade, respeito e transparência, em linha com o valor institucional de ética e transparência."
+      ],
+      "esperadas": [
+        "Tratar clientes, colegas e fornecedores com respeito e cordialidade",
+        "Informar com clareza o estado, a procedência e as condições comerciais de cada veículo",
+        "Reportar à liderança qualquer situação de conflito de interesse"
+      ],
+      "vedadas": [
+        "Omitir informação relevante para induzir o cliente a erro",
+        "Aceitar vantagem pessoal de fornecedor ou cliente em troca de tratamento privilegiado"
+      ]
+    },
+    {
+      "num": "2.2",
+      "nome": "Jornada de Trabalho e Registro de Ponto",
+      "base": "CLT, artigos 58 a 75 (Brasil, 1943)",
+      "intro": [
+        "A jornada de trabalho observa os limites da Consolidação das Leis do Trabalho, com controle de ponto obrigatório para todos os cargos, conforme o artigo 74. Horas extras somente são realizadas com autorização prévia da liderança imediata."
+      ],
+      "esperadas": [
+        "Registrar o ponto com fidelidade, inclusive em regime de trabalho externo",
+        "Solicitar autorização prévia para realização de horas extras",
+        "Comunicar atraso ou ausência com a maior antecedência possível"
+      ],
+      "vedadas": [
+        "Registrar ponto por terceiro ou de forma incompatível com a jornada real",
+        "Realizar horas extras sistemáticas sem autorização e sem compensação devida"
+      ]
+    },
+    {
+      "num": "2.3",
+      "nome": "Uso de Recursos e Equipamentos",
+      "base": "Política interna de patrimônio da +Motor BR",
+      "intro": [
+        "Veículos, ferramentas, sistemas e equipamentos da empresa são recursos de trabalho, e seu uso deve ser compatível com a finalidade profissional. Danos por uso indevido são apurados e podem gerar responsabilização, respeitados os limites legais."
+      ],
+      "esperadas": [
+        "Utilizar veículos, equipamentos e sistemas exclusivamente para finalidade profissional",
+        "Comunicar imediatamente qualquer dano, falha ou uso indevido identificado"
+      ],
+      "vedadas": [
+        "Usar veículo de estoque ou de cliente para finalidade particular sem autorização expressa",
+        "Compartilhar login e senha de sistemas internos com terceiros"
+      ]
+    },
+    {
+      "num": "2.4",
+      "nome": "Redes Sociais e Imagem da Empresa",
+      "base": "Política interna de comunicação e Código de Defesa do Consumidor (Brasil, 1990)",
+      "intro": [
+        "A produção de conteúdo institucional, incluindo vídeos e publicações comerciais, deve manter coerência com a identidade de marca e com a veracidade exigida na publicidade de produtos e serviços."
+      ],
+      "esperadas": [
+        "Publicar apenas informação verificada sobre veículos, preços e condições comerciais",
+        "Seguir a identidade visual e o tom de comunicação definidos pela Gerência de Marketing"
+      ],
+      "vedadas": [
+        "Publicar em nome da empresa informação não autorizada ou não verificada",
+        "Expor dados pessoais de clientes em redes sociais sem consentimento"
+      ]
+    },
+    {
+      "num": "2.5",
+      "nome": "Confidencialidade e Proteção de Dados (LGPD)",
+      "base": "Lei nº 13.709/2018 (Brasil, 2018)",
+      "intro": [
+        "Dados pessoais de clientes, colaboradores e parceiros, incluindo dados financeiros e de crédito, são tratados apenas para a finalidade correspondente e com acesso restrito a quem deles necessite para o exercício da função."
+      ],
+      "esperadas": [
+        "Coletar e usar dados pessoais apenas para a finalidade informada ao titular",
+        "Restringir o acesso a dados financeiros e de crédito a quem atue diretamente na operação",
+        "Reportar imediatamente qualquer suspeita de incidente com dados pessoais"
+      ],
+      "vedadas": [
+        "Compartilhar dados de clientes com terceiros sem base legal ou consentimento",
+        "Inserir dados pessoais de clientes em ferramentas externas de inteligência artificial"
+      ]
+    },
+    {
+      "num": "2.6",
+      "nome": "Saúde e Segurança no Trabalho",
+      "base": "Norma Regulamentadora nº 1 e Norma Regulamentadora nº 6",
+      "intro": [
+        "A empresa mantém Programa de Gerenciamento de Riscos, que desde 26 de maio de 2026 passou a exigir, por força da Norma Regulamentadora nº 1, a inclusão explícita dos riscos psicossociais ocupacionais, além dos riscos físicos, químicos e de acidente já previstos."
+      ],
+      "esperadas": [
+        "Utilizar corretamente os equipamentos de proteção individual, quando exigidos pela função",
+        "Reportar imediatamente acidentes, quase acidentes ou condições inseguras",
+        "Participar das ações de prevenção promovidas pela empresa"
+      ],
+      "vedadas": [
+        "Realizar atividade de risco sem o equipamento de proteção exigido",
+        "Omitir acidente de trabalho, ainda que sem lesão aparente"
+      ]
+    },
+    {
+      "num": "2.7",
+      "nome": "Prevenção à Lavagem de Dinheiro (COAF)",
+      "base": "Lei nº 9.613/1998 (Brasil, 1998)",
+      "intro": [
+        "Como revendedora de veículos, a +Motor BR é pessoa obrigada perante o Conselho de Controle de Atividades Financeiras. Pagamentos em espécie acima de R$ 30.000,00, fracionamento de valores e pagamento por terceiros sem relação aparente com a negociação são sinais de alerta que devem ser registrados e submetidos à Diretoria."
+      ],
+      "esperadas": [
+        "Identificar corretamente o cliente antes da conclusão de qualquer venda",
+        "Registrar e comunicar à Diretoria operações atípicas ou pagamentos em espécie de alto valor"
+      ],
+      "vedadas": [
+        "Concluir negociação atípica sem submeter o caso à Diretoria",
+        "Aceitar fracionamento de pagamento com o propósito de evitar o registro exigido"
+      ]
+    },
+    {
+      "num": "2.8",
+      "nome": "Atendimento, Consignação e Financiamento",
+      "base": "Código de Defesa do Consumidor (Brasil, 1990); Código Civil, artigos 534 a 537 (Brasil, 2002)",
+      "intro": [
+        "Toda venda, consignação ou operação de financiamento observa o dever de informação claro e prévio sobre preço, condições, taxas e procedência do veículo. A consignação somente é formalizada por contrato estimatório antes da exposição do veículo à venda."
+      ],
+      "esperadas": [
+        "Apresentar simulações de financiamento com taxas e custo total claramente informados",
+        "Formalizar o contrato de consignação antes de expor o veículo",
+        "Verificar procedência, gravames e histórico do veículo antes da aceitação"
+      ],
+      "vedadas": [
+        "Anunciar veículo consignado sem contrato formalizado",
+        "Omitir do cliente restrição, sinistro ou débito identificado no veículo"
+      ]
+    },
+    {
+      "num": "2.9",
+      "nome": "Medidas Disciplinares",
+      "base": "CLT, artigos 482 e 483 (Brasil, 1943)",
+      "intro": [
+        "O descumprimento das políticas internas é apurado de forma proporcional, observado o contraditório, podendo resultar em advertência verbal, advertência escrita, suspensão ou, em caso de falta grave, rescisão por justa causa, conforme a gravidade da conduta."
+      ],
+      "esperadas": [],
+      "vedadas": []
+    },
+    {
+      "num": "2.10",
+      "nome": "Termo de Ciência das Políticas Internas",
+      "base": "",
+      "intro": [
+        "Cada cargo descrito nesta parte segue um roteiro comum de dezesseis seções, aplicado de forma integral a todos os cargos da +Motor BR, dos executivos aos operacionais, por decisão da Diretoria. A profundidade igual entre os cargos não significa peso igual de responsabilidade; significa apenas que nenhuma função é descrita de forma incompleta. Este documento deve ser lido em conjunto com a Parte I (Cultura Organizacional) e a Parte II (Políticas Internas), que se aplicam a todos os cargos aqui descritos.",
+        "1. Propósito e Identidade do Cargo",
+        "Definir a direção estratégica da +Motor BR, sustentar a cultura organizacional e garantir equilíbrio financeiro, eficiência comercial e padronização operacional, acumulando, na ausência de diretoria multidisciplinar, as funções de Diretor Financeiro, Diretor Comercial e Diretor de Operações."
+      ],
+      "esperadas": [],
+      "vedadas": []
+    }
+  ],
+  "disciplina": [
+    {
+      "gravidade": "Leve",
+      "exemplo": "Atraso recorrente sem justificativa",
+      "medida": "Advertência verbal"
+    },
+    {
+      "gravidade": "Moderada",
+      "exemplo": "Descumprimento reiterado de checklist ou de rotina obrigatória",
+      "medida": "Advertência escrita"
+    },
+    {
+      "gravidade": "Grave",
+      "exemplo": "Omissão deliberada de informação ao cliente ou ao COAF",
+      "medida": "Suspensão ou rescisão por justa causa"
+    },
+    {
+      "gravidade": "Gravíssima",
+      "exemplo": "Fraude documental ou apropriação de valores",
+      "medida": "Rescisão por justa causa e medidas legais cabíveis"
+    }
+  ],
+  "termo": "Declaro que li e compreendi as políticas internas da +Motor BR descritas nesta Parte II, comprometendo-me a cumpri-las no exercício das minhas funções."
+}

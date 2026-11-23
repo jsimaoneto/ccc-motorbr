@@ -1,0 +1,2081 @@
+{
+ "programas": [
+  {
+   "num": "01",
+   "cargo": "consultor",
+   "nome": "Consultor de Vendas",
+   "cbo": "5211-05 (manual) · recomendado 5211-10",
+   "superior": "CEO",
+   "carga": "12 horas formais em 2 semanas + prática acompanhada até o dia 90",
+   "missao": "Converter oportunidades em vendas com atendimento consultivo, personalizado e transparente, garantindo rentabilidade e fidelização.",
+   "objetivo": "Ao final do programa, o consultor conduz sozinho todo o ciclo de venda: recebe o lead, faz o atendimento consultivo, apresenta o veículo, conduz o test drive, negocia dentro da alçada, fecha com o analista de financiamento e faz o pós-venda, registrando tudo no CRM sem precisar perguntar o próximo passo.",
+   "resultados": [
+    "Atender um cliente do primeiro contato ao fechamento seguindo o roteiro consultivo, com o acolhimento em 4 passos e a pergunta da origem registrada",
+    "Apresentar qualquer veículo do estoque com informação correta e sem omitir detalhes",
+    "Negociar dentro da alçada definida pelo CEO e saber exatamente quando escalar",
+    "Manter o CRM atualizado no mesmo dia e enviar o reporte diário de negociações",
+    "Receber, avaliar e reportar veículos usando o checklist de recebimento",
+    "Proteger os dados do cliente (LGPD) e avisar cedo qualquer erro, promessa indevida ou incidente"
+   ],
+   "modulos": [
+    {
+     "titulo": "A venda consultiva da +Motor BR",
+     "duracao": "90 min",
+     "objetivo": "Entender por que a empresa vende orientando decisões, e não empurrando carros.",
+     "conteudo": [
+      "Missão e valores aplicados à venda: transparência total e palavra como compromisso",
+      "As 5 etapas do atendimento: acolher, investigar, apresentar, negociar e fechar, e depois acompanhar no pós-venda",
+      "Acolhimento em 4 passos, que passou da recepção para o consultor: olhar e cumprimentar, perguntar o nome, entender a necessidade, oferecer água ou café",
+      "A pergunta da origem (\"como conheceu a +Motor BR?\") feita e registrada pelo consultor em todo atendimento",
+      "Reclamação ou pedido de garantia: registrar, encaminhar e dar retorno ao cliente com prazo, junto do Gerente Administrativo",
+      "Perguntas de investigação: uso do carro, quem dirige, orçamento mensal, carro na troca, prazo da decisão",
+      "Escuta ativa: repetir com as próprias palavras o que o cliente disse antes de oferecer",
+      "Seguro, garantia estendida e acessórios: a +Motor BR não vende garantia estendida; seguro e acessórios ficam com a profissional especializada nisso. O consultor não vende esse produto diretamente, mas identifica a oportunidade durante o atendimento e encaminha o cliente a ela"
+     ],
+     "erro": "Falar do carro antes de entender a vida do cliente.",
+     "regra": "Primeiro a necessidade, depois o veículo."
+    },
+    {
+     "titulo": "O veículo sem segredos",
+     "duracao": "90 min",
+     "objetivo": "Apresentar qualquer carro do estoque com segurança e honestidade.",
+     "conteudo": [
+      "Ficha do veículo: ano, versão, quilometragem, câmbio, revisões e procedência sempre conferidos no sistema",
+      "Roteiro de apresentação em 6 pontos: frente, lateral, traseira, interior, motor, porta-malas",
+      "Como mostrar um defeito: apontar, explicar e dizer como foi considerado no preço",
+      "Test drive seguro: CNH válida e da categoria certa conferida antes de sair, registro do cliente e cópia da CNH guardados só no registro oficial da loja (nunca no celular pessoal), rota padrão, o consultor no banco do passageiro",
+      "Como é hoje: o test drive é raro e, quando acontece, costuma ficar dentro do próprio condomínio da loja; nunca o cliente sai sozinho, sempre com o consultor ou, se precisar, com o motorista",
+      "Recebimento do carro: o motorista faz a vistoria completa assim que o veículo chega (comprado ou consignado) e passa todos os pontos ao consultor responsável; o consultor vai atrás de resolver cada ponto, inclusive documentação, e só escala ao administrativo o que não conseguir resolver sozinho"
+     ],
+     "erro": "Responder de memória e errar a quilometragem ou a versão.",
+     "regra": "Informação do carro sai do sistema, não da cabeça."
+    },
+    {
+     "titulo": "Negociação e fechamento",
+     "duracao": "120 min",
+     "objetivo": "Negociar com firmeza e respeito, dentro da alçada.",
+     "conteudo": [
+      "Alçada de desconto: até onde o consultor decide e quando chamar o CEO",
+      "Como é hoje: a alçada ainda não tem um valor fixo por escrito; o CEO decide caso a caso, usando uma margem informal do carro (a \"gordurinha\") para negociar. Está em elaboração uma política mensal de vendas (margens, regra de desconto e bonificação para quem fecha sem desconto); até sair, qualquer desconto maior passa pelo CEO",
+      "As 4 objeções mais comuns (preço, parcela, avaliação do usado, vou pensar) e como responder",
+      "Integração com o analista de financiamento: o que levar, o que nunca prometer",
+      "Financiamento claro: o cliente vê na simulação feita por você com a pré-venda, apoiada pelo analista, o custo total, os juros e o número de parcelas antes de decidir; nada de prometer aprovação nem esconder seguro ou tarifa (CDC, arts. 52 e 54-C)",
+      "Fechamento: resumo da proposta, confirmação por escrito e próximos passos. Hoje a negociação em si, uma vez que o cliente decide, costuma levar cerca de 30 minutos; da chegada do lead ao consultor até o cliente sair com o carro, a média é de 1 semana (documentação, polimento, higienização e eventual reparo)",
+      "Onde a venda mais escapa hoje: o consultor sem informação suficiente para tirar todas as dúvidas do cliente, que então compara com um concorrente mais preparado; e o cliente que chega à mesa sem condição real de pagar, porque isso não foi bem filtrado ainda na pré-venda",
+      "Benefício em vez de desconto: quando fizer sentido, oferecer um benefício (tanque cheio, polimento, jantar, acessório) em vez de abater no preço, sempre calculado dentro da margem do carro, sem gerar prejuízo; combinar com o gestor antes de prometer"
+     ],
+     "erro": "Prometer aprovação de crédito ou prazo de entrega que não depende de você.",
+     "regra": "Só prometa o que a empresa pode cumprir."
+    },
+    {
+     "titulo": "CRM, pós-venda e conteúdo",
+     "duracao": "60 min",
+     "objetivo": "Fazer a rotina que mantém a carteira viva.",
+     "conteudo": [
+      "CRM no mesmo dia: cada contato com status e próximo passo. Fechar o CRM quando a venda é concluída é regra, não opcional: hoje isso ainda não acontece sempre, e é o primeiro hábito a virar rotina",
+      "Avaliação do cliente: ao fechar a venda, aperte a mão e já pergunte se pode mandar o link de avaliação do Google na hora, pelo WhatsApp; pedir depois quase nunca funciona",
+      "A conversão hoje é baixa: de cada 100 leads que chegam ao consultor, só 1 ou 2 viram venda; qualquer coisa que reduza a perda em cada etapa do atendimento pesa muito no resultado",
+      "Feedback ao pré-vendas: avisar no mesmo dia quando um carro que veio de um lead do SDR for vendido, reservado ou cair a negociação, com a data e o status; é esse retorno que permite ao pré-vendas responder certo ao próximo lead interessado no mesmo carro",
+      "Reporte diário ao superior: modelo de 3 linhas (quem, em que pé, próximo passo)",
+      "Pós-venda das terças: roteiro de ligação em 2 minutos. O acompanhamento automático em 1, 2, 3 meses e 1 ano ainda está em implantação; até entrar no ar, a ligação de terça-feira é a forma de manter esse contato",
+      "Conteúdo para redes: checklist de 10 itens antes de publicar",
+      "Dados do cliente (LGPD): usados só para o atendimento e registrados no CRM; nada de print, galeria ou grupo pessoal; incidente (celular perdido, mensagem no grupo errado) avisado à liderança na hora"
+     ],
+     "erro": "Deixar para atualizar o CRM no fim da semana.",
+     "regra": "Se não está no CRM, não aconteceu."
+    }
+   ],
+   "quiz": [
+    {
+     "pergunta": "Quais são as 5 etapas do atendimento consultivo?",
+     "resposta": "Acolher, investigar, apresentar, negociar e fechar, e depois acompanhar no pós-venda."
+    },
+    {
+     "pergunta": "De onde deve sair a quilometragem informada ao cliente?",
+     "resposta": "Do sistema da loja, conferida antes do atendimento."
+    },
+    {
+     "pergunta": "O cliente pergunta se o financiamento será aprovado. O que você responde?",
+     "resposta": "Que a análise é feita pelo banco e que você e a pré-venda simulam e acompanham, com apoio técnico do analista, sem prometer aprovação."
+    },
+    {
+     "pergunta": "Qual o dia fixo do pós-venda ativo?",
+     "resposta": "Terça-feira."
+    },
+    {
+     "pergunta": "O que fazer quando o desconto pedido está fora da sua alçada?",
+     "resposta": "Levar ao CEO com a proposta resumida, sem prometer ao cliente."
+    },
+    {
+     "pergunta": "Qual o prazo para registrar um atendimento no CRM?",
+     "resposta": "No mesmo dia."
+    },
+    {
+     "pergunta": "Como apresentar um defeito do veículo?",
+     "resposta": "Mostrar, explicar e dizer como foi considerado no preço."
+    },
+    {
+     "pergunta": "Quais são os indicadores do cargo?",
+     "resposta": "Volume de vendas, conversão de leads, NPS, tempo médio de fechamento e engajamento nas redes."
+    }
+   ]
+  },
+  {
+   "num": "02",
+   "cargo": "financ",
+   "nome": "Analista de Financiamento e Documentação Veicular",
+   "cbo": "4110-10",
+   "superior": "Gerente Administrativo / CEO",
+   "carga": "10 horas formais em 2 semanas + prática acompanhada até o dia 90",
+   "missao": "Executar e controlar financiamentos, consignações e documentação de veículos com conformidade legal, agilidade e segurança.",
+   "objetivo": "Ao final do programa, o analista dá suporte técnico a qualquer financiamento e processo documental: apoia a simulação e a conferência feitas pelo consultor com a pré-venda, acompanha a proposta no banco até a liberação, responde pelo contrato do banco com o gravame e pela saída do veículo no Renave com a ATPV-e, e entrega a documentação ao Gerente Administrativo para o prontuário, conforme a LGPD, informando o consultor sem precisar ser cobrado.",
+   "resultados": [
+    "Apoiar as simulações de CDC, consórcio e leasing e explicar a diferença ao consultor e à pré-venda",
+    "Conferir a documentação do cliente e do veículo com o checklist, sem deixar passar pendências",
+    "Acompanhar nos bancos parceiros as propostas enviadas pelo consultor e pela pré-venda",
+    "Conduzir baixa de gravame, transferência e regularização",
+    "Entregar ao Gerente Administrativo a documentação da operação e manter o arquivo digital protegido"
+   ],
+   "modulos": [
+    {
+     "titulo": "Modalidades de crédito automotivo",
+     "duracao": "90 min",
+     "objetivo": "Dominar CDC, consórcio e leasing e saber quando cada um faz sentido.",
+     "conteudo": [
+      "CDC: como funciona, entrada, prazo, taxa e custo efetivo total",
+      "Consórcio e leasing: quando aparecem e o que muda",
+      "Como ler e explicar uma simulação ao consultor",
+      "Fatores que influenciam a aprovação, sem prometer resultado",
+      "O que o cliente precisa saber antes de fechar: preço à vista, taxa efetiva anual, número e periodicidade das parcelas, acréscimos, encargos por atraso e total a pagar (CDC, art. 52)",
+      "Onde o seu trabalho começa hoje: a simulação, a conferência dos documentos e o envio ao banco são conduzidos pelo consultor com a pré-venda; você dá o suporte técnico, acompanha a proposta até a liberação e responde pelo contrato do banco com o gravame e pela saída do veículo no Renave"
+     ],
+     "erro": "Comparar propostas só pela parcela, sem olhar o custo efetivo total.",
+     "regra": "Parcela não é preço: compare o custo total."
+    },
+    {
+     "titulo": "Documentação sem erro",
+     "duracao": "120 min",
+     "objetivo": "Conferir documentos de cliente e veículo com rigor.",
+     "conteudo": [
+      "Checklist de documentos do cliente: identidade, CPF, comprovante de renda e de residência",
+      "Checklist do veículo: documento, débitos, restrições, gravame, vistoria",
+      "Sinais de alerta: divergência de dados, documento rasurado, restrição judicial",
+      "O que fazer diante de uma pendência: registrar, avisar e não seguir adiante",
+      "Sinais de alerta de lavagem de dinheiro (renda incompatível com a compra, pagamento por terceiro, recusa em dar dados): levar ao gestor, sem avisar o cliente"
+     ],
+     "erro": "Enviar proposta com documento faltando para ganhar tempo.",
+     "regra": "Pendência registrada é pendência resolvida mais rápido."
+    },
+    {
+     "titulo": "Do envio à liberação",
+     "duracao": "90 min",
+     "objetivo": "Controlar cada proposta até o dinheiro entrar e o documento sair.",
+     "conteudo": [
+      "Painel de propostas: banco, data de envio, status, próximo passo",
+      "Comunicação com o consultor: status no mesmo dia",
+      "Liberação de crédito, baixa de gravame e transferência: etapas e prazos. Hoje a liberação costuma ser rápida: cerca de 10 a 15 minutos quando não há negociação de taxa (levantamento de 29/10/2026); quando precisa brigar por uma taxa melhor, aí depende de alçada",
+      "Quando o cliente é recusado, a loja tenta alternativas antes de desistir: outro banco, cartão de crédito, entrada maior ou carta de crédito contemplada",
+      "Consignação: o que o contrato precisa conter e o registro eletrônico do contrato no Renave antes da venda",
+      "Carro com erro de documentação ou multa: hoje é a direção que resolve diretamente (não o cliente), comprando o carro já sabendo da solução"
+     ],
+     "erro": "Esquecer uma proposta parada no banco.",
+     "regra": "Toda proposta tem dono, data e próximo passo."
+    },
+    {
+     "titulo": "Arquivo, LGPD e indicadores",
+     "duracao": "60 min",
+     "objetivo": "Proteger dados e medir o próprio trabalho.",
+     "conteudo": [
+      "Arquivo físico e digital: padrão de nomes e pastas",
+      "LGPD: quem pode acessar, onde guardar, como descartar e o que fazer diante de um incidente (celular perdido, arquivo enviado ao grupo errado)",
+      "Indicadores do cargo: taxa de aprovação, prazo de liberação, erros, volume",
+      "Relatório mensal em uma página"
+     ],
+     "erro": "Deixar cópias de documentos de clientes na mesa ou no WhatsApp pessoal.",
+     "regra": "Dado de cliente só no lugar certo."
+    }
+   ],
+   "quiz": [
+    {
+     "pergunta": "Qual é a diferença entre comparar parcela e comparar custo efetivo total?",
+     "resposta": "A parcela mostra só o valor mensal; o custo efetivo total mostra quanto o cliente pagará ao todo, com juros e encargos."
+    },
+    {
+     "pergunta": "O que fazer quando falta um documento do cliente?",
+     "resposta": "Registrar a pendência, avisar o consultor e não enviar a proposta incompleta."
+    },
+    {
+     "pergunta": "Qual a frequência para informar o status da proposta ao consultor?",
+     "resposta": "No mesmo dia de cada mudança."
+    },
+    {
+     "pergunta": "O que é baixa de gravame?",
+     "resposta": "A retirada da restrição do banco sobre o veículo após a quitação."
+    },
+    {
+     "pergunta": "Onde podem ficar cópias de documentos de clientes?",
+     "resposta": "Somente no arquivo físico restrito e nas pastas digitais oficiais da empresa."
+    },
+    {
+     "pergunta": "Cite três sinais de alerta em um documento.",
+     "resposta": "Divergência de dados, rasura e restrição judicial ou administrativa."
+    },
+    {
+     "pergunta": "Quais são os indicadores do cargo?",
+     "resposta": "Taxa de aprovação, prazo médio de liberação, índice de erros documentais e volume de contratos."
+    },
+    {
+     "pergunta": "Pode-se ajustar a renda do cliente para aprovar?",
+     "resposta": "Nunca. Nenhuma informação é alterada para facilitar aprovação."
+    }
+   ]
+  },
+  {
+   "num": "03",
+   "cargo": "consig",
+   "nome": "Assistente de Consignação Veicular e Captação de Clientes",
+   "cbo": "5211-10",
+   "superior": "CEO",
+   "carga": "10 horas formais em 2 semanas + prática acompanhada até o dia 90",
+   "missao": "Prospectar clientes e captar veículos para consignação, ampliando estoque e oportunidades de venda.",
+   "objetivo": "Ao final do programa, o assistente prospecta proprietários, faz o atendimento inicial, coleta as informações do veículo, organiza a avaliação com o consultor e o CEO e reúne a documentação do contrato estimatório, formalizado pelo Gerente Administrativo com o CEO, mantendo o CRM e o estoque consignado atualizados.",
+   "resultados": [
+    "Montar e executar uma rotina diária de prospecção em pelo menos 3 canais",
+    "Fazer o atendimento inicial de um proprietário e explicar a consignação com clareza",
+    "Coletar fotos e informações completas de um veículo em até 20 minutos",
+    "Organizar a avaliação com o consultor e o CEO e reunir a documentação do contrato estimatório",
+    "Acompanhar os veículos consignados e reavaliar os parados"
+   ],
+   "modulos": [
+    {
+     "titulo": "Como funciona a consignação na +Motor BR",
+     "duracao": "60 min",
+     "objetivo": "Explicar a consignação a qualquer proprietário com clareza e honestidade.",
+     "conteudo": [
+      "O que é consignação, vantagens para o proprietário e para a loja",
+      "Etapas: contato, avaliação, contrato, preparação, divulgação, venda e repasse",
+      "O que a empresa garante e o que não garante",
+      "Perguntas frequentes dos proprietários e respostas padrão",
+      "Onde a função está hoje: até você assumir, a captação era feita pelo gestor com apoio da pré-venda, e a avaliação inicial (estado geral e custos de pintura, funilaria e mecânica) também era feita por ele; nos primeiros dias, faça essa avaliação junto com o gestor até ganhar autonomia"
+     ],
+     "erro": "Prometer prazo de venda ou valor que o mercado não sustenta.",
+     "regra": "Expectativa alinhada no início evita conflito no fim."
+    },
+    {
+     "titulo": "Prospecção que funciona",
+     "duracao": "90 min",
+     "objetivo": "Encontrar proprietários de forma ativa e organizada.",
+     "conteudo": [
+      "Canais: indicação de clientes, redes sociais, plataformas digitais, contatos diretos",
+      "Rotina diária: blocos de 30 minutos e meta de contatos",
+      "Mensagem de primeiro contato: curta, pessoal e com motivo claro",
+      "Registro no CRM: origem, interesse e próximo passo",
+      "Contato com origem clara, respeito a quem pede para não ser contatado e consulta à lista de bloqueio de telemarketing do Procon-SP antes de ligar ou mandar mensagem para quem nunca procurou a loja (LGPD e Lei estadual 17.832/2023)"
+     ],
+     "erro": "Prospectar só quando o estoque esvazia.",
+     "regra": "Prospecção é todo dia, não em emergência."
+    },
+    {
+     "titulo": "Captação do veículo",
+     "duracao": "120 min",
+     "objetivo": "Coletar tudo que a avaliação e a venda precisam.",
+     "conteudo": [
+      "Checklist de captação: documentos, histórico, revisões, chave reserva, manual",
+      "Fotos padrão: 12 ângulos com boa luz",
+      "Estado geral: lataria, pneus, interior, painel, ruídos",
+      "Visitas externas: avisar o superior e registrar",
+      "Perguntar sempre, de forma direta, sobre multas, débitos e financiamento em aberto, e registrar a resposta",
+      "Dados do proprietário e fotos de documentos: só o necessário, enviados pelo canal da empresa e apagados da galeria do celular (LGPD)"
+     ],
+     "erro": "Voltar da visita sem a foto do documento ou do painel.",
+     "regra": "Saiu sem o checklist completo, vai ter que voltar."
+    },
+    {
+     "titulo": "Contrato, estoque e acompanhamento",
+     "duracao": "60 min",
+     "objetivo": "Formalizar e acompanhar cada veículo até a venda.",
+     "conteudo": [
+      "Itens do contrato estimatório, conferência com o Gerente Administrativo e registro do contrato no Renave antes da venda; a assinatura é do Gerente Administrativo com o CEO",
+      "Cadastro no estoque e envio ao marketing para divulgação",
+      "Acompanhamento: contato quinzenal com o proprietário",
+      "Veículo parado: dados para reavaliar preço com o proprietário"
+     ],
+     "erro": "Sumir depois que o carro entra no pátio.",
+     "regra": "O proprietário sempre sabe como está o carro dele."
+    }
+   ],
+   "quiz": [
+    {
+     "pergunta": "Quais são as etapas da consignação?",
+     "resposta": "Contato, avaliação, contrato, preparação, divulgação, venda e repasse."
+    },
+    {
+     "pergunta": "Por que não prometer prazo de venda?",
+     "resposta": "Porque depende do mercado; prometer quebra a palavra da empresa."
+    },
+    {
+     "pergunta": "Quantas fotos tem o padrão de captação?",
+     "resposta": "12 ângulos."
+    },
+    {
+     "pergunta": "O que fazer antes de uma visita externa?",
+     "resposta": "Avisar o superior e registrar."
+    },
+    {
+     "pergunta": "Com que frequência falar com o proprietário de um carro consignado?",
+     "resposta": "Pelo menos a cada 15 dias."
+    },
+    {
+     "pergunta": "Quem confere a documentação do veículo captado?",
+     "resposta": "O assistente com o Analista de Financiamento e Documentação."
+    },
+    {
+     "pergunta": "Quais são os indicadores do cargo?",
+     "resposta": "Veículos captados, conversão de captações em vendas e prazo médio de permanência no estoque."
+    },
+    {
+     "pergunta": "Qual a regra da prospecção?",
+     "resposta": "Todo dia, em blocos fixos, e não só em emergência."
+    }
+   ]
+  },
+  {
+   "num": "04",
+   "cargo": "sdr",
+   "nome": "Pré-Vendas (SDR)",
+   "cbo": "5211-10",
+   "superior": "Gerente de Marketing / CEO",
+   "carga": "8 horas formais em 1 semana + prática acompanhada até o dia 90",
+   "missao": "Fazer o primeiro atendimento, qualificar oportunidades e encaminhar leads com potencial à equipe comercial, com resposta em menos de 5 minutos.",
+   "objetivo": "Ao final do programa, o SDR atende todos os canais em menos de 5 minutos, qualifica o lead com o roteiro, monta o perfil do cliente (tipo de veículo preferido, faixa de valor e cores), faz a pré-análise de financiamento, agenda a visita com o consultor certo, confirma na véspera e registra tudo no CRM, sem precisar consultar ninguém para os casos comuns.",
+   "resultados": [
+    "Responder qualquer lead em menos de 5 minutos com mensagem personalizada",
+    "Qualificar o lead com o roteiro de 5 perguntas",
+    "Montar o perfil do cliente no primeiro contato: tipo de veículo preferido, faixa de valor e cores",
+    "Fazer a pré-análise de perfil de financiamento sem prometer aprovação",
+    "Agendar e confirmar visitas, reduzindo faltas",
+    "Registrar cada interação no CRM com precisão"
+   ],
+   "modulos": [
+    {
+     "titulo": "Os primeiros 5 minutos",
+     "duracao": "60 min",
+     "objetivo": "Entender por que a velocidade decide a venda e como responder bem e rápido.",
+     "conteudo": [
+      "Por que a meta é 5 minutos: o lead esfria rápido e fala com outras lojas",
+      "Modelos de primeira resposta por canal: WhatsApp, Instagram, telefone, portais",
+      "Personalizar em 10 segundos: nome, carro de interesse e uma pergunta",
+      "Antes de responder: conferir no CRM e nos sites em que o veículo é anunciado todas as informações do carro. O SDR tem acesso total ao CRM com as informações dos veículos e aos sites de anúncio",
+      "Fora do horário: mensagem de retorno e prioridade na abertura",
+      "Ambiente de trabalho: o SDR usa fone de ouvido para ouvir áudios de clientes com clareza, não incomodar quem está ao lado e não deixar dado de cliente (CPF, endereço, valor) audível para outras pessoas na loja"
+     ],
+     "erro": "Responder só com o preço e esperar o cliente puxar a conversa.",
+     "regra": "Responder rápido e terminar com uma pergunta."
+    },
+    {
+     "titulo": "Qualificação em 5 perguntas",
+     "duracao": "90 min",
+     "objetivo": "Separar curiosos de oportunidades reais sem ser invasivo.",
+     "conteudo": [
+      "As 5 perguntas: para quem é o carro, qual o uso, quanto cabe no mês, tem carro na troca, quando quer decidir",
+      "Perfil do cliente, já no primeiro contato: tipo de veículo de que mais gosta, faixa de valor que procura e cores preferidas. São três perguntas de perfil que complementam as 5 de qualificação e ficam registradas no CRM, para o consultor oferecer o carro certo e o marketing saber o que o público procura",
+      "Classificação do lead: quente, morno, frio",
+      "Pré-análise de financiamento: o que perguntar, o que nunca prometer e como pedir só os dados necessários, pelo canal oficial (LGPD)",
+      "Quando passar para o consultor e como fazer a passagem",
+      "Isso importa de verdade: hoje a conversão de lead em venda é muito baixa (1 a 2 de cada 100), e uma das causas identificadas é o cliente chegar à mesa de negociação sem condição real de pagar, porque isso não foi bem filtrado aqui na qualificação"
+     ],
+     "erro": "Agendar visita sem saber se o carro cabe no orçamento.",
+     "regra": "Lead qualificado é visita que acontece."
+    },
+    {
+     "titulo": "Agenda que não falha",
+     "duracao": "60 min",
+     "objetivo": "Transformar interesse em comparecimento.",
+     "conteudo": [
+      "Agendamento com dia, hora, consultor e carro reservado",
+      "Confirmação na véspera: mensagem padrão",
+      "Faltou? Reagendar em até 24 horas",
+      "Registro de comparecimento no CRM"
+     ],
+     "erro": "Agendar \"qualquer hora amanhã\".",
+     "regra": "Visita sem horário marcado não é visita."
+    },
+    {
+     "titulo": "CRM, follow-up e redes sociais",
+     "duracao": "60 min",
+     "objetivo": "Não deixar nenhum lead esquecido.",
+     "conteudo": [
+      "Campos obrigatórios do CRM, incluindo a origem do lead e o perfil do cliente (tipo de veículo, faixa de valor e cores)",
+      "Follow-up: sequência de 3 contatos em 7 dias, parando na hora se a pessoa pedir para não ser mais contatada",
+      "Lead perdido: registrar o motivo",
+      "O ponto mais frágil da loja hoje é o fechamento, depois que o lead já está com o consultor (valor, taxa, condição do negócio, avaliação do usado ou cliente que some depois de aprovado). Seu follow-up ativo também vale para esses casos: ajudar o consultor a reengajar o cliente é parte do seu papel, não só gerar o primeiro contato",
+      "Comentários e directs dos vídeos: responder e levar para a conversa privada, sem expor parcela, crédito, renda ou documento no comentário"
+     ],
+     "erro": "Desistir de um lead depois da primeira mensagem sem resposta.",
+     "regra": "Três tentativas, motivo registrado."
+    }
+   ],
+   "quiz": [
+    {
+     "pergunta": "Qual é a meta de tempo de resposta?",
+     "resposta": "Menos de 5 minutos."
+    },
+    {
+     "pergunta": "Quais são as 5 perguntas de qualificação?",
+     "resposta": "Para quem é o carro, qual o uso, quanto cabe no mês, se há carro na troca e quando quer decidir."
+    },
+    {
+     "pergunta": "Como deve terminar toda primeira resposta?",
+     "resposta": "Com uma pergunta."
+    },
+    {
+     "pergunta": "O que nunca se promete na pré-análise?",
+     "resposta": "A aprovação do financiamento."
+    },
+    {
+     "pergunta": "O que um agendamento precisa ter?",
+     "resposta": "Dia, hora, consultor e carro de interesse."
+    },
+    {
+     "pergunta": "Quais 3 perguntas montam o perfil do cliente no primeiro contato?",
+     "resposta": "Tipo de veículo de que mais gosta, faixa de valor que procura e cores preferidas."
+    },
+    {
+     "pergunta": "Quantas tentativas de follow-up antes de registrar o lead como perdido?",
+     "resposta": "Três, em 7 dias, com o motivo registrado."
+    },
+    {
+     "pergunta": "Por que registrar a origem do lead?",
+     "resposta": "Para saber quais canais e conteúdos geram vendas."
+    }
+   ]
+  },
+  {
+   "num": "05",
+   "cargo": "recep",
+   "nome": "Atendente de Recepção / Balcão de Clientes",
+   "cbo": "4221-05",
+   "superior": "Consultor de Vendas / Gerente de Marketing / CEO",
+   "carga": "6 horas formais em 1 semana + prática acompanhada até o dia 90",
+   "missao": "Recepcionar, atender e orientar clientes, visitantes e fornecedores, garantindo qualidade no atendimento e organização do fluxo de informações.",
+   "objetivo": "Ao final do programa, a recepção abre e fecha o dia sozinha, recebe qualquer pessoa com o padrão da casa, direciona ao setor certo na primeira tentativa, registra atendimentos e reclamações, cuida do cadastro conforme a LGPD e resolve as situações comuns sem precisar chamar alguém.",
+   "resultados": [
+    "Abrir e fechar a recepção com o checklist",
+    "Receber e direcionar cada pessoa com o padrão da casa, levando o cliente de vendas ao consultor",
+    "Direcionar corretamente cada tipo de demanda",
+    "Registrar atendimentos e encaminhar ao consultor de vendas a reclamação e a origem do cliente",
+    "Lidar com cliente irritado com calma e encaminhamento correto"
+   ],
+   "modulos": [
+    {
+     "titulo": "A primeira impressão é da recepção",
+     "duracao": "60 min",
+     "objetivo": "Entender o papel da recepção na experiência do cliente.",
+     "conteudo": [
+      "Valores da empresa no balcão: respeito, transparência, experiência do cliente",
+      "Receber, identificar a necessidade e passar o cliente de vendas ao consultor, que faz o acolhimento comercial em 4 passos",
+      "Postura, apresentação e tom de voz",
+      "Atendimento telefônico: saudação padrão e anotação do recado"
+     ],
+     "erro": "Continuar no celular ou no computador quando alguém entra.",
+     "regra": "Pessoa na frente vem antes de qualquer tela."
+    },
+    {
+     "titulo": "Quem faz o quê na +Motor BR",
+     "duracao": "60 min",
+     "objetivo": "Direcionar cada demanda ao lugar certo na primeira vez.",
+     "conteudo": [
+      "Mapa de setores e responsáveis: vendas, financiamento, consignação, administrativo, RH",
+      "Tabela de demandas comuns e para onde vão",
+      "Como anunciar um cliente ao consultor",
+      "Agenda do dia: conferir na abertura e avisar os consultores das visitas agendadas",
+      "Fornecedores, entregas e correspondências: onde receber, quem assina e como registrar a entrada e a saída"
+     ],
+     "erro": "Mandar o cliente \"procurar alguém lá dentro\".",
+     "regra": "O cliente nunca procura: a recepção leva ou chama."
+    },
+    {
+     "titulo": "Registro, cadastro e LGPD",
+     "duracao": "60 min",
+     "objetivo": "Registrar com precisão e proteger dados.",
+     "conteudo": [
+      "Cadastro: campos obrigatórios e confirmação dos dados",
+      "A pergunta da origem (\"como conheceu a +Motor BR?\") é feita pelo consultor de vendas no acolhimento comercial; a recepção recebe, direciona e passa o cliente a ele",
+      "Registro de reclamações: o que anotar e para quem enviar",
+      "LGPD no balcão: tela virada, papéis guardados, nada por foto no celular pessoal",
+      "Pedido de informação sobre cliente, por telefone ou no balcão: não confirmar dados a terceiros, anotar o recado e encaminhar ao responsável",
+      "Incidente com dados (ficha esquecida à vista, documento extraviado, mensagem para a pessoa errada): avisar o superior na hora, porque avisar cedo protege o cliente"
+     ],
+     "erro": "Deixar ficha de cliente à vista no balcão.",
+     "regra": "Dado de cliente fora da vista de terceiros."
+    },
+    {
+     "titulo": "Situações difíceis",
+     "duracao": "60 min",
+     "objetivo": "Manter a calma e resolver ou encaminhar bem.",
+     "conteudo": [
+      "Cliente irritado: ouvir até o fim, nomear o sentimento, não discutir, encaminhar",
+      "Espera longa: informar o tempo real e oferecer alternativa",
+      "Pedido fora do padrão: anotar e prometer só o retorno (nunca preço, desconto, prazo de documento ou aprovação de crédito)",
+      "Quando chamar o superior imediatamente (por exemplo, cliente que grita, ofende ou fica agressivo; critérios finais a confirmar com a direção): ninguém precisa aguentar sozinho, chamar é o procedimento"
+     ],
+     "erro": "Levar a reclamação para o lado pessoal e responder no mesmo tom.",
+     "regra": "Calma na voz, encaminhamento na ação."
+    }
+   ],
+   "quiz": [
+    {
+     "pergunta": "Quem faz o acolhimento comercial em 4 passos?",
+     "resposta": "O consultor de vendas; a recepção recebe, identifica a necessidade e leva o cliente até ele."
+    },
+    {
+     "pergunta": "Quem pergunta e registra como o cliente conheceu a +Motor BR?",
+     "resposta": "O consultor de vendas, no acolhimento comercial."
+    },
+    {
+     "pergunta": "Para onde vai quem quer deixar o carro para vender?",
+     "resposta": "Para a consignação."
+    },
+    {
+     "pergunta": "O que fazer com um cliente irritado?",
+     "resposta": "Ouvir, nomear o sentimento, não discutir, registrar e encaminhar."
+    },
+    {
+     "pergunta": "O que pode ficar à vista no balcão?",
+     "resposta": "Nada que contenha dado pessoal de cliente."
+    },
+    {
+     "pergunta": "O que um recado precisa ter?",
+     "resposta": "Quem, empresa, assunto, telefone, horário e se pediu retorno."
+    },
+    {
+     "pergunta": "Quais são os indicadores do cargo?",
+     "resposta": "Qualidade do atendimento, tempo médio de atendimento e assertividade no direcionamento."
+    },
+    {
+     "pergunta": "Qual a regra quando alguém entra e você está no computador?",
+     "resposta": "A pessoa vem antes de qualquer tela."
+    }
+   ]
+  },
+  {
+   "num": "06",
+   "cargo": "assadm",
+   "nome": "Assistente Administrativo",
+   "cbo": "4110-05 (manual) · recomendado 4110-10",
+   "superior": "Gerente Administrativo / CEO",
+   "carga": "8 horas formais em 1 semana + prática acompanhada até o dia 90",
+   "missao": "Executar e apoiar as rotinas administrativas, garantindo organização de processos, controle de documentos, suporte às áreas internas e eficiência operacional.",
+   "objetivo": "Ao final do programa, o assistente organiza sozinho a própria rotina, controla documentos e protocolos, mantém planilhas e cadastros atualizados, apoia compras e faturamento e encaminha cada demanda ao setor certo, entregando relatórios no prazo sem precisar ser lembrado.",
+   "resultados": [
+    "Planejar o próprio dia e a semana com a lista de demandas",
+    "Arquivar documentos físicos e digitais no padrão da empresa",
+    "Controlar protocolos e correspondências sem extravio",
+    "Montar e atualizar planilhas e relatórios simples",
+    "Conferir contratos e documentos antes da assinatura",
+    "Encaminhar cada demanda ao setor certo, dentro da própria alçada",
+    "Tratar no mesmo dia as correspondências com prazo legal, como notificações de multa"
+   ],
+   "modulos": [
+    {
+     "titulo": "Minha rotina sob controle",
+     "duracao": "60 min",
+     "objetivo": "Organizar o dia para não depender de lembretes.",
+     "conteudo": [
+      "Lista única de demandas: tudo que chega vai para um só lugar",
+      "Prioridade em 3 níveis: hoje, esta semana, quando der",
+      "Blocos de tempo para tarefas que exigem concentração",
+      "Revisão de 5 minutos no fim do dia",
+      "Lista maior que o dia: levar ao gestor e repriorizar juntos, sem esconder atraso",
+      "Onde a função está hoje: a +Motor BR ainda não tem esse cargo preenchido; a parte financeira e administrativa é feita informalmente pela esposa do CEO, com apoio semanal de um contador. Quem assumir este cargo ajuda a profissionalizar essa rotina"
+     ],
+     "erro": "Guardar as demandas na cabeça ou espalhadas no WhatsApp.",
+     "regra": "Tudo que chega vai para a lista."
+    },
+    {
+     "titulo": "Arquivo e documentos",
+     "duracao": "90 min",
+     "objetivo": "Encontrar qualquer documento em menos de 1 minuto.",
+     "conteudo": [
+      "Padrão de nomes de arquivos: data, tipo, nome do cliente ou fornecedor",
+      "Estrutura de pastas físicas e digitais",
+      "Protocolo de documentos: quem entregou, quem recebeu, quando",
+      "Correspondências: registro de entrada e saída",
+      "Correspondência com prazo legal (por exemplo, notificação de multa): protocolo, prioridade \"hoje\" e entrega ao gestor no mesmo dia"
+     ],
+     "erro": "Salvar arquivo com nome \"documento final 2\".",
+     "regra": "Nome padrão, pasta certa, no mesmo dia."
+    },
+    {
+     "titulo": "Planilhas e relatórios que ajudam",
+     "duracao": "90 min",
+     "objetivo": "Produzir controles claros e confiáveis.",
+     "conteudo": [
+      "Planilha boa: uma informação por coluna, sem célula mesclada, com data",
+      "Fórmulas básicas: soma, média, filtro e contagem",
+      "Relatório em uma página: o número, a comparação e o que fazer",
+      "Conferência antes de entregar"
+     ],
+     "erro": "Entregar relatório sem conferir os totais.",
+     "regra": "Conferiu duas vezes, entrega uma."
+    },
+    {
+     "titulo": "Apoio às áreas e conformidade",
+     "duracao": "60 min",
+     "objetivo": "Ser o ponto de apoio confiável da empresa.",
+     "conteudo": [
+      "Compras: cotação, aprovação e registro; em produto químico de limpeza ou estética, pedir a ficha com dados de segurança",
+      "Faturamento e financeiro básico: o que o assistente faz e o que não faz",
+      "Conferência de contratos: dados, valores, datas e assinaturas",
+      "Discrição e LGPD com informações da empresa, de clientes, de fornecedores e de colegas: só para quem precisa, pelo canal da empresa, tela bloqueada e incidente avisado na hora"
+     ],
+     "erro": "Aprovar uma compra que não é da sua alçada para agilizar.",
+     "regra": "Apoiar não é decidir pelo gestor."
+    }
+   ],
+   "quiz": [
+    {
+     "pergunta": "Onde ficam todas as demandas recebidas?",
+     "resposta": "Na lista única de demandas."
+    },
+    {
+     "pergunta": "Quais são os 3 níveis de prioridade?",
+     "resposta": "Hoje, esta semana e quando der."
+    },
+    {
+     "pergunta": "Qual o padrão de nome de arquivo?",
+     "resposta": "Data, tipo e nome do cliente ou fornecedor."
+    },
+    {
+     "pergunta": "O que um protocolo registra?",
+     "resposta": "Quem entregou, quem recebeu e quando."
+    },
+    {
+     "pergunta": "O que conferir em um contrato?",
+     "resposta": "Dados, valores, datas e assinaturas."
+    },
+    {
+     "pergunta": "O assistente pode aprovar uma compra para agilizar?",
+     "resposta": "Não. Apoiar não é decidir pelo gestor."
+    },
+    {
+     "pergunta": "Quais são os indicadores do cargo?",
+     "resposta": "Organização documental, prazo de atendimento às solicitações e qualidade dos relatórios."
+    },
+    {
+     "pergunta": "O que fazer nos últimos 5 minutos do dia?",
+     "resposta": "Revisar a lista e preparar as prioridades do dia seguinte."
+    }
+   ]
+  },
+  {
+   "num": "07",
+   "cargo": "rh",
+   "nome": "Assistente de Recursos Humanos (Gestão de Pessoal)",
+   "cbo": "4110-15 (manual) · recomendado 4110-30",
+   "superior": "CEO / Gerente Administrativo",
+   "carga": "10 horas formais em 2 semanas + prática acompanhada até o dia 90",
+   "missao": "Executar e apoiar a administração de pessoal e a gestão de pessoas, assegurando conformidade trabalhista, controle de registros e cumprimento da NR-1.",
+   "objetivo": "Ao final do programa, o assistente conduz sozinho admissões, desligamentos, ponto, férias, benefícios e o envio de informações para a folha, organiza a integração com padrinho e os feedbacks de 30, 60 e 90 dias, e apoia a pesquisa de clima e o mapeamento de riscos psicossociais, com sigilo absoluto.",
+   "resultados": [
+    "Conduzir uma admissão completa com o checklist",
+    "Fechar ponto, banco de horas e informações de folha no prazo",
+    "Organizar férias e benefícios sem pendências",
+    "Montar a integração de um novo colaborador com padrinho e feedbacks agendados",
+    "Apoiar a pesquisa de clima e o mapeamento de riscos psicossociais da NR-1"
+   ],
+   "modulos": [
+    {
+     "titulo": "Admissão e desligamento sem erro",
+     "duracao": "120 min",
+     "objetivo": "Dominar o ciclo de entrada e saída do colaborador.",
+     "conteudo": [
+      "Checklist de admissão: documentos, exame admissional, contrato, cadastro, benefícios",
+      "Prazos legais e envio das informações obrigatórias",
+      "Exame admissional (ASO) feito antes do primeiro dia de trabalho e admissão informada ao eSocial (evento S-2200) até o dia anterior ao início; quem transmite o eSocial: confirmar com a contabilidade",
+      "Checklist de desligamento: aviso, exame demissional, prazos rescisórios, entrevista de desligamento",
+      "Arquivo do colaborador: o que guardar e por quanto tempo (prazos de guarda conforme a orientação da contabilidade; documentos de saúde com acesso restrito, pela LGPD)"
+     ],
+     "erro": "Deixar o colaborador começar sem exame admissional ou contrato assinado.",
+     "regra": "Ninguém começa sem o checklist completo."
+    },
+    {
+     "titulo": "Ponto, folha e benefícios",
+     "duracao": "90 min",
+     "objetivo": "Fechar o mês sem retrabalho.",
+     "conteudo": [
+      "Conferência diária do ponto: faltas, atrasos, horas extras",
+      "Banco de horas: regras e fechamento",
+      "Calendário do mês: datas de corte e de envio para a folha",
+      "Benefícios: vale-transporte, vale-alimentação, plano de saúde conforme cargo e tempo"
+     ],
+     "erro": "Deixar para conferir o ponto no último dia do mês.",
+     "regra": "Ponto conferido todo dia fecha o mês sem susto."
+    },
+    {
+     "titulo": "Integração que gera autonomia",
+     "duracao": "60 min",
+     "objetivo": "Fazer o novo colaborador se sentir parte desde o primeiro dia.",
+     "conteudo": [
+      "Roteiro do primeiro dia: boas-vindas, tour, apresentação da equipe, manual da empresa",
+      "Padrinho ou madrinha: escolha e combinados",
+      "Feedbacks de 30, 60 e 90 dias: agendar na admissão",
+      "Programa de treinamento do cargo: entregar e acompanhar",
+      "Segurança psicológica desde o primeiro dia: dizer com todas as letras que perguntar é esperado e que erro avisado cedo se resolve junto",
+      "Acessibilidade: perguntar na admissão se a pessoa precisa de alguma adaptação (legenda, leitor de tela, Libras) e registrar a resposta",
+      "Prioridade das próximas semanas: a loja contratou uma nova profissional de pré-vendas (ainda em treinamento e adaptação) e planeja contratar mais um consultor de vendas; aplique este roteiro de integração com atenção redobrada nessas admissões"
+     ],
+     "erro": "Entregar o crachá e deixar o novo colaborador sozinho.",
+     "regra": "Primeiro dia planejado, primeira semana acompanhada."
+    },
+    {
+     "titulo": "Clima, NR-1 e sigilo",
+     "duracao": "90 min",
+     "objetivo": "Apoiar a saúde organizacional com ética.",
+     "conteudo": [
+      "O que a NR-1 pede sobre riscos psicossociais: sobrecarga, conflito, assédio, falta de clareza (capítulo 1.5, em vigor desde 26/05/2026, dentro do gerenciamento de riscos da empresa)",
+      "Pesquisa de clima: como aplicar garantindo anonimato",
+      "Turnover e absenteísmo: como calcular e o que observar",
+      "Sigilo absoluto: dados funcionais e de saúde, LGPD, conversas confidenciais (dado de saúde é dado pessoal sensível: nada em grupo de WhatsApp nem esquecido sobre a mesa)"
+     ],
+     "erro": "Comentar com colegas o que ouviu de um colaborador.",
+     "regra": "O que chega ao RH fica no RH."
+    }
+   ],
+   "quiz": [
+    {
+     "pergunta": "O colaborador pode começar antes do exame admissional?",
+     "resposta": "Não. Ninguém começa sem o checklist completo."
+    },
+    {
+     "pergunta": "Com que frequência conferir o ponto?",
+     "resposta": "Todos os dias."
+    },
+    {
+     "pergunta": "Quando agendar os feedbacks de 30, 60 e 90 dias?",
+     "resposta": "No momento da admissão."
+    },
+    {
+     "pergunta": "Qual o papel do padrinho ou madrinha?",
+     "resposta": "Acompanhar o novo colaborador nas primeiras semanas e ser a referência para dúvidas do dia a dia."
+    },
+    {
+     "pergunta": "Cite três riscos psicossociais da NR-1.",
+     "resposta": "Sobrecarga, conflitos ou assédio e falta de clareza de papel."
+    },
+    {
+     "pergunta": "Como garantir confiança na pesquisa de clima?",
+     "resposta": "Garantindo anonimato real na aplicação e na divulgação."
+    },
+    {
+     "pergunta": "O que fazer com uma informação confidencial de um colaborador?",
+     "resposta": "Manter sigilo e tratar apenas com quem precisa, conforme a política."
+    },
+    {
+     "pergunta": "Quais são os indicadores do cargo?",
+     "resposta": "Conformidade trabalhista, prazo de admissões e demissões, satisfação com o RH, turnover e absenteísmo."
+    }
+   ]
+  },
+  {
+   "num": "08",
+   "cargo": "motorista",
+   "nome": "Motorista",
+   "cbo": "7823-05",
+   "superior": "Alta Direção / Gerência / Operacional / Administrativo",
+   "carga": "Cerca de 7 horas formais em 1 semana (4h30 de microaulas e 2 horas de aula prática) + prática acompanhada até o dia 90",
+   "missao": "Transportar com segurança os veículos da concessionária, assegurando integridade, prazos e excelência no atendimento.",
+   "objetivo": "Ao final do programa, o motorista planeja e executa sozinho retiradas, entregas e transferências, faz a vistoria de saída e de chegada com registro em foto (veículo por fora, detalhes, interior e painel), envia a localização em tempo real ao grupo durante todo deslocamento, cuida dos documentos transportados, entrega o veículo ao cliente com o padrão da casa e comunica ocorrências na hora, sem precisar de supervisão.",
+   "resultados": [
+    "Fazer a vistoria de saída e de chegada com registro completo",
+    "Planejar rota e horário de cada deslocamento",
+    "Entregar um veículo ao cliente com o padrão de entrega",
+    "Proteger e protocolar documentos transportados",
+    "Comunicar ocorrências seguindo o roteiro",
+    "Orçar os serviços de preparação com prazo e levar ao CEO para aprovar",
+    "Acompanhar o prazo do fornecedor e lançar os custos para o Gerente Administrativo",
+    "Fazer a higienização e a estética final do veículo antes da exposição e da entrega",
+    "Enviar a localização em tempo real ao grupo do Motorista com os Consultores de Vendas e o CEO durante todo deslocamento"
+   ],
+   "modulos": [
+    {
+     "titulo": "Vistoria que protege você e a empresa",
+     "duracao": "60 min",
+     "objetivo": "Registrar o estado do veículo antes e depois de cada deslocamento.",
+     "conteudo": [
+      "Checklist de vistoria: lataria, vidros, pneus, interior, painel",
+      "Antes de sair para levar ou buscar qualquer veículo, por qualquer finalidade, fotografar: o veículo por fora (8 ângulos); os detalhes que mereçam destaque (defeitos, alterações, marcas, estado externo, acessórios e pneus); o interior, com destaque para qualquer detalhe; e o painel, com destaque na quilometragem e no combustível",
+      "Localização em tempo real: ao sair, compartilhar a localização no grupo do Motorista com os Consultores de Vendas e o CEO e manter até a chegada ao destino; terminado o deslocamento, encerrar o compartilhamento",
+      "Onde registrar e para quem enviar, só pelo canal da empresa (fotos não vão para redes sociais nem para grupos pessoais)",
+      "Avaria encontrada antes de sair: registrar e avisar antes de rodar",
+      "Carro que chega na loja (comprado ou consignado): o motorista faz a vistoria completa assim que o carro entra e passa todos os pontos ao consultor de vendas responsável, que vai atrás de resolver, inclusive documentação. Não deixar para avisar na última hora, quando falta tempo para preparar o carro"
+     ],
+     "erro": "Sair sem fotografar o painel.",
+     "regra": "Sem foto de saída, a avaria é sua."
+    },
+    {
+     "titulo": "Direção defensiva e Código de Trânsito",
+     "duracao": "60 min",
+     "objetivo": "Dirigir carros de terceiros com máxima prudência.",
+     "conteudo": [
+      "Princípios da direção defensiva: distância, antecipação, velocidade compatível",
+      "Celular: nunca ao volante; parar para usar",
+      "Carros diferentes: ajustar banco, espelhos e conhecer comandos antes de sair",
+      "Rotas e horários de São Paulo: planejar para evitar risco e atraso",
+      "Antes de sair: CNH válida, documento do veículo em mãos e licenciamento em dia (checklist do cargo e Código de Trânsito)",
+      "Sono, cansaço ou mal-estar: avisar o gestor antes de pegar a chave, para a entrega ser reorganizada"
+     ],
+     "erro": "Sair dirigindo um carro desconhecido sem ajustar banco e espelhos.",
+     "regra": "Dois minutos de ajuste antes de qualquer saída."
+    },
+    {
+     "titulo": "Entrega ao cliente",
+     "duracao": "60 min",
+     "objetivo": "Fazer da entrega um momento positivo.",
+     "conteudo": [
+      "Carro limpo, abastecido conforme combinado e com documentos",
+      "Checklist 2 de Entrega conferido com o consultor antes de levar o carro ao cliente",
+      "Apresentação pessoal e cumprimento",
+      "Entrega de chaves e documentos com protocolo assinado",
+      "O que responder e o que encaminhar ao consultor"
+     ],
+     "erro": "Entregar o carro sem protocolo assinado.",
+     "regra": "Entregou, protocolou."
+    },
+    {
+     "titulo": "Preparação do veículo: orçamento, custos e estética",
+     "duracao": "45 min",
+     "objetivo": "Levar o veículo ao padrão de exposição e de entrega, com o custo certo registrado.",
+     "conteudo": [
+      "Orçar cada serviço de preparação com prazo e levar ao CEO para aprovar; em serviço relevante, comparar mais de um fornecedor",
+      "Acompanhar o prazo com o fornecedor e avisar qualquer atraso antes do horário, nunca depois",
+      "Lançar os custos da preparação para o Gerente Administrativo somar ao custo do veículo",
+      "Higienização e estética final, na loja ou na estética externa, antes da exposição e da entrega",
+      "Veículo do agendamento separado, limpo e ligado antes do horário do cliente",
+      "Refazer o Checklist 1 de Preparação e dar o parecer: liberado, liberado com ressalvas ou reprovado"
+     ],
+     "erro": "Mandar fazer o serviço antes de o CEO aprovar o orçamento.",
+     "regra": "Orçamento aprovado antes de qualquer serviço."
+    },
+    {
+     "titulo": "Documentos e ocorrências",
+     "duracao": "45 min",
+     "objetivo": "Agir certo quando algo sai do plano.",
+     "conteudo": [
+      "Documentos transportados têm dados pessoais de clientes (LGPD): envelope fechado, nunca à vista no carro",
+      "Roteiro de ocorrência: segurança primeiro, fotos, aviso imediato ao superior",
+      "Pane, acidente, multa, atraso: o que fazer em cada caso",
+      "Registro escrito da ocorrência no mesmo dia",
+      "Avisar cedo é valorizado: quem comunica um problema não é exposto nem diminuído; esconder é que complica"
+     ],
+     "erro": "Esperar chegar à loja para contar o que aconteceu.",
+     "regra": "Ocorrência comunicada na hora."
+    },
+    {
+     "titulo": "Rotina do pátio: ligar, organizar e avisar",
+     "duracao": "30 min",
+     "objetivo": "Deixar o pátio pronto no horário combinado, sem desperdiçar tempo nem combustível.",
+     "conteudo": [
+      "Horário de chegada e início da rotina do pátio: ponto batido e primeiro carro ligado no horário combinado com o gestor, sem atraso",
+      "Ligar os carros em sequência (do primeiro ao último) e, ao chegar no último, voltar desligando na mesma ordem; para uma frota de cerca de 30 carros, a rotina completa leva por volta de 30 minutos, sem ficar parado dentro de um carro ligado além do necessário",
+      "Nunca deixar um carro ligado sozinho, nem por alguns minutos: antes de sair do pátio ou de ir para outra tarefa, conferir que todos os carros que não vão ser usados na hora estão desligados",
+      "Ao terminar, avisar o gestor ou quem pediu o serviço que o pátio está pronto, em vez de esperar ser perguntado",
+      "Todos os dias, antes das 9h30: subir do estacionamento para a área de gravação os veículos que o Social Media indicou na véspera, para a janela de gravação das 9h30 às 11h30 (meta de ~10 vídeos em 20 min)",
+      "Bater o ponto exatamente no horário combinado de saída e de retorno; se algo muda (saída adiantada, retorno atrasado), avisar antes de bater o ponto, nunca ajustar por conta própria"
+     ],
+     "erro": "Deixar um carro ligado e sair para outra tarefa ou para fora da loja.",
+     "regra": "Carro ligado nunca fica sozinho."
+    }
+   ],
+   "quiz": [
+    {
+     "pergunta": "Quais fotos você tira antes de sair com qualquer veículo?",
+     "resposta": "O veículo por fora (8 ângulos), os detalhes que mereçam destaque (defeitos, alterações, marcas, acessórios e pneus), o interior e o painel com quilometragem e combustível."
+    },
+    {
+     "pergunta": "Durante o deslocamento, o que você envia e para quem?",
+     "resposta": "A localização em tempo real, no grupo do Motorista com os Consultores de Vendas e o CEO, da saída até a chegada."
+    },
+    {
+     "pergunta": "Pode usar o celular ao volante?",
+     "resposta": "Nunca. Parar o veículo para usar."
+    },
+    {
+     "pergunta": "O que fazer antes de dirigir um carro desconhecido?",
+     "resposta": "Ajustar banco e espelhos e conhecer os comandos."
+    },
+    {
+     "pergunta": "Como transportar documentos?",
+     "resposta": "Em envelope fechado, nunca à vista no carro."
+    },
+    {
+     "pergunta": "Quando comunicar uma ocorrência?",
+     "resposta": "Na hora."
+    },
+    {
+     "pergunta": "O que a entrega ao cliente exige?",
+     "resposta": "Carro limpo, documentos, cordialidade e protocolo assinado."
+    },
+    {
+     "pergunta": "Quais indicadores são acompanhados?",
+     "resposta": "Entregas no prazo, avarias registradas e multas ou ocorrências (indicadores sugeridos)."
+    },
+    {
+     "pergunta": "Quanto tempo leva, em média, a rotina de ligar e desligar os carros do pátio (cerca de 30 carros)?",
+     "resposta": "Cerca de 30 minutos: liga todos em sequência e, ao chegar no último, volta desligando na mesma ordem."
+    },
+    {
+     "pergunta": "Pode deixar um carro ligado sozinho enquanto vai fazer outra coisa?",
+     "resposta": "Nunca. Antes de sair do pátio ou mudar de tarefa, confere que todo carro que não vai ser usado na hora está desligado."
+    }
+   ]
+  },
+  {
+   "num": "09",
+   "cargo": "asg",
+   "nome": "Auxiliar de Serviços Gerais",
+   "cbo": "5143-20",
+   "superior": "Alta Direção / Gerência / Operacional",
+   "carga": "4 horas formais em 1 semana + prática acompanhada até o dia 90",
+   "missao": "Executar a limpeza, conservação e organização das instalações, garantindo ambiente adequado, seguro e higienizado.",
+   "objetivo": "Ao final do programa, o auxiliar segue sozinho o cronograma de limpeza, prepara a loja antes da abertura, usa produtos e EPIs corretamente, controla os materiais e comunica as necessidades de manutenção, mantendo o padrão de excelência sem precisar ser lembrado.",
+   "resultados": [
+    "Preparar showroom, recepção e banheiros antes da abertura",
+    "Usar produtos e EPIs corretamente em cada tarefa",
+    "Seguir o cronograma diário e semanal de limpeza",
+    "Controlar o estoque de materiais e pedir reposição a tempo",
+    "Comunicar problemas de manutenção com clareza"
+   ],
+   "modulos": [
+    {
+     "titulo": "O padrão +Motor BR de limpeza",
+     "duracao": "45 min",
+     "objetivo": "Entender que a limpeza faz parte da experiência do cliente.",
+     "conteudo": [
+      "Por que o cliente nota tudo: showroom, banheiro e café",
+      "Ordem de limpeza: de cima para baixo, do mais limpo para o mais sujo",
+      "Roteiro antes da abertura: showroom, recepção, banheiros, copa",
+      "O que é \"pronto para o cliente\"",
+      "Lixo recolhido e descartado conforme as normas, antes da abertura e ao longo do dia"
+     ],
+     "erro": "Deixar o banheiro por último e o cliente encontrar sujo.",
+     "regra": "Antes de abrir a porta, tudo pronto."
+    },
+    {
+     "titulo": "Produtos e EPIs com segurança",
+     "duracao": "60 min",
+     "objetivo": "Trabalhar sem riscos à saúde.",
+     "conteudo": [
+      "Cada produto para sua superfície; nunca misturar produtos",
+      "Leitura do rótulo e diluição correta",
+      "EPIs: luvas, calçado fechado, óculos quando necessário",
+      "Piso molhado sinalizado sempre",
+      "Rótulo e ficha com dados de segurança (FDS) de cada produto: perigos, modo de usar e o que fazer em caso de respingo nos olhos ou na pele e de derramamento",
+      "Nunca passar produto para garrafa sem rótulo; guardar os produtos fechados, no local definido",
+      "EPI recebido com entrega registrada: usar, ajustar, guardar, conservar e pedir troca quando estragar"
+     ],
+     "erro": "Misturar água sanitária com outro produto para \"limpar mais\".",
+     "regra": "Nunca misturar, sempre ler o rótulo."
+    },
+    {
+     "titulo": "Cronograma e materiais",
+     "duracao": "45 min",
+     "objetivo": "Organizar o trabalho do dia e da semana.",
+     "conteudo": [
+      "Cronograma diário e semanal: o que, onde, quando",
+      "Revisão dos banheiros em horários fixos",
+      "Controle de materiais: lista mínima e pedido de reposição",
+      "Comunicação de manutenção: o que, onde e desde quando",
+      "Dano causado durante a limpeza: avisar na hora, sem esconder; erro avisado cedo vira aprendizado"
+     ],
+     "erro": "Avisar que acabou o papel quando já acabou.",
+     "regra": "Pedir reposição antes de acabar."
+    },
+    {
+     "titulo": "Postura e eventos",
+     "duracao": "30 min",
+     "objetivo": "Saber se portar na loja e em dias especiais.",
+     "conteudo": [
+      "Cordialidade com clientes e discrição durante atendimentos",
+      "Limpeza durante o expediente sem atrapalhar vendas",
+      "Apoio a eventos e feirões: preparação e desmontagem",
+      "Objetos esquecidos: entregar na recepção",
+      "Papéis e documentos de clientes: não ler, não fotografar, não jogar fora; avisar a recepção ou o superior (LGPD)"
+     ],
+     "erro": "Passar pano no meio de uma negociação.",
+     "regra": "Discrição durante o atendimento."
+    }
+   ],
+   "quiz": [
+    {
+     "pergunta": "Qual a ordem correta de limpeza?",
+     "resposta": "De cima para baixo e do mais limpo para o mais sujo."
+    },
+    {
+     "pergunta": "Pode misturar produtos de limpeza?",
+     "resposta": "Nunca."
+    },
+    {
+     "pergunta": "O que fazer sempre que o piso estiver molhado?",
+     "resposta": "Sinalizar com a placa."
+    },
+    {
+     "pergunta": "Quais EPIs são usados no dia a dia?",
+     "resposta": "Luvas, calçado fechado e óculos quando necessário."
+    },
+    {
+     "pergunta": "Quando pedir reposição de materiais?",
+     "resposta": "Antes de acabar, pela lista mínima."
+    },
+    {
+     "pergunta": "O que fazer com um objeto esquecido por cliente?",
+     "resposta": "Entregar na recepção."
+    },
+    {
+     "pergunta": "O que uma comunicação de manutenção precisa ter?",
+     "resposta": "O que é, onde é e desde quando, de preferência com foto."
+    },
+    {
+     "pergunta": "Quais são os indicadores do cargo?",
+     "resposta": "Limpeza dos ambientes, cumprimento do cronograma, conservação do patrimônio e normas de segurança."
+    }
+   ]
+  },
+  {
+   "num": "10",
+   "cargo": "ceo",
+   "nome": "Diretor-Presidente / CEO",
+   "cbo": "1210-10 (o manual traz 1210-05, divergente)",
+   "superior": "Sócios / Conselho",
+   "carga": "Cerca de 9 horas formais em 4 semanas (4 microaulas, oficina de liderança e simulações com IA) + aplicação nos rituais de gestão até o dia 90 (proposta a validar)",
+   "missao": "Definir a estratégia, liderar a organização, garantir o equilíbrio financeiro e comercial e assegurar eficiência operacional e padronização de processos internos, promovendo crescimento sustentável alinhado aos valores e à cultura institucional da +Motor BR.",
+   "objetivo": "Ao final do programa, o CEO conduz com método os rituais de gestão do checklist do cargo (rotina diária, reunião semanal de meta x realizado, fechamento mensal e conversa individual com cada gerente), acompanha os cinco indicadores do cargo contra uma linha de base e uma meta, define e comunica as alçadas por escrito, dá feedback centrado na tarefa e responde pelas decisões de conformidade que só a direção pode tomar (riscos psicossociais da NR-1, LGPD e prevenção à lavagem de dinheiro), sendo o primeiro exemplo de segurança psicológica da empresa.",
+   "resultados": [
+    "Conduzir a reunião semanal de meta x realizado com os dois gerentes e sair dela com decisões, responsáveis e prazos registrados",
+    "Acompanhar todo mês os cinco indicadores do cargo (faturamento e crescimento, margem de contribuição por venda, NPS, turnover e clima) contra a linha de base e a meta",
+    "Definir, escrever e comunicar a tabela de alçadas e decidir as exceções com dado, sem mudar a regra caso a caso",
+    "Fazer a conversa individual mensal com cada gerente com feedback centrado na tarefa e um próximo passo combinado",
+    "Responder pelas decisões de conformidade da direção (plano de ação dos riscos psicossociais com o RH, decisões de LGPD e aprovação da política de prevenção à lavagem de dinheiro), com apoio do contador ou do advogado"
+   ],
+   "modulos": [
+    {
+     "titulo": "Guardião da cultura e da segurança psicológica",
+     "duracao": "60 min",
+     "objetivo": "Mostrar os valores nas próprias decisões e reagir à má notícia de um jeito que faça a equipe continuar contando.",
+     "conteudo": [
+      "Missão do cargo, os quatro chapéus que o CEO acumula (presidente, financeiro, comercial e operações) e o que só a direção decide",
+      "Integridade inegociável: não existe resultado que justifique a quebra de valores; como isso aparece numa decisão de venda, de desconto ou de meta",
+      "Segurança psicológica (Amy Edmondson): a equipe aprende o que é seguro olhando como a direção reage a um erro, a uma discordância ou a uma notícia ruim",
+      "Rotina semanal de erros e aprendizados, aberta pelo CEO com um erro próprio; reconhecimento público de quem entregou do jeito certo (meritocracia com justiça), sem ranking individual exposto",
+      "Como é hoje (levantamento de 29/10/2026): não existe sistema de advertência ou de erro grave, só o próprio CEO decide cada caso; o reconhecimento também é esporádico, não contínuo (há ideia de premiação coletiva quando a loja bate a meta do mês, ainda não formalizada); na autoavaliação do CEO, a equipe se sente à vontade (nota 5 de 5) para dizer \"não sei\" ou \"errei\", mas isso ainda depende de a pessoa tomar a iniciativa de reportar"
+     ],
+     "erro": "Pedir que a equipe conte os erros e reagir com bronca quando alguém conta.",
+     "regra": "Como eu reajo à má notícia ensina mais do que qualquer manual."
+    },
+    {
+     "titulo": "Rituais de gestão, indicadores e alçadas",
+     "duracao": "90 min",
+     "objetivo": "Conduzir os rituais do checklist com os cinco indicadores na mesa e decisões registradas, dentro de alçadas escritas.",
+     "conteudo": [
+      "O checklist do CEO por frequência (diário, semanal, mensal, semestral e anual): o checklist organiza o trabalho, não vigia pessoas",
+      "Reunião semanal com os dois gerentes: meta x realizado, estoque (giro e preço), NPS e reclamações, financiamentos e documentação; proposta de pauta fixa e ata de uma página com decisão, responsável e prazo",
+      "Os cinco indicadores do cargo com linha de base, meta e a tabela mensal do Resumo CBO (meta, resultado e atingiu: sim, parcial ou não); três falam de dinheiro e de cliente, dois falam de gente",
+      "Alçadas: o manual não fixa valores; o CEO define por escrito até onde cada cargo decide, decide as exceções com dado (margem, giro, histórico) e revisa a regra quando a mesma exceção se repete. Hoje a alçada de desconto ainda é decidida de cabeça pelo próprio CEO, usando uma margem informal do carro; está em elaboração uma política mensal de vendas por escrito (ata com margem, desconto e bonificação por venda sem desconto)",
+      "Panorama atual (levantamentos de 23/10 e 29/10/2026): entre 20 e 40 veículos em estoque (estimativa variou entre as conversas) e vendas hoje de 9 a 12 por mês, com meta de dobrar para 20 a 25; agência de tráfego pago trocada há 2 meses, investimento estimado de R$ 4.000 a R$ 6.000 mensais a confirmar e performance ainda não satisfatória; equipe em expansão (nova pré-venda em adaptação, plano de mais um consultor, cargos de administrativo, RH, consignação dedicada, gerência administrativa e de marketing ainda não preenchidos); interesse crescente por marcas chinesas exigindo ajuste de argumento e comunicação"
+     ],
+     "erro": "Decidir de cabeça e mudar a regra conforme o dia.",
+     "regra": "Dado na mesa, decisão registrada, alçada igual para todos."
+    },
+    {
+     "titulo": "Desenvolver líderes: conversa individual e feedback",
+     "duracao": "90 min",
+     "objetivo": "Fazer a conversa individual mensal com cada gerente com feedback centrado na tarefa e um próximo passo combinado.",
+     "conteudo": [
+      "Conversa individual (1:1) mensal com cada gerente, como no checklist do cargo: resultados, dificuldades e desenvolvimento",
+      "Feedback em três perguntas (aonde quero chegar, como estou indo, qual o próximo passo), sempre sobre um comportamento observável e nunca sobre a pessoa; o formato 2 + 1 da casa",
+      "Cobrar o gerente por desenvolver gente, e não só por bater meta: padrinho com tempo, feedbacks de 30, 60 e 90 dias sem adiamento e três conversas de transferência dos treinamentos (antes, na primeira semana e aos 30 dias)",
+      "Discordância e conflito: ouvir até o fim antes de decidir; conversa reservada no mesmo dia quando alguém é exposto ou humilhado; o manual também prevê acompanhamento psicológico das lideranças"
+     ],
+     "erro": "Feedback genérico ou sobre a pessoa, e conversa individual adiada todo mês.",
+     "regra": "Feedback aponta um comportamento e o próximo passo."
+    },
+    {
+     "titulo": "Conformidade que começa na direção: NR-1, LGPD e PLD/FT",
+     "duracao": "90 min",
+     "objetivo": "Saber quais decisões de conformidade só a direção pode tomar e quando acionar o RH, o contador ou o advogado.",
+     "conteudo": [
+      "NR-1: os riscos psicossociais fazem parte do gerenciamento de riscos (PGR) desde 26/05/2026; o manual cita sobrecarga de metas, pressão por resultados, assédio moral, insegurança psicológica e jornadas excessivas; o CEO revisa metas, carga e dimensionamento com o RH e aprova o plano de ação",
+      "Prevenção ao assédio: canal de relato com sigilo, fluxo de apuração e o que fazer diante de um relato (ouvir, proteger quem relatou, encaminhar, não retaliar)",
+      "LGPD: decisões da direção sobre porte, encarregado e canal do titular (com o contador e o advogado); diante de um incidente, avaliar o risco com o responsável e decidir a comunicação à ANPD e aos titulares dentro do prazo",
+      "Prevenção à lavagem de dinheiro (COAF): revenda de veículos é setor supervisionado; a administração aprova a política e a avaliação interna de risco e garante a capacitação contínua da equipe; o enquadramento da loja se confirma com o contador ou o advogado"
+     ],
+     "erro": "Tratar conformidade como burocracia do RH ou do contador.",
+     "regra": "Conformidade começa no exemplo da direção."
+    }
+   ],
+   "quiz": [
+    {
+     "pergunta": "Como deve ser a tabela de alçadas?",
+     "resposta": "Clara, escrita, comunicada e igual para todos. O manual não fixa valores: quem define é o CEO, que revisa a regra quando a mesma exceção se repete."
+    },
+    {
+     "pergunta": "Quais são os cinco indicadores do cargo?",
+     "resposta": "Faturamento mensal e crescimento de receita, margem de contribuição por venda, NPS, turnover e clima organizacional."
+    },
+    {
+     "pergunta": "O que a NR-1 exige sobre riscos psicossociais?",
+     "resposta": "Que façam parte do gerenciamento de riscos da empresa (PGR), com identificação, avaliação e plano de ação; o capítulo vale desde 26/05/2026."
+    },
+    {
+     "pergunta": "Quais são as três perguntas do feedback?",
+     "resposta": "Aonde quero chegar, como estou indo e qual o próximo passo, sempre sobre um comportamento observável."
+    },
+    {
+     "pergunta": "Um colaborador não consegue cumprir o checklist dentro da jornada. Qual é o primeiro suspeito?",
+     "resposta": "O dimensionamento da função, e não o desempenho da pessoa."
+    },
+    {
+     "pergunta": "Com que frequência é a conversa individual com cada gerente?",
+     "resposta": "Todo mês."
+    },
+    {
+     "pergunta": "Um colaborador conta que mandou o documento de um cliente ao contato errado. O que o CEO faz primeiro?",
+     "resposta": "Agradece por ter avisado, aciona o responsável pela LGPD para avaliar o incidente e corrige o processo. Quem avisa não é punido."
+    },
+    {
+     "pergunta": "Na prevenção à lavagem de dinheiro, o que cabe à direção?",
+     "resposta": "Aprovar a política de PLD/FT e a avaliação interna de risco e garantir a capacitação contínua da equipe (Resolução COAF 36/2021), com o contador ou o advogado."
+    }
+   ]
+  },
+  {
+   "num": "11",
+   "cargo": "gadm",
+   "nome": "Gerente Administrativo",
+   "cbo": "1421-05 (confere com a tabela oficial)",
+   "superior": "CEO",
+   "carga": "12 horas formais em 2 semanas + prática acompanhada até o dia 90 (proposta a validar com o CEO)",
+   "missao": "Planejar, coordenar e supervisionar as atividades administrativas, financeiras e de apoio operacional da concessionária, assegurando conformidade legal, eficiência de processos, controle orçamentário e suporte estratégico às áreas Comercial, Pós-Vendas e Marketing.",
+   "objetivo": "Ao final do programa, o gerente conduz sozinho a rotina administrativa e financeira da +Motor BR pelo checklist diário, semanal e mensal do cargo, apresenta ao CEO o fluxo de caixa projetado e o relatório gerencial com os desvios explicados, garante a conformidade documental, trabalhista, fiscal e de proteção de dados, e desenvolve a autonomia do analista de financiamento, do assistente administrativo e do assistente de RH com feedback, segurança psicológica e atenção aos riscos psicossociais da NR-1.",
+   "resultados": [
+    "Rodar o checklist diário, semanal e mensal do cargo sem pendências e sem depender de lembrete",
+    "Apresentar ao CEO o fluxo de caixa projetado toda semana e o relatório gerencial do mês, com despesas contra orçamento e os desvios explicados por causa e próxima ação",
+    "Validar a documentação de financiamento e faturamento e acompanhar o prazo médio de processamento dos financiamentos, sem liberar processo incompleto",
+    "Responder pela procedência de cada veículo antes da proposta (restrições, gravame, leilão, sinistro, recall e laudo cautelar), pela identificação de vendedor e comprador com os sinais de alerta do COAF, pela ATPV-e e pelo Renave de entrada e pelo prontuário físico do veículo e da venda",
+    "Confirmar com a contabilidade e o RH que as obrigações fiscais, tributárias e trabalhistas foram cumpridas e documentadas, e manter o acesso a dados financeiros e pessoais restrito a quem precisa (LGPD)",
+    "Desenvolver a autonomia da equipe com o mapa de autonomia e o feedback 2 + 1, e agir diante de sinais de sobrecarga, erro ou relato de conduta inadequada sem expor ninguém"
+   ],
+   "modulos": [
+    {
+     "titulo": "O cargo, a rotina e os primeiros 90 dias",
+     "duracao": "90 min",
+     "objetivo": "Entender o papel do gerente na +Motor BR e pôr o checklist do cargo para rodar antes de mudar o que ainda não entendeu.",
+     "conteudo": [
+      "Missão, superior (CEO) e equipe: as funções que têm o Gerente Administrativo como gestor no manual e as cinco frentes do cargo (financeiro, documentos, contratos, departamento pessoal e legislação)",
+      "Checklist do cargo: diário (contas do dia, documentação de financiamento e faturamento, faturamento, pendências da equipe, arquivo do dia), semanal (fluxo de caixa ao CEO, contratos, prazo dos financiamentos, DP com o RH, reunião operacional) e mensal (relatório, despesas contra orçamento, obrigações, uma melhoria, clima da equipe)",
+      "Alçada do gerente: o que decide sozinho e o que leva ao CEO (valores e limites a definir por escrito com o CEO)",
+      "Plano dos primeiros 90 dias (proposta): conhecer até o dia 30, organizar até o dia 60, melhorar até o dia 90, com uma conversa individual com cada pessoa da equipe no primeiro mês",
+      "Onde a função está hoje (levantamento de 29/10/2026): o cargo ainda não está preenchido; a parte financeira e administrativa é feita informalmente pela esposa do CEO, com dificuldade de organizar custos e processos, e apoio semanal de um contador. Quem assumir este cargo entra justamente para profissionalizar essa rotina, e não para corrigir uma pessoa despreparada"
+     ],
+     "erro": "Mudar processos na primeira semana, antes de entender por que funcionam assim.",
+     "regra": "Primeiro entender, depois organizar, só então melhorar."
+    },
+    {
+     "titulo": "Dinheiro e números: caixa, orçamento e relatório",
+     "duracao": "120 min",
+     "objetivo": "Projetar, ler e explicar os números do cargo ao CEO com base em dado, e não em achismo.",
+     "conteudo": [
+      "Contas a pagar e a receber do dia; fluxo de caixa projetado atualizado e apresentado ao CEO toda semana, separando o recebimento confirmado do que ainda depende de liberação dos bancos",
+      "Despesas realizadas contra o orçamento: como achar o desvio, separar o pontual do recorrente, explicar a causa e propor a ação",
+      "Relatório financeiro gerencial do mês em uma página: o número, a comparação e o que fazer",
+      "Os 4 indicadores do cargo na folha de meta, resultado e atingiu (sim, parcial ou não), preenchida uma vez por mês",
+      "Panorama atual a acompanhar no orçamento: investimento em tráfego pago de R$ 4.000 a R$ 6.000 mensais (a confirmar, agência trocada há 2 meses) e a equipe comercial em expansão; os processos de financiamento e consignação ainda estão sendo estruturados (sem pessoa exclusiva de financiamento, captação ainda com o gestor), e seu apoio organiza fluxos, prazos e documentação até ganharem autonomia própria"
+     ],
+     "erro": "Entregar o relatório com o número e sem a explicação do desvio.",
+     "regra": "Todo desvio chega ao CEO com causa e próxima ação."
+    },
+    {
+     "titulo": "Documentos, contratos e conformidade",
+     "duracao": "120 min",
+     "objetivo": "Garantir que documentação, contratos e obrigações legais estejam em dia, completos e protegidos.",
+     "conteudo": [
+      "Validação da documentação de financiamento e faturamento dos veículos vendidos; prazo médio de processamento dos financiamentos acompanhado toda semana",
+      "Contratos com fornecedores, prestadores e parceiros financeiros: vencimentos verificados toda semana",
+      "Obrigações fiscais, tributárias e trabalhistas: pagamento confirmado todo mês com a contabilidade; rotinas de DP (admissões, férias, ponto e afastamentos) revisadas toda semana com o RH",
+      "LGPD e arquivo: arquivo organizado conforme as exigências legais, acesso a dados financeiros e pessoais só para quem precisa, nenhum documento no WhatsApp pessoal e incidente avisado na hora ao CEO",
+      "Outras obrigações que passam pelo cargo (prevenção à lavagem de dinheiro, NR-1, eSocial, Renave e multas): ver a seção de conformidade; quem responde por cada uma está a definir com o CEO"
+     ],
+     "erro": "Liberar um processo com documento faltando para não travar a venda do fim do mês.",
+     "regra": "Pressão não muda a regra: documento incompleto não segue."
+    },
+    {
+     "titulo": "Liderar a equipe: autonomia, feedback e segurança psicológica",
+     "duracao": "120 min",
+     "objetivo": "Desenvolver a autonomia da equipe e manter um ambiente em que erro avisado cedo vira aprendizado, cumprindo a NR-1.",
+     "conteudo": [
+      "Mapa de autonomia em 4 níveis (observa, faz com apoio, faz e é revisado, autônomo) e o seu papel nos programas de 90 dias do analista, do assistente administrativo e do assistente de RH: soltar a mão na hora certa",
+      "Padrinho ou madrinha que mostra e não faz no lugar; feedback 2 + 1 nos dias 30, 60 e 90, sobre a tarefa e nunca sobre a pessoa",
+      "Segurança psicológica (Amy Edmondson): resposta ao erro (\"Obrigado por me contar. Agora vamos resolver.\"), escuta ativa, expectativa clara e reconhecimento do esforço, e não só do resultado",
+      "NR-1: sobrecarga de metas, pressão por resultados, assédio moral, insegurança psicológica e jornadas excessivas; checklist que não cabe na jornada indica dimensionamento, e não desempenho; perceber, conversar e encaminhar"
+     ],
+     "erro": "Pegar a tarefa de volta porque é mais rápido fazer do que ensinar.",
+     "regra": "Exigente com o processo, respeitoso com a pessoa."
+    }
+   ],
+   "quiz": [
+    {
+     "pergunta": "Quais são os 4 indicadores do cargo?",
+     "resposta": "Índice de conformidade documental, prazo médio de processamento de financiamentos, controle de despesas contra o orçamento e taxa de cumprimento de obrigações fiscais e trabalhistas."
+    },
+    {
+     "pergunta": "O que o gerente apresenta ao CEO toda semana?",
+     "resposta": "O fluxo de caixa projetado, atualizado."
+    },
+    {
+     "pergunta": "O que precisa constar no relatório gerencial do mês?",
+     "resposta": "Os números do mês e as despesas realizadas contra o orçamento, com cada desvio explicado por causa e próxima ação."
+    },
+    {
+     "pergunta": "Quem pode acessar dados financeiros e pessoais?",
+     "resposta": "Só quem precisa deles para trabalhar (LGPD)."
+    },
+    {
+     "pergunta": "Uma pessoa da equipe não consegue cumprir o checklist dentro da jornada. Qual a hipótese provável?",
+     "resposta": "Dimensionamento da função, e não desempenho. É um sinal de risco psicossocial a olhar (NR-1)."
+    },
+    {
+     "pergunta": "O consultor pressiona para enviar ao banco uma proposta sem comprovante de renda. O que fazer?",
+     "resposta": "Não enviar: registrar a pendência, avisar o consultor com prazo realista e, se preciso, o gerente assume a conversa. Nenhuma informação do cliente é alterada para facilitar a aprovação."
+    },
+    {
+     "pergunta": "Alguém da equipe diz \"errei\". Qual é a primeira reação?",
+     "resposta": "\"Obrigado por me contar. Agora vamos resolver.\" Depois, olhar o que no processo permitiu o erro."
+    },
+    {
+     "pergunta": "Uma planilha com dados pessoais foi para o grupo errado. Quais são os primeiros passos?",
+     "resposta": "Conter (apagar e pedir que ninguém guarde), avisar o CEO na hora e registrar o incidente. Com o CEO, avaliar se há risco relevante que exige comunicar à ANPD e aos titulares no prazo da norma."
+    }
+   ]
+  },
+  {
+   "num": "12",
+   "cargo": "gmkt",
+   "nome": "Gerente de Marketing",
+   "cbo": "1423-15 (o manual traz 1210-25, inexistente na tabela oficial)",
+   "superior": "CEO",
+   "carga": "Proposta: 10 horas formais em 2 semanas + prática acompanhada até o dia 90",
+   "missao": "Planejar, desenvolver e executar estratégias de marketing integradas com foco na geração de demanda, aumento da performance comercial e fortalecimento da marca da +Motor BR, garantindo competitividade e posicionamento estratégico no mercado automotivo.",
+   "objetivo": "Ao final do programa, o gerente conduz sozinho o ciclo de marketing da +Motor BR: transforma a direção do mês dada pelo CEO em pauta semanal, aprova conteúdos pelo semáforo dentro dos prazos do guia, acompanha todos os dias leads, custo e tempo de resposta, cruza o funil com o comercial, administra a verba aprovada, entrega o relatório mensal em uma página e lidera o SDR, o assistente de marketing e os produtores com feedback, autonomia e cuidado com a saúde da equipe, dentro da LGPD, do CDC e das regras de publicidade.",
+   "resultados": [
+    "Conduzir o ciclo de gestão do marketing: direção do mês com o CEO, reunião de pauta de segunda e relatório mensal em uma página",
+    "Ler o funil do conteúdo à venda com dados (origem, custo por lead, tempo de resposta, conversão) e decidir o que manter, testar e parar",
+    "Aprovar conteúdos e anúncios pelo semáforo e pelo guia, no prazo, com informação conferida e sem promessa que a loja não cumpre",
+    "Proteger imagem e dados: autorização de imagem arquivada, consentimento do lead registrado, listas e remarketing conforme a LGPD",
+    "Liderar SDR, assistente e produtores com metas claras, feedback 2 + 1, segurança psicológica e atenção aos riscos psicossociais (NR-1)"
+   ],
+   "modulos": [
+    {
+     "titulo": "Marca e conteúdo que provam a palavra da empresa",
+     "duracao": "90 min",
+     "objetivo": "Garantir que todo conteúdo e anúncio da +Motor BR diga exatamente o que a loja pratica.",
+     "conteudo": [
+      "Valores do manual traduzidos em vídeo: o carro como ele é, a procedência e a palavra cumprida, no tom de consultor de confiança (seguro, próximo e direto)",
+      "Os 5 pilares do guia e o peso de cada um no mês: vitrine do estoque 40%, procedência 20%, entregas 15%, orientação de compra 15% e equipe 10%",
+      "Regra da ficha técnica: ano, versão, quilometragem, câmbio e preço saem do sistema, conferidos pelo consultor; preço anunciado vale e a descrição precisa ser fiel (CDC, arts. 30, 31, 37 e 38)",
+      "Publicidade identificada e responsável: post de colaborador incentivado pela loja ou de influenciador marcado como publicidade; carro em vídeo sempre com cinto e sem manobra arriscada (CONAR 2026)",
+      "Presença digital do manual em dia: Instagram, YouTube, Google Meu Negócio, OLX Autos e Webmotors com fotos e preços atualizados e vendidos retirados",
+      "Padrão que funciona (levantamento de 29/10/2026, análise ao vivo dos vídeos com mais visualização): vídeo de utilidade pública ou dica prática (por exemplo, como tirar o plástico protetor do carro) e vídeo com apelo emocional e storytelling (família, memórias, a história por trás do carro) performam muito mais do que o vídeo que só mostra o veículo. Vale repetir esse padrão e fazer esse tipo de análise com a equipe de conteúdo regularmente, não só de vez em quando",
+      "Calendário de veículos parados: hoje, quando um carro demora a vender, a única ação é baixar o preço. A partir de agora, quanto mais tempo o carro fica no estoque, mais ele vira prioridade de conteúdo (mais vídeos, mais destaque), além da redução de preço",
+      "Imagem da equipe nos vídeos: uniforme (camiseta) limpo e em bom estado, sem calça surrada; postura e vestimenta contam na hora de vender, principalmente em carros de ticket mais alto"
+     ],
+     "erro": "Publicar preço, condição ou característica do carro de memória, ou com \"aprovação garantida\" e \"última unidade\" sem ser verdade.",
+     "regra": "Anúncio é promessa: só publique o que a loja cumpre."
+    },
+    {
+     "titulo": "Do lead à venda: funil, dados e verba",
+     "duracao": "120 min",
+     "objetivo": "Ler o caminho do conteúdo à venda e decidir com dados onde investir tempo e dinheiro.",
+     "conteudo": [
+      "O funil da loja: conteúdo e anúncio, lead, SDR em menos de 5 minutos (meta do manual), qualificação em 5 perguntas, consultor, visita e venda",
+      "Origem do lead: a pergunta \"como você conheceu a +Motor BR?\" na recepção e o campo no CRM; sem origem registrada, não há como calcular o retorno",
+      "Rotina de números do checklist do cargo: diária (leads por canal, custo, tempo de resposta, verba), semanal (Google Ads, Meta Ads e cruzamento com o comercial) e mensal (relatório ao CEO)",
+      "Os 5 indicadores do cargo: quantidade e custo por lead, conversão de leads em atendimentos, alcance e engajamento, ROI das campanhas, NPS e avaliações online",
+      "Orçamento de marketing: planejado com o CEO, consumo acompanhado e cada teste registrado com o que manter, o que testar e o que parar",
+      "Panorama atual (23/10/2026): agência de tráfego pago trocada há cerca de 2 meses, investimento estimado entre R$ 4.000 e R$ 6.000 mensais ainda a confirmar com precisão, e o CEO não percebeu até agora uma performance de vendas satisfatória associada às campanhas; suas primeiras semanas priorizam analisar investimento, qualidade dos leads, conversão em atendimentos, propostas e fechamentos"
+     ],
+     "erro": "Comemorar curtida e alcance sem saber quantos leads viraram visita e venda.",
+     "regra": "Curtida é bom, mas não paga o mês."
+    },
+    {
+     "titulo": "Aprovação, imagem e dados sem gargalo",
+     "duracao": "90 min",
+     "objetivo": "Aprovar rápido e com segurança, sem travar a equipe e sem expor a empresa.",
+     "conteudo": [
+      "O sistema do guia: um grupo, quatro etiquetas (#PAUTA, #APROVAR, #NO AR, #ALERTA), um quadro de pautas e dois encontros (pauta de segunda, 20 minutos; direção do mês com o CEO, 45 minutos)",
+      "Semáforo: verde o produtor publica direto; amarelo a gerência aprova em até 4 horas úteis; vermelho o CEO aprova em até 24 horas. Resposta sempre em um de três formatos e no máximo duas rodadas de ajuste",
+      "#ALERTA: decisão em até 30 minutos, vídeo arquivado e não apagado, revisão do processo na segunda sem caça a culpados",
+      "Imagem: termo assinado antes de gravar, entregue com tempo para ler; recusa ou revogação sem nenhuma consequência; nenhuma ferramenta que altere rosto ou voz de colaborador",
+      "Lead é dado pessoal: consentimento registrado nos formulários e anúncios, listas e remarketing conforme a LGPD, nada de lista comprada nem disparo em massa e consulta ao bloqueio do Procon-SP antes de campanha em base fria"
+     ],
+     "erro": "Deixar um pedido de aprovação sem resposta ou aprovar no corredor, fora do grupo.",
+     "regra": "Dúvida tem dono e prazo: resposta no grupo em até 4 horas úteis."
+    },
+    {
+     "titulo": "Liderar a equipe de marketing e pré-vendas",
+     "duracao": "120 min",
+     "objetivo": "Fazer a equipe entregar bem, com autonomia e com saúde.",
+     "conteudo": [
+      "Papéis: SDR no primeiro atendimento e na qualificação, assistente de marketing e produtores na pauta, gravação e publicação, recepção no registro da origem; o checklist de 10 itens é o limite de autonomia do produtor",
+      "Metas e carga: meta realista acompanhada de suporte; tempo de resposta e volume de pautas precisam caber na jornada; sobrecarga é risco psicossocial (NR-1), não falta de empenho",
+      "Feedback 2 + 1 sobre o trabalho, ajuste numerado e concreto, elogio também no grupo, nenhum ranking individual exposto",
+      "Rituais com a equipe (proposta): conversa individual mensal, revisão depois da ação, padrinho e feedbacks de 30, 60 e 90 dias para os novatos",
+      "Relato de assédio ou de sofrimento: ouvir, registrar e encaminhar ao canal definido pela empresa, sem expor quem relatou; e cuidar de si, com o acompanhamento psicológico das lideranças previsto no manual"
+     ],
+     "erro": "Expor o erro de alguém no grupo ou tratar mensagem fora do horário como normal.",
+     "regra": "Critique o vídeo, nunca a pessoa."
+    }
+   ],
+   "quiz": [
+    {
+     "pergunta": "Qual é a meta de tempo de resposta do SDR, segundo o manual?",
+     "resposta": "Abaixo de 5 minutos."
+    },
+    {
+     "pergunta": "Um vídeo amarelo chegou para aprovação. Qual o seu prazo e quais as três respostas possíveis?",
+     "resposta": "Até 4 horas úteis; aprovado, ajustar com os pontos numerados ou não publicar com o motivo."
+    },
+    {
+     "pergunta": "Promoção, feirão, parceria com banco ou resposta pública a reclamação: quem aprova?",
+     "resposta": "O CEO (sinal vermelho), em até 24 horas."
+    },
+    {
+     "pergunta": "Um vídeo publicado tem um problema. O que fazer?",
+     "resposta": "#ALERTA no grupo, decisão em até 30 minutos, arquivar (não apagar) e revisar o processo na segunda, sem caça a culpados."
+    },
+    {
+     "pergunta": "Uma pessoa sem termo de autorização de imagem pode aparecer ao fundo do vídeo?",
+     "resposta": "Não. Sem termo, a pessoa não aparece, nem ao fundo, nem de costas."
+    },
+    {
+     "pergunta": "Por que a origem do lead precisa estar registrada no CRM?",
+     "resposta": "Sem ela não dá para saber quais canais e conteúdos geram visitas e vendas, nem calcular o retorno das campanhas."
+    },
+    {
+     "pergunta": "Pode comprar uma lista de contatos para disparar a oferta da loja?",
+     "resposta": "Não. Lead é dado pessoal: use contatos que procuraram a loja, com consentimento registrado, e consulte o bloqueio do Procon-SP antes de campanha em base fria."
+    },
+    {
+     "pergunta": "Quais são os indicadores do cargo?",
+     "resposta": "Quantidade e custo por lead, conversão de leads em atendimentos, alcance e engajamento, ROI das campanhas, NPS e avaliações online."
+    },
+    {
+     "pergunta": "Quando a equipe pode descer para gravar vídeo, e até que horas?",
+     "resposta": "Só depois que o motorista avisar que os carros estão posicionados, das 9h às 11h30. Passou do horário sem terminar, sobe sem vídeo."
+    },
+    {
+     "pergunta": "Se a equipe não conseguir terminar os vídeos do dia, o gerente desce para gravar no lugar dela?",
+     "resposta": "Não. Isso tira a responsabilidade da equipe e vira ponto a corrigir com ela, não tarefa do gerente."
+    }
+   ]
+  },
+  {
+   "num": "13",
+   "cargo": "social",
+   "nome": "Social Media",
+   "cbo": "2534-05 (Manual Organizacional, item 3.8)",
+   "superior": "Gerente de Marketing",
+   "carga": "8 horas formais em 1 semana + prática acompanhada até o dia 90",
+   "missao": "Transformar os valores da +Motor BR em prova visível nas redes sociais, com conteúdo que gera confiança, conversa e oportunidades de venda, cuidando da comunidade e da reputação da marca.",
+   "objetivo": "Ao final do programa, o social media executa sozinho a semana de conteúdo da +Motor BR: toda segunda lista os veículos por tempo de estoque e monta a pauta pelos cinco pilares e pelos cinco tipos de vídeo, grava das 9h às 11h30 (meta de cerca de 10 vídeos em 20 minutos) e edita a partir das 11h30 com os consultores no padrão do Guia, publica no sinal verde depois do checklist de 10 itens, leva à Gerência o que é amarelo ou vermelho, acompanha as duas primeiras horas de cada post, passa ao SDR na hora toda pergunta comercial, responde a comunidade e entrega os números da semana e do mês, sempre com autorização de imagem e sem dado de cliente à mostra.",
+   "resultados": [
+    "Planejar a semana de conteúdo pelos cinco pilares e pela lista de veículos por tempo de estoque",
+    "Gravar na janela das 9h às 11h30 (meta de cerca de 10 vídeos em 20 minutos) e formar o banco de material bruto para vídeos futuros e reciclados",
+    "Produzir os cinco tipos de vídeo da +Motor BR com informação colhida no CRM e no site",
+    "Gravar, editar e legendar Reels e Stories no padrão técnico do Guia de Comunicação",
+    "Decidir pelo semáforo o que publica sozinho e o que leva à Gerência",
+    "Responder a comunidade no prazo e passar ao SDR na hora as oportunidades comerciais",
+    "Medir o que vira conversa e lead e propor o que manter, testar e parar"
+   ],
+   "modulos": [
+    {
+     "titulo": "A vitrine que prova a palavra da empresa",
+     "duracao": "90 min",
+     "objetivo": "Entender o papel das redes na venda e falar como a +Motor BR fala.",
+     "conteudo": [
+      "Para quem compra um carro, o Instagram é a primeira visita à loja: cada vídeo transforma um valor do manual em prova visível",
+      "Tom de consultor de confiança: seguro, próximo e direto. Falamos assim e não falamos assim (Guia, seção 1)",
+      "Os cinco pilares e o peso de cada um no mês: vitrine, procedência, entregas, orientação de compra e equipe",
+      "Regra de ouro da ficha técnica: ano, versão, km, câmbio e preço saem do sistema, conferidos pelo consultor",
+      "O social media tem acesso ao CRM e colhe ali, e no site da empresa, as informações detalhadas de cada veículo. Ficou em dúvida? Nesta ordem: 1) CRM e site; 2) Consultor de Vendas; 3) CEO",
+      "Toda segunda-feira: levantar as necessidades de gravação, materiais e veículos que precisam de destaque, listados por tempo de estoque do mais antigo para o mais novo; mais material para os 4 mais antigos e para os recém-chegados",
+      "O que rende mais (levantamento com a direção em 29/10/2026): dica útil e história com emoção performam mais do que o vídeo que só mostra o carro",
+      "A fé como valor da empresa aparece no jeito de tratar as pessoas, não como pregação; conteúdo religioso é decisão do CEO"
+     ],
+     "erro": "Gravar de memória e publicar um número errado do carro.",
+     "regra": "Número do carro sai do sistema, não da cabeça."
+    },
+    {
+     "titulo": "Do roteiro ao post",
+     "duracao": "120 min",
+     "objetivo": "Produzir um vídeo simples bem feito, do gancho à chamada.",
+     "conteudo": [
+      "Os 5 tipos de vídeo: 1) consultor explicando e mostrando o veículo, com detalhes, condições e diferenciais (preço ou parcela passam pela Gerência); 2) close dos detalhes do carro só com música chamativa; 3) detalhes e curiosidades com voz em off e música chamativa; 4) institucional da empresa; 5) curiosidades e histórias da vida profissional",
+      "O dia do social media: gravação das 9h às 11h30, com a meta de cerca de 10 vídeos em 20 minutos e o máximo de material bruto para vídeos futuros e reciclados; a partir das 11h30, programação, edição, criação e roteiros",
+      "Fim do dia: meia hora antes de sair, equipamentos carregando, desligados e organizados; primeiras gravações do dia seguinte organizadas e Motorista avisado de quais veículos subir do estacionamento para a área de gravação",
+      "Toda semana: pesquisar trend topics, memes, tipos de vídeo do setor e músicas da semana para usar nos vídeos",
+      "Roteiro em quatro tempos: gancho (0 a 3 s), prova, informação e uma única chamada no final",
+      "Padrão técnico: vertical 9:16, luz natural ou loja iluminada, carro limpo e nunca contra o sol, lapela, música mais baixa que a voz, legenda na tela e placas borradas",
+      "Formatos aprovados e duração: chegou no estoque, tour, detalhe que vende, bastidor de procedência, entrega de chave, orientação do consultor, quem te atende e Stories de rotina",
+      "Legenda do post: gancho, prova, chamada, 3 a 5 hashtags e localização; palavras que o cliente pesquisa (modelo, ano, versão, seminovo em São Paulo) ajudam o post a ser encontrado",
+      "Quando postar: 4 a 5 Reels por semana, Stories todos os dias de loja aberta e só quando alguém puder responder",
+      "IA como apoio para ideias, roteiro e legenda, sempre com revisão humana; música e áudio liberados para uso comercial"
+     ],
+     "erro": "Começar o vídeo com \"Olá, pessoal\" e terminar com três pedidos diferentes.",
+     "regra": "Gancho forte, uma chamada só."
+    },
+    {
+     "titulo": "Semáforo, checklist e o que fica dentro de casa",
+     "duracao": "90 min",
+     "objetivo": "Ter autonomia para publicar e saber exatamente onde ela termina.",
+     "conteudo": [
+      "Semáforo: verde publica direto; amarelo vai à Gerência (até 4 horas úteis); vermelho vai ao CEO (até 24 horas)",
+      "Checklist de 10 itens antes de publicar: marcou os 10, publica; ficou em dúvida, leva à Gerência e não publica até a resposta",
+      "Vídeo público e vídeo interno: treinamento, metas, negociação, telas do sistema, conversas de WhatsApp e carro com problema não vão para o Instagram",
+      "O grupo \"+Motor Vídeos\", as etiquetas e o quadro de pautas: pedido fora do grupo não existe; a etiqueta para pedir aprovação de um vídeo amarelo ou vermelho é #DÚVIDA",
+      "Autorização de imagem antes de gravar, nem ao fundo sem termo; recusa e revogação sem nenhuma consequência; nunca alterar rosto ou voz de colaborador com IA",
+      "Errou num post publicado: arquivar, não apagar, e avisar com #ALERTA. Quem avisa o erro protege a empresa"
+     ],
+     "erro": "Publicar um vídeo amarelo \"porque ninguém respondeu\".",
+     "regra": "Na dúvida, pergunta. Sem resposta, o vídeo espera."
+    },
+    {
+     "titulo": "Comunidade, dados e números",
+     "duracao": "60 min",
+     "objetivo": "Fazer a conversa virar lead e o número virar decisão.",
+     "conteudo": [
+      "As 2 primeiras horas: responder o simples, passar ao SDR na hora, com print, toda pergunta de preço, financiamento, troca ou visita, e avisar #NO AR",
+      "Quem responde o quê: elogio, produtor no mesmo dia; pergunta comercial, SDR em até 5 minutos; reclamação, Gerência com #ALERTA; imprensa e parceria, CEO",
+      "Ofensa, golpe e spam: ocultar ou excluir e bloquear, guardando o print; nunca discutir em público",
+      "Os números que importam: alcance, compartilhamentos e salvamentos, mensagens, leads com origem nas redes, tempo de resposta e vendas com origem no Instagram",
+      "Os 3 números da reunião de segunda e o relatório mensal em uma página: o que manter, testar e parar",
+      "Comentário é público: parcela, crédito, renda, documento e placa de cliente nunca aparecem ali (LGPD)"
+     ],
+     "erro": "Responder o preço e a parcela no comentário e deixar o cliente ali.",
+     "regra": "Comentário abre a conversa; o privado fecha."
+    }
+   ],
+   "quiz": [
+    {
+     "pergunta": "Quais são os cinco pilares de conteúdo?",
+     "resposta": "Vitrine do estoque, procedência e confiança, entregas e clientes, orientação de compra e equipe e cultura."
+    },
+    {
+     "pergunta": "De onde saem ano, versão, km, câmbio e preço do vídeo?",
+     "resposta": "Do CRM e do site da empresa, conferidos pelo consultor."
+    },
+    {
+     "pergunta": "Qual é a janela de gravação e o que vem depois dela?",
+     "resposta": "Das 9h às 11h30, com a meta de cerca de 10 vídeos em 20 minutos; a partir das 11h30, programação, edição, criação e roteiros."
+    },
+    {
+     "pergunta": "Vídeo com a parcela do carro: quem aprova e em quanto tempo?",
+     "resposta": "A Gerência de Marketing, em até 4 horas úteis (sinal amarelo)."
+    },
+    {
+     "pergunta": "Mandou um vídeo para aprovação e ninguém respondeu. Pode publicar?",
+     "resposta": "Não. Sem resposta, o vídeo espera."
+    },
+    {
+     "pergunta": "Um comentário pergunta o preço. O que você faz?",
+     "resposta": "Responde curto e passa ao SDR na hora, com print; o SDR responde em até 5 minutos."
+    },
+    {
+     "pergunta": "Ficou em dúvida sobre um veículo. Em que ordem você procura a resposta?",
+     "resposta": "1) CRM e site da empresa; 2) Consultor de Vendas; 3) CEO."
+    },
+    {
+     "pergunta": "Quem pode aparecer num vídeo?",
+     "resposta": "Só quem tem autorização de imagem assinada e arquivada, nem ao fundo sem termo."
+    }
+   ]
+  }
+ ],
+ "aplicacao": [
+  {
+   "num": "01",
+   "cargo": "consultor",
+   "regras": [
+    {
+     "modulo": "A venda consultiva da +Motor BR",
+     "regra": "Primeiro a necessidade, depois o veículo."
+    },
+    {
+     "modulo": "O veículo sem segredos",
+     "regra": "Informação do carro sai do sistema, não da cabeça."
+    },
+    {
+     "modulo": "Negociação e fechamento",
+     "regra": "Só prometa o que a empresa pode cumprir."
+    },
+    {
+     "modulo": "CRM, pós-venda e conteúdo",
+     "regra": "Se não está no CRM, não aconteceu."
+    }
+   ],
+   "diagnostico": [
+    "A +Motor BR não vende garantia estendida. Seguro e acessórios ficam com uma profissional específica: você não vende esse produto diretamente, mas identifica a oportunidade durante o atendimento e encaminha o cliente a ela.",
+    "A pré-análise de crédito do cliente já chega feita pela pré-venda antes do lead cair com você. Quando há potencial de aprovação, você segue a negociação, inclusive o contato com o banco quando precisar; a loja ainda não tem um analista exclusivo de financiamento, e em alguns casos o próprio gestor assume essa etapa.",
+    "O ponto mais frágil hoje é o fechamento: negociações travam por valor do veículo, taxa de financiamento, condição do negócio ou avaliação do usado na troca, e às vezes o cliente some depois de já ter a ficha aprovada. Use o CRM e o acompanhamento ativo para reduzir isso: é exatamente o que esta apostila e o programa completo treinam.",
+    "O pós-venda periódico (1, 2, 3 meses e 1 ano) ainda não está automatizado: é um projeto em andamento. Até lá, o pós-venda ativo de terça-feira continua sendo sua responsabilidade manual.",
+    "O interesse dos clientes por marcas chinesas está crescendo: adapte seus argumentos para mostrar os diferenciais reais da +Motor BR frente a essa concorrência.",
+    "Hoje a loja tem entre 20 e 40 veículos em estoque (a estimativa variou entre as conversas) e vende de 9 a 12 carros por mês; a meta é dobrar para 20 a 25 por mês (levantamento de 29/10/2026).",
+    "A conversão hoje é baixa: de cada 100 leads que chegam até você, só 1 ou 2 viram venda. A negociação em si, uma vez que o cliente decide, leva cerca de 30 minutos; da chegada do lead até o cliente sair com o carro, a média é de 1 semana. Os dois motivos mais comuns de perda: você sem informação suficiente para tirar todas as dúvidas do cliente, e o cliente que chega à mesa sem condição real de pagar.",
+    "O test drive é raro hoje e, quando acontece, costuma ficar dentro do condomínio da loja; nunca sozinho, sempre com você ou com o motorista.",
+    "A alçada de desconto ainda não tem valor fixo por escrito: o CEO decide caso a caso. Está sendo criada uma política mensal de vendas (margem, desconto e bonificação para quem fecha sem desconto); até sair, qualquer desconto maior passa pelo CEO.",
+    "Ao fechar uma venda, já pergunte se pode mandar o link de avaliação do Google na hora, pelo WhatsApp: é o momento que funciona, pedir depois quase nunca dá certo. E feche o CRM no mesmo dia: isso é regra, não opcional.",
+    "Quando um carro chega na loja, o motorista faz a vistoria completa e passa os pontos a você; você vai atrás de resolver, inclusive documentação, e só escala ao administrativo o que não conseguir sozinho."
+   ],
+   "conformidade": "Sinais de atenção com o cliente e o roteiro para acidente ou mal-estar durante o test drive ainda estão em definição com a direção. Até a confirmação, siga o checklist de recebimento e avaliação de veículos desta apostila e avise o gestor em qualquer situação fora do previsto.",
+   "duvidas": [
+    {
+     "pergunta": "Simulação de financiamento e aprovação de crédito",
+     "resposta": "Pré-venda (primeira análise) e, quando precisar, o gestor"
+    },
+    {
+     "pergunta": "Seguro, garantia estendida ou acessórios para o cliente",
+     "resposta": "Profissional responsável por seguros e acessórios"
+    },
+    {
+     "pergunta": "Desconto fora da sua alçada",
+     "resposta": "Gestor / CEO"
+    },
+    {
+     "pergunta": "Avaria ou problema no veículo recebido para consignação",
+     "resposta": "Auxiliar de Serviços Gerais e gestor"
+    }
+   ]
+  },
+  {
+   "num": "02",
+   "cargo": "financ",
+   "regras": [
+    {
+     "modulo": "Modalidades de crédito automotivo",
+     "regra": "Parcela não é preço: compare o custo total."
+    },
+    {
+     "modulo": "Documentação sem erro",
+     "regra": "Pendência registrada é pendência resolvida mais rápido."
+    },
+    {
+     "modulo": "Do envio à liberação",
+     "regra": "Toda proposta tem dono, data e próximo passo."
+    },
+    {
+     "modulo": "Arquivo, LGPD e indicadores",
+     "regra": "Dado de cliente só no lugar certo."
+    }
+   ],
+   "diagnostico": [
+    "Hoje a pré-análise de crédito do cliente é feita na pré-venda, antes de chegar até você: quando ela identifica potencial de aprovação, o consultor segue a negociação. Seu trabalho começa a partir daí, formalizando a simulação, a proposta e a documentação.",
+    "A operação ainda não tem uma pessoa exclusiva e dedicada só a financiamento e análise documental: hoje essa etapa é dividida entre pré-venda, consultor e, quando necessário, o próprio gestor. Você está ajudando a estruturar e assumir esse processo de forma profissional e centralizada.",
+    "Os números reais de hoje (levantamento de 29/10/2026): a liberação do crédito costuma ser rápida, cerca de 10 a 15 minutos quando não há negociação de taxa; já a taxa de aprovação é baixa, só 1 ou 2 de cada 10 propostas enviadas aos bancos.",
+    "Quando o cliente é recusado, a loja já tenta alternativas antes de desistir: outro banco, cartão de crédito, entrada maior ou carta de crédito contemplada. Falta só um texto padrão para explicar a recusa com respeito.",
+    "Carro com erro de documentação ou multa: hoje é a direção que resolve diretamente, sem repassar o problema ao cliente."
+   ],
+   "conformidade": "A frase padrão para explicar uma recusa ou restrição ao cliente e o encaminhamento de clientes que já compraram e atrasaram parcela ainda estão em definição com a direção. Até a confirmação, seja sempre transparente e cordial, nunca prometa o que não pode cumprir, e leve o caso ao gestor.",
+   "duvidas": [
+    {
+     "pergunta": "Cliente recusado ou com restrição no nome",
+     "resposta": "Gestor, até a loja fechar o texto padrão"
+    },
+    {
+     "pergunta": "Gravame, transferência ou regularização atrasada",
+     "resposta": "Banco/financeira e gestor"
+    },
+    {
+     "pergunta": "Dúvida sobre consignação em veículo com financiamento em aberto",
+     "resposta": "Gestor"
+    }
+   ]
+  },
+  {
+   "num": "03",
+   "cargo": "consig",
+   "regras": [
+    {
+     "modulo": "Como funciona a consignação na +Motor BR",
+     "regra": "Expectativa alinhada no início evita conflito no fim."
+    },
+    {
+     "modulo": "Prospecção que funciona",
+     "regra": "Prospecção é todo dia, não em emergência."
+    },
+    {
+     "modulo": "Captação do veículo",
+     "regra": "Saiu sem o checklist completo, vai ter que voltar."
+    },
+    {
+     "modulo": "Contrato, estoque e acompanhamento",
+     "regra": "O proprietário sempre sabe como está o carro dele."
+    }
+   ],
+   "diagnostico": [
+    "Hoje a captação de veículos para consignação é feita pelo próprio gestor, com apoio da pré-venda: a loja ainda não tinha uma pessoa dedicada exclusivamente a essa função. Você está estruturando esse processo, não apenas repetindo uma rotina já pronta.",
+    "A avaliação inicial do veículo (condições gerais e custos de preparação como pintura, funilaria e mecânica) também era feita até agora pelo gestor. Nos primeiros dias, faça essa avaliação junto com ele até ganhar autonomia.",
+    "A necessidade da empresa é clara: estruturar bem as etapas de captação, conferência documental, avaliação, preparação e acompanhamento da venda. É exatamente o checklist \"a cada veículo captado\" desta apostila."
+   ],
+   "conformidade": "A conferência de histórico do veículo antes de aceitar a consignação (laudo cautelar, consulta de roubo e furto, restrição judicial), a regra para consignar carro com financiamento em aberto e a avaliação mecânica por um profissional de confiança ainda estão em definição com a direção. Até a confirmação, não finalize uma consignação sem alinhar esses pontos com o gestor.",
+   "duvidas": [
+    {
+     "pergunta": "Avaliação do estado e dos custos de preparação do veículo",
+     "resposta": "Gestor (apoia diretamente até você ganhar autonomia)"
+    },
+    {
+     "pergunta": "Conferência documental antes da consignação",
+     "resposta": "Analista de Financiamento e Documentação"
+    },
+    {
+     "pergunta": "Negociação de valores e condições com o proprietário",
+     "resposta": "Consultor de Vendas ou CEO"
+    }
+   ]
+  },
+  {
+   "num": "04",
+   "cargo": "sdr",
+   "regras": [
+    {
+     "modulo": "Os primeiros 5 minutos",
+     "regra": "Responder rápido e terminar com uma pergunta."
+    },
+    {
+     "modulo": "Qualificação em 5 perguntas",
+     "regra": "Lead qualificado é visita que acontece."
+    },
+    {
+     "modulo": "Agenda que não falha",
+     "regra": "Visita sem horário marcado não é visita."
+    },
+    {
+     "modulo": "CRM, follow-up e redes sociais",
+     "regra": "Três tentativas, motivo registrado."
+    }
+   ],
+   "diagnostico": [
+    "O fluxo comercial da loja começa com você: ao receber o lead, faça a triagem completa (se pretende comprar à vista, se precisa de financiamento, se tem veículo para dar na troca e se já existe alguma proposta em andamento) antes de encaminhar ao consultor.",
+    "A pré-análise de crédito do cliente também é feita por você nesta etapa inicial, sem prometer aprovação nenhuma: é apenas uma primeira leitura para orientar o consultor.",
+    "A principal dificuldade da loja hoje é o fechamento, depois que o lead já está com o consultor. Seu follow-up ativo é uma das formas mais diretas de ajudar a não perder esse cliente no meio do caminho.",
+    "A loja passou recentemente por uma troca na função de pré-venda e está trabalhando para ampliar a equipe comercial com mais um consultor. Use esta apostila e o acompanhamento do seu gestor sem receio de perguntar nos primeiros dias.",
+    "A conversão hoje é muito baixa (1 a 2 de cada 100 leads viram venda). Um dos motivos identificados é o cliente chegar à mesa de negociação sem condição real de pagar: capriche na qualificação para não deixar isso passar.",
+    "Ambiente de trabalho: use fone de ouvido para ouvir os áudios dos clientes com clareza, não incomodar quem está ao lado e não deixar dado de cliente (CPF, valor, endereço) audível para outras pessoas na loja."
+   ],
+   "conformidade": [],
+   "duvidas": [
+    {
+     "pergunta": "Qualificação de crédito do cliente",
+     "resposta": "Analista de Financiamento (quando disponível) ou gestor"
+    },
+    {
+     "pergunta": "Lead que não responde ou que só quer saber o preço",
+     "resposta": "Gestor de Marketing"
+    },
+    {
+     "pergunta": "Agendamento e confirmação de visita",
+     "resposta": "Consultor de Vendas responsável pelo cliente"
+    }
+   ]
+  },
+  {
+   "num": "05",
+   "cargo": "recep",
+   "regras": [
+    {
+     "modulo": "A primeira impressão é da recepção",
+     "regra": "Pessoa na frente vem antes de qualquer tela."
+    },
+    {
+     "modulo": "Quem faz o quê na +Motor BR",
+     "regra": "O cliente nunca procura: a recepção leva ou chama."
+    },
+    {
+     "modulo": "Registro, cadastro e LGPD",
+     "regra": "Dado de cliente fora da vista de terceiros."
+    },
+    {
+     "modulo": "Situações difíceis",
+     "regra": "Calma na voz, encaminhamento na ação."
+    }
+   ],
+   "diagnostico": [
+    "A equipe comercial está passando por ajustes (troca recente na pré-venda, plano de contratar mais um consultor). Nesse momento, a recepção é o ponto mais estável da loja para clientes e para quem está chegando: mantenha o padrão de atendimento mesmo com a equipe em adaptação."
+   ],
+   "conformidade": "O protocolo para atendimento a pessoas com deficiência e o controle de visitantes e fornecedores na entrada ainda estão em definição com a direção. Até a confirmação, atenda com atenção redobrada e avise o gestor sobre qualquer situação que não esteja coberta aqui.",
+   "duvidas": [
+    {
+     "pergunta": "Cliente que já comprou ou já indicou alguém",
+     "resposta": "Consultor de Vendas correspondente"
+    },
+    {
+     "pergunta": "Reclamação ou situação difícil no balcão",
+     "resposta": "Consultor de Vendas ou Gerente de Marketing, conforme o caso"
+    },
+    {
+     "pergunta": "Cadastro de cliente e LGPD",
+     "resposta": "Assistente Administrativo"
+    }
+   ]
+  },
+  {
+   "num": "06",
+   "cargo": "assadm",
+   "regras": [
+    {
+     "modulo": "Minha rotina sob controle",
+     "regra": "Tudo que chega vai para a lista."
+    },
+    {
+     "modulo": "Arquivo e documentos",
+     "regra": "Nome padrão, pasta certa, no mesmo dia."
+    },
+    {
+     "modulo": "Planilhas e relatórios que ajudam",
+     "regra": "Conferiu duas vezes, entrega uma."
+    },
+    {
+     "modulo": "Apoio às áreas e conformidade",
+     "regra": "Apoiar não é decidir pelo gestor."
+    }
+   ],
+   "diagnostico": [
+    "A +Motor BR ainda não tem esse cargo preenchido (levantamento de 29/10/2026): a parte financeira e administrativa é feita hoje, informalmente, pela esposa do CEO, com apoio semanal de um contador. Você entra para profissionalizar essa rotina, não para corrigir alguém despreparado."
+   ],
+   "conformidade": "A existência de caixa pequeno ou processo de reembolso de despesas, o cadastro de novo fornecedor e o seguro da loja, do estoque e dos equipamentos contra incêndio, furto ou outros sinistros ainda estão em definição com a direção. Até a confirmação, registre qualquer despesa ou situação assim e leve ao Gerente Administrativo antes de agir.",
+   "duvidas": [
+    {
+     "pergunta": "Documentação de financiamento ou faturamento de veículo vendido",
+     "resposta": "Analista de Financiamento e Documentação"
+    },
+    {
+     "pergunta": "Contrato ou documento com erro antes da assinatura",
+     "resposta": "Gerente Administrativo"
+    },
+    {
+     "pergunta": "Despesa ou situação fora da rotina prevista",
+     "resposta": "Gerente Administrativo"
+    }
+   ]
+  },
+  {
+   "num": "07",
+   "cargo": "rh",
+   "regras": [
+    {
+     "modulo": "Admissão e desligamento sem erro",
+     "regra": "Ninguém começa sem o checklist completo."
+    },
+    {
+     "modulo": "Ponto, folha e benefícios",
+     "regra": "Ponto conferido todo dia fecha o mês sem susto."
+    },
+    {
+     "modulo": "Integração que gera autonomia",
+     "regra": "Primeiro dia planejado, primeira semana acompanhada."
+    },
+    {
+     "modulo": "Clima, NR-1 e sigilo",
+     "regra": "O que chega ao RH fica no RH."
+    }
+   ],
+   "diagnostico": [
+    "A empresa contratou recentemente uma nova profissional de pré-vendas (ainda em treinamento e adaptação) e está trabalhando para ampliar a equipe comercial com mais um consultor de vendas. O seu apoio na integração dessas admissões (checklist completo, padrinho ou madrinha definido e feedbacks de 30, 60 e 90 dias agendados) é prioridade nas próximas semanas."
+   ],
+   "conformidade": [],
+   "duvidas": [
+    {
+     "pergunta": "Pedido de um colaborador que foge da rotina conhecida",
+     "resposta": "Gestor Administrativo / CEO, em até 24h"
+    },
+    {
+     "pergunta": "Agendamento de compromisso pessoal durante o expediente",
+     "resposta": "Início do expediente ou a partir das 17h, salvo emergência real"
+    },
+    {
+     "pergunta": "Relato de assédio, humilhação ou sofrimento no trabalho",
+     "resposta": "Ouvir, registrar e levar à direção sem expor quem relatou"
+    }
+   ]
+  },
+  {
+   "num": "08",
+   "cargo": "motorista",
+   "regras": [
+    {
+     "modulo": "Vistoria que protege você e a empresa",
+     "regra": "Sem foto de saída, a avaria é sua."
+    },
+    {
+     "modulo": "Direção defensiva e Código de Trânsito",
+     "regra": "Dois minutos de ajuste antes de qualquer saída."
+    },
+    {
+     "modulo": "Entrega ao cliente",
+     "regra": "Entregou, protocolou."
+    },
+    {
+     "modulo": "Documentos e ocorrências",
+     "regra": "Ocorrência comunicada na hora."
+    },
+    {
+     "modulo": "Rotina do pátio: ligar, organizar e avisar",
+     "regra": "Carro ligado nunca fica sozinho."
+    }
+   ],
+   "diagnostico": [
+    "Quando um cliente tem algum problema com o veículo depois da entrega, você e o profissional responsável pelo pós-venda participam do atendimento. Siga sempre o roteiro de ocorrências desta apostila e avise o gestor na hora.",
+    "Carro que chega na loja, comprado ou consignado: assim que ele entra, faça a vistoria completa e passe todos os pontos ao consultor de vendas responsável, que vai atrás de resolver, inclusive documentação. Avise sempre com antecedência, nunca na última hora, para dar tempo de preparar o carro."
+   ],
+   "conformidade": [],
+   "duvidas": [
+    {
+     "pergunta": "Avaria, pane ou acidente durante o deslocamento",
+     "resposta": "Segurança primeiro, depois fotos e aviso imediato ao gestor"
+    },
+    {
+     "pergunta": "Carro do pátio sem instrução de uso",
+     "resposta": "Gestor responsável pelo pátio"
+    },
+    {
+     "pergunta": "Atraso, sono ou mal-estar antes de uma saída",
+     "resposta": "Avisar o gestor antes de pegar a chave"
+    }
+   ]
+  },
+  {
+   "num": "09",
+   "cargo": "asg",
+   "regras": [
+    {
+     "modulo": "O padrão +Motor BR de limpeza",
+     "regra": "Antes de abrir a porta, tudo pronto."
+    },
+    {
+     "modulo": "Produtos e EPIs com segurança",
+     "regra": "Nunca misturar, sempre ler o rótulo."
+    },
+    {
+     "modulo": "Cronograma e materiais",
+     "regra": "Pedir reposição antes de acabar."
+    },
+    {
+     "modulo": "Postura e eventos",
+     "regra": "Discrição durante o atendimento."
+    }
+   ],
+   "diagnostico": [],
+   "conformidade": "A existência de extintores, rota de fuga sinalizada e um treinamento de incêndio (mesmo informal) ainda está em confirmação com a direção. Até lá, pergunte ao gestor onde ficam os extintores e qual é a rota de fuga do prédio.",
+   "duvidas": [
+    {
+     "pergunta": "Falta de material de limpeza",
+     "resposta": "Gestor responsável pela reposição"
+    },
+    {
+     "pergunta": "Necessidade de manutenção predial",
+     "resposta": "Gerente Administrativo"
+    },
+    {
+     "pergunta": "Lavagem e preparação de carro para entrega",
+     "resposta": "Confirme com o gestor se é sua tarefa ou do motorista/lava-rápido"
+    }
+   ]
+  },
+  {
+   "num": "10",
+   "cargo": "ceo",
+   "regras": [
+    {
+     "modulo": "Guardião da cultura e da segurança psicológica",
+     "regra": "Como eu reajo à má notícia ensina mais do que qualquer manual."
+    },
+    {
+     "modulo": "Rituais de gestão, indicadores e alçadas",
+     "regra": "Dado na mesa, decisão registrada, alçada igual para todos."
+    },
+    {
+     "modulo": "Desenvolver líderes: conversa individual e feedback",
+     "regra": "Feedback aponta um comportamento e o próximo passo."
+    },
+    {
+     "modulo": "Conformidade que começa na direção: NR-1, LGPD e PLD/FT",
+     "regra": "Conformidade começa no exemplo da direção."
+    }
+   ],
+   "diagnostico": [
+    "Estoque e meta: a loja opera com 20 a 40 veículos em estoque (a estimativa variou entre as conversas); vende hoje de 9 a 12 carros por mês, com meta de dobrar para 20 a 25 (levantamento de 29/10/2026).",
+    "Tráfego pago: a agência terceirizada foi trocada há cerca de dois meses; o investimento estimado está entre R$ 4.000 e R$ 6.000 mensais, mas precisa ser confirmado com precisão. Até o momento, a performance de vendas associada às campanhas não foi percebida como satisfatória: será necessário analisar investimento, qualidade dos leads, conversão em atendimentos, propostas e fechamentos.",
+    "Mudanças recentes na equipe: saída e substituição da profissional de pré-vendas (a nova ainda em treinamento e adaptação), plano de contratar mais um consultor de vendas, e troca da agência de tráfego pago. Hoje, além do CEO, a equipe é formada por 1 pré-venda, 2 consultores, 1 motorista e 1 pessoa de mídia social; os cargos de administrativo, RH, consignação dedicada, gerência administrativa e gerência de marketing ainda não estão preenchidos.",
+    "Mercado: crescimento do interesse por marcas chinesas exige adaptar a estratégia comercial, a comunicação e a apresentação dos diferenciais dos veículos.",
+    "Gestão hoje (levantamento de 29/10/2026): não existe sistema de advertência para erro grave, nem premiação contínua por resultado (CEO decide tudo caso a caso); a alçada de desconto também não tem valor fixo, e está em elaboração uma política mensal de vendas (margem, desconto, bonificação). Na autoavaliação do CEO, a equipe se sente à vontade (nota 5 de 5) para dizer \"não sei\" ou \"errei\".",
+    "Direcionamento para o treinamento: organizar por etapas de tempo, de forma prática e aplicável à realidade da loja, deixando claro o que cada cargo faz, como faz, quando faz e com que objetivo. É exatamente a lógica desta apostila e do Programa de Treinamento de 90 dias de cada cargo."
+   ],
+   "conformidade": [],
+   "duvidas": [
+    {
+     "pergunta": "Pendência de alta relevância (desconto fora da alçada, conflito, exceção)",
+     "resposta": "Decisão é sua; registre a alçada para a equipe"
+    },
+    {
+     "pergunta": "Resultado comercial e desempenho da equipe",
+     "resposta": "Reunião semanal com Gerente Administrativo e Gerente de Marketing"
+    },
+    {
+     "pergunta": "Risco psicossocial, clima ou turnover",
+     "resposta": "Assistente de RH, com apoio semestral/anual"
+    }
+   ]
+  },
+  {
+   "num": "11",
+   "cargo": "gadm",
+   "regras": [
+    {
+     "modulo": "O cargo, a rotina e os primeiros 90 dias",
+     "regra": "Primeiro entender, depois organizar, só então melhorar."
+    },
+    {
+     "modulo": "Dinheiro e números: caixa, orçamento e relatório",
+     "regra": "Todo desvio chega ao CEO com causa e próxima ação."
+    },
+    {
+     "modulo": "Documentos, contratos e conformidade",
+     "regra": "Pressão não muda a regra: documento incompleto não segue."
+    },
+    {
+     "modulo": "Liderar a equipe: autonomia, feedback e segurança psicológica",
+     "regra": "Exigente com o processo, respeitoso com a pessoa."
+    }
+   ],
+   "diagnostico": [
+    "A equipe comercial está crescendo (plano de contratar mais um consultor) e o investimento em tráfego pago (R$ 4.000 a R$ 6.000 por mês, a confirmar) precisa entrar no seu acompanhamento de orçamento e fluxo de caixa.",
+    "Os processos de financiamento e de consignação ainda estão sendo estruturados (sem pessoa exclusiva de financiamento; captação ainda feita pelo gestor): seu apoio na organização desses fluxos, prazos e documentação é parte direta da sua rotina semanal e mensal.",
+    "Onde a função está hoje (levantamento de 29/10/2026): o cargo ainda não está preenchido; a parte financeira e administrativa é feita informalmente pela esposa do CEO, com apoio semanal de um contador. Você entra para profissionalizar essa rotina, não para corrigir quem já estava lá."
+   ],
+   "conformidade": [],
+   "duvidas": [
+    {
+     "pergunta": "Fluxo de caixa e orçamento x realizado",
+     "resposta": "Reporte semanal e mensal ao CEO"
+    },
+    {
+     "pergunta": "Rotinas de Departamento Pessoal (admissão, férias, ponto, afastamento)",
+     "resposta": "Assistente de Recursos Humanos"
+    },
+    {
+     "pergunta": "Prazo de financiamento ou documentação de veículo vendido",
+     "resposta": "Analista de Financiamento e Documentação"
+    }
+   ]
+  },
+  {
+   "num": "12",
+   "cargo": "gmkt",
+   "regras": [
+    {
+     "modulo": "Marca e conteúdo que provam a palavra da empresa",
+     "regra": "Anúncio é promessa: só publique o que a loja cumpre."
+    },
+    {
+     "modulo": "Do lead à venda: funil, dados e verba",
+     "regra": "Curtida é bom, mas não paga o mês."
+    },
+    {
+     "modulo": "Aprovação, imagem e dados sem gargalo",
+     "regra": "Dúvida tem dono e prazo: resposta no grupo em até 4 horas úteis."
+    },
+    {
+     "modulo": "Liderar a equipe de marketing e pré-vendas",
+     "regra": "Critique o vídeo, nunca a pessoa."
+    }
+   ],
+   "diagnostico": [
+    "A agência terceirizada responsável pelo tráfego pago foi trocada há cerca de dois meses. O investimento atual está estimado entre R$ 4.000 e R$ 6.000 mensais, mas ainda precisa ser conferido com precisão depois da mudança.",
+    "Até o momento, o gestor não percebeu uma performance de vendas satisfatória associada às campanhas. Suas primeiras semanas devem priorizar analisar o investimento, a qualidade dos leads, a conversão em atendimentos, as propostas realizadas e os fechamentos, e levar isso ao relatório mensal para o CEO.",
+    "O aumento do interesse por marcas chinesas também é um sinal para ajustar a comunicação e os diferenciais destacados nas campanhas e no conteúdo.",
+    "Padrão que funciona (análise ao vivo dos vídeos com mais visualização, 29/10/2026): conteúdo de utilidade pública ou dica prática, e conteúdo com apelo emocional e storytelling (família, memórias), performam muito mais do que o vídeo que só mostra o carro. Repita esse padrão e analise com a equipe regularmente, não só de vez em quando.",
+    "Calendário de veículos parados: carro que demora a vender não deve só baixar de preço. Quanto mais tempo parado, mais ele vira prioridade de conteúdo (mais vídeos, mais destaque).",
+    "Imagem da equipe nos vídeos importa: uniforme limpo e em bom estado, sem calça surrada. Já tem fornecedor em Sorocaba para repor as camisetas."
+   ],
+   "conformidade": [],
+   "duvidas": [
+    {
+     "pergunta": "Verba, performance ou ajuste de campanha",
+     "resposta": "Agência terceirizada de tráfego pago e CEO (relatório mensal)"
+    },
+    {
+     "pergunta": "Tempo de resposta do SDR acima da meta",
+     "resposta": "SDR responsável e acompanhamento diário"
+    },
+    {
+     "pergunta": "Autorização de imagem de colaborador ou cliente em vídeo",
+     "resposta": "Termo assinado antes de gravar, arquivado por você"
+    }
+   ]
+  },
+  {
+   "num": "13",
+   "cargo": "social",
+   "regras": [
+    {
+     "modulo": "A vitrine que prova a palavra da empresa",
+     "regra": "Número do carro sai do sistema, não da cabeça."
+    },
+    {
+     "modulo": "Do roteiro ao post",
+     "regra": "Gancho forte, uma chamada só."
+    },
+    {
+     "modulo": "Semáforo, checklist e o que fica dentro de casa",
+     "regra": "Na dúvida, pergunta. Sem resposta, o vídeo espera."
+    },
+    {
+     "modulo": "Comunidade, dados e números",
+     "regra": "Comentário abre a conversa; o privado fecha."
+    }
+   ],
+   "diagnostico": [
+    "Padrão que funciona (análise ao vivo dos vídeos com mais visualização, 29/10/2026): conteúdo de utilidade pública ou dica prática, e conteúdo com apelo emocional e storytelling (família, memórias), performam muito mais do que o vídeo que só mostra o carro.",
+    "Calendário de veículos parados: quanto mais tempo um carro fica no pátio, mais ele vira prioridade de conteúdo (mais vídeos, mais destaque). Peça a lista ao comercial toda semana.",
+    "O tráfego pago é feito por uma agência terceirizada, trocada há cerca de dois meses. Você fornece os criativos; verba e campanha ficam com a Gerência e a agência.",
+    "O interesse dos clientes por marcas chinesas está crescendo: vale testar conteúdos de orientação comparando versões e mostrando os diferenciais reais da loja.",
+    "Imagem da equipe nos vídeos importa: uniforme limpo e em bom estado. Combine com o consultor antes de gravar."
+   ],
+   "conformidade": "A etiqueta padrão de aprovação no grupo é #DÚVIDA. A aplicação da mensagem educativa de trânsito (CTB, art. 77-B) a posts de revenda ainda está em definição; até a confirmação, nenhum vídeo mostra direção perigosa, excesso de velocidade ou celular ao volante.",
+   "duvidas": [
+    {
+     "pergunta": "Vídeo amarelo (preço, parcela, cliente identificado, colaborador falando pela empresa)",
+     "resposta": "Gerente de Marketing, pelo grupo, em até 4 horas úteis"
+    },
+    {
+     "pergunta": "Vídeo vermelho (promoção, feirão, parceria, CEO, tema sensível)",
+     "resposta": "CEO, via Gerência, em até 24 horas"
+    },
+    {
+     "pergunta": "Pergunta de preço, financiamento, troca ou visita nos comentários",
+     "resposta": "SDR, na hora, com print no grupo"
+    },
+    {
+     "pergunta": "Reclamação pública ou erro em post publicado",
+     "resposta": "Gerente de Marketing com #ALERTA (decide em até 30 minutos)"
+    },
+    {
+     "pergunta": "Dado do carro (ano, versão, km, preço)",
+     "resposta": "Consultor, conferido no sistema antes de gravar"
+    },
+    {
+     "pergunta": "Autorização de imagem",
+     "resposta": "Planilha de autorizações e Gerência; termo assinado antes de gravar"
+    }
+   ]
+  }
+ ]
+}
