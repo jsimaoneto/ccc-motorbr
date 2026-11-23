@@ -13,9 +13,9 @@ const NIVEIS = ['Alta Direção', 'Gerência', 'Operacional', 'Suporte Administr
 
 /* ------------------------------------------------------------------ carga */
 async function carregar() {
-  const nomes = ['manual', 'cargos', 'processo', 'treinamentos', 'documentos'];
+  const nomes = ['manual', 'cargos', 'processo', 'treinamentos', 'documentos', 'downloads'];
   const partes = await Promise.all(
-    nomes.map(n => fetch(`dados/${n}.json?v=3`).then(r => {
+    nomes.map(n => fetch(`dados/${n}.json?v=5`).then(r => {
       if (!r.ok) throw new Error(`${n}.json: ${r.status}`);
       return r.json();
     }))
@@ -50,7 +50,9 @@ function montarMenu() {
   h += `<div class="secao">Formação</div>
         <a href="#/treinamentos" data-rota="treinamentos">Programas de treinamento<span class="conta">${D.treinamentos.programas.length}</span></a>
         <div class="secao">Arquivos</div>
-        <a href="#/documentos" data-rota="documentos">Documentos originais</a>`;
+        <a href="#/downloads" data-rota="downloads">Download<span class="conta">${
+          D.downloads.grupos.reduce((s, g) => s + g.arquivos.length, 0)}</span></a>
+        <a href="#/documentos" data-rota="documentos">Ler no Drive</a>`;
   $('#lateral').innerHTML = h;
 }
 
@@ -446,6 +448,47 @@ function arquivosDoCargo(id) {
     </div>`;
 }
 
+function paginaDownloads() {
+  const d = D.downloads;
+  const baixar = id => `https://drive.google.com/uc?export=download&id=${id}`;
+  const total = d.grupos.reduce((s, g) => s + g.arquivos.length, 0);
+  return `
+  <p class="trilha"><a href="#/inicio">Início</a> › Download</p>
+  <p class="rotulo">Arquivos do projeto</p>
+  <h1>Download</h1>
+  <hr class="filete">
+  <p class="abertura">Os ${total} arquivos do projeto, como foram gerados, em Word e PDF.
+     Clique para baixar direto. Para ler sem baixar, use <a href="#/documentos">Ler no Drive</a>.</p>
+
+  <section class="bloco" style="margin-top:var(--e6)">
+    <div class="faixa">
+      <h3>Tudo de uma vez</h3>
+      <p>A pasta completa no Drive, com as subpastas por tipo de material.</p>
+      <p style="margin-top:var(--e4)">
+        <a class="atalho" href="${esc(d.pasta)}" target="_blank" rel="noopener">Abrir a pasta ↗</a>
+      </p>
+    </div>
+  </section>
+
+  ${d.grupos.map(g => `
+    <section class="bloco">
+      <h2>${esc(g.titulo)}</h2>
+      <hr class="filete">
+      <p class="abertura">${esc(g.nota)}</p>
+      <table class="tabela" style="margin-top:var(--e4)">
+        <thead><tr><th>Arquivo</th><th>Formato</th><th></th></tr></thead>
+        <tbody>
+          ${g.arquivos.map(a => `<tr>
+            <td>${esc(a.nome)}</td>
+            <td><span class="selo ${a.ext === 'pdf' ? 'c' : 'u'}">${esc(a.ext)}</span>
+                ${a.tam ? `<span class="legenda"> ${esc(a.tam)}</span>` : ''}</td>
+            <td><a href="${baixar(a.id)}">Baixar ↓</a></td>
+          </tr>`).join('')}
+        </tbody>
+      </table>
+    </section>`).join('')}`;
+}
+
 function paginaDocumentos() {
   const d = D.documentos;
   const cargoNome = id => {
@@ -588,6 +631,7 @@ function render() {
   else if (rota === 'processo') alvo.innerHTML = paginaProcesso();
   else if (rota === 'treinamentos') alvo.innerHTML = paginaTreinamentos();
   else if (rota === 'documentos') alvo.innerHTML = paginaDocumentos();
+  else if (rota === 'downloads') alvo.innerHTML = paginaDownloads();
   else alvo.innerHTML = paginaInicio();
 
   document.querySelectorAll('.lateral a').forEach(a =>
