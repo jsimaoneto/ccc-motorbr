@@ -13,9 +13,9 @@ const NIVEIS = ['Alta Direção', 'Gerência', 'Operacional', 'Suporte Administr
 
 /* ------------------------------------------------------------------ carga */
 async function carregar() {
-  const nomes = ['manual', 'cargos', 'processo', 'treinamentos'];
+  const nomes = ['manual', 'cargos', 'processo', 'treinamentos', 'documentos'];
   const partes = await Promise.all(
-    nomes.map(n => fetch(`dados/${n}.json?v=1`).then(r => {
+    nomes.map(n => fetch(`dados/${n}.json?v=3`).then(r => {
       if (!r.ok) throw new Error(`${n}.json: ${r.status}`);
       return r.json();
     }))
@@ -48,7 +48,9 @@ function montarMenu() {
   });
 
   h += `<div class="secao">Formação</div>
-        <a href="#/treinamentos" data-rota="treinamentos">Programas de treinamento<span class="conta">${D.treinamentos.programas.length}</span></a>`;
+        <a href="#/treinamentos" data-rota="treinamentos">Programas de treinamento<span class="conta">${D.treinamentos.programas.length}</span></a>
+        <div class="secao">Arquivos</div>
+        <a href="#/documentos" data-rota="documentos">Documentos originais</a>`;
   $('#lateral').innerHTML = h;
 }
 
@@ -80,6 +82,7 @@ function paginaInicio() {
     <div class="atalhos">
       <a class="atalho" href="#/processo">Ver o processo de vendas</a>
       <a class="atalho vazado" href="#/politicas">Políticas internas</a>
+      <a class="atalho vazado" href="#/documentos">Documentos originais</a>
     </div>
   </section>
 
@@ -405,7 +408,108 @@ function paginaCargo(id) {
     ${aplic.duvidas.length ? `<h4 style="margin-top:var(--e6)">Quem resolve o quê</h4>
       <table class="tabela"><thead><tr><th>Situação</th><th>Com quem</th></tr></thead>
       <tbody>${aplic.duvidas.map(d => `<tr><td>${esc(d.pergunta)}</td><td>${esc(d.resposta)}</td></tr>`).join('')}</tbody></table>` : ''}
-  </div>` : ''}`;
+  </div>` : ''}
+
+  ${arquivosDoCargo(c.id)}`;
+}
+
+/* links para os arquivos originais no Google Drive */
+const LINK = {
+  'Google Docs': id => `https://docs.google.com/document/d/${id}/edit`,
+  'PDF': id => `https://drive.google.com/file/d/${id}/view`,
+};
+const docUrl = id => LINK['Google Docs'](id);
+
+function arquivosDoCargo(id) {
+  const d = (D.documentos.por_cargo || {})[id];
+  if (!d) return '';
+  const linhas = [
+    d.fluxograma && ['Fluxograma do cargo', 'a parte dele no processo de vendas', d.fluxograma],
+    d.fluxograma_extra && [d.fluxograma_extra.titulo, 'função acumulada', d.fluxograma_extra.id],
+    d.treinamento && ['Programa de treinamento', 'módulos, carga e verificação', d.treinamento],
+    d.dia1 && ['Apostila Aplicação Dia 1', 'o que fazer no primeiro dia', d.dia1],
+    d.roteiro && ['Roteiro de vídeo-palestra', 'material de gravação do estúdio', d.roteiro],
+  ].filter(Boolean);
+  if (!linhas.length) return '';
+  return `
+    <h3 style="margin-top:var(--e7)">Arquivos deste cargo</h3>
+    <hr class="filete">
+    <p class="abertura">Os documentos originais no Google Drive da empresa.</p>
+    <div class="grade" style="margin-top:var(--e4)">
+      ${linhas.map(([t, nota, id]) => `
+        <a class="cartao" href="${docUrl(id)}" target="_blank" rel="noopener">
+          <p class="rotulo">Google Docs</p>
+          <h4>${esc(t)}</h4>
+          <p class="legenda">${esc(nota)}</p>
+          <p class="seta">Abrir no Drive ↗</p>
+        </a>`).join('')}
+    </div>`;
+}
+
+function paginaDocumentos() {
+  const d = D.documentos;
+  const cargoNome = id => {
+    const c = D.cargos.find(x => x.id === id);
+    return c ? curto(c.nome) : id;
+  };
+  return `
+  <p class="trilha"><a href="#/inicio">Início</a> › Documentos</p>
+  <p class="rotulo">Arquivos</p>
+  <h1>Documentos originais</h1>
+  <hr class="filete">
+  <p class="abertura">Tudo o que está neste site saiu destes arquivos, guardados no Google Drive
+     da empresa. O site é a versão de consulta rápida; o arquivo é a versão oficial, para imprimir
+     ou assinar.</p>
+
+  <div class="aviso" style="margin-top:var(--e5)">
+    Os arquivos no Drive são privados. Quem abrir sem permissão vai ver a tela de pedir acesso:
+    compartilhe a pasta com a pessoa antes de mandar o link.
+  </div>
+
+  <section class="bloco">
+    <h2>Manual e processo</h2>
+    <hr class="filete">
+    <div class="grade">
+      ${d.geral.map(a => `
+        <a class="cartao" href="${(LINK[a.tipo] || docUrl)(a.id)}" target="_blank" rel="noopener">
+          <p class="rotulo">${esc(a.tipo)}</p>
+          <h4>${esc(a.titulo)}</h4>
+          <p class="legenda">${esc(a.nota)}</p>
+          <p class="seta">Abrir no Drive ↗</p>
+        </a>`).join('')}
+    </div>
+  </section>
+
+  <section class="bloco">
+    <h2>Por cargo</h2>
+    <hr class="filete">
+    <table class="tabela">
+      <thead><tr><th>Cargo</th><th>Fluxograma</th><th>Treinamento</th><th>Dia 1</th><th>Roteiro</th></tr></thead>
+      <tbody>
+        ${Object.entries(d.por_cargo).map(([id, a]) => `
+          <tr>
+            <td><a href="#/cargo/${id}"><b>${esc(cargoNome(id))}</b></a></td>
+            <td>${a.fluxograma ? `<a href="${docUrl(a.fluxograma)}" target="_blank" rel="noopener">abrir ↗</a>` : '<span class="legenda">—</span>'}</td>
+            <td>${a.treinamento ? `<a href="${docUrl(a.treinamento)}" target="_blank" rel="noopener">abrir ↗</a>` : '<span class="legenda">—</span>'}</td>
+            <td>${a.dia1 ? `<a href="${docUrl(a.dia1)}" target="_blank" rel="noopener">abrir ↗</a>` : '<span class="legenda">—</span>'}</td>
+            <td>${a.roteiro ? `<a href="${docUrl(a.roteiro)}" target="_blank" rel="noopener">abrir ↗</a>` : '<span class="legenda">—</span>'}</td>
+          </tr>`).join('')}
+      </tbody>
+    </table>
+    <p class="legenda" style="margin-top:var(--e4)">Cargos sem fluxograma não têm item próprio no
+       processo de vendas depois da correção de 23/11/2026.</p>
+  </section>
+
+  <section class="bloco">
+    <div class="faixa">
+      <h3>A pasta inteira</h3>
+      <p>Os arquivos como foram gerados (.docx e .pdf) e as versões em Google Docs para leitura.</p>
+      <p style="margin-top:var(--e4)">
+        <a class="atalho" href="${esc(d.pasta)}" target="_blank" rel="noopener">Pasta no Drive ↗</a>
+        <a class="atalho vazado" href="${esc(d.pasta_docs)}" target="_blank" rel="noopener">Versões em Google Docs ↗</a>
+      </p>
+    </div>
+  </section>`;
 }
 
 function paginaTreinamentos() {
@@ -483,6 +587,7 @@ function render() {
   else if (rota === 'politicas') alvo.innerHTML = paginaPoliticas();
   else if (rota === 'processo') alvo.innerHTML = paginaProcesso();
   else if (rota === 'treinamentos') alvo.innerHTML = paginaTreinamentos();
+  else if (rota === 'documentos') alvo.innerHTML = paginaDocumentos();
   else alvo.innerHTML = paginaInicio();
 
   document.querySelectorAll('.lateral a').forEach(a =>
