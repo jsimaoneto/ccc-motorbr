@@ -324,3 +324,8 @@ details.fase .miolo { padding: var(--e5); }
   .conteudo { max-width: none; padding: 0; }
   details.fase { break-inside: avoid; }
 }
+
+/* ------------------------------------------------- checklists do veículo */
+.lista-ck { margin: 0; padding-left: var(--e5); }
+.lista-ck li { margin-bottom: 5px; font-size: 14.5px; }
+.lista-ck li::marker { color: var(--laranja); }

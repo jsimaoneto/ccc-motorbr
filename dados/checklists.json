@@ -1,0 +1,228 @@
+{
+ "vistoria": {
+  "nome": "Checklist de vistoria do veiculo de passeio",
+  "total": 78,
+  "grupos": [
+   {
+    "t": "Condições gerais",
+    "legenda": "B bom / M médio / R ruim",
+    "itens": [
+     "Limpeza externa (lavagem, vidros, rodas)",
+     "Limpeza interna (bancos, carpete, painel, odor)",
+     "Pintura e lataria (riscos, amassados, tom)",
+     "Pneus dianteiros (sulco, desgaste, calibragem)",
+     "Pneus traseiros (sulco, desgaste, calibragem)",
+     "Estepe (estado, calibragem, fixação)",
+     "Palhetas do limpador",
+     "Bateria (idade, terminais, fixação)"
+    ]
+   },
+   {
+    "t": "Luzes dianteiras",
+    "legenda": "S sim / N não / NA não se aplica",
+    "itens": [
+     "Farol baixo direito",
+     "Farol baixo esquerdo",
+     "Farol alto direito",
+     "Farol alto esquerdo",
+     "Seta dianteira direita",
+     "Seta dianteira esquerda",
+     "Neblina direita",
+     "Neblina esquerda",
+     "Luz diurna (DRL) / meia-luz"
+    ]
+   },
+   {
+    "t": "Luzes traseiras",
+    "legenda": "S sim / N não / NA não se aplica",
+    "itens": [
+     "Luz da placa",
+     "Lanterna direita",
+     "Lanterna esquerda",
+     "Luz de freio direita",
+     "Luz de freio esquerda",
+     "Brake light (terceira luz de freio)",
+     "Luz de ré direita",
+     "Luz de ré esquerda",
+     "Seta traseira direita",
+     "Seta traseira esquerda",
+     "Pisca-alerta nas quatro luzes"
+    ]
+   },
+   {
+    "t": "Segurança e itens obrigatórios",
+    "legenda": "S sim / N não / NA não se aplica",
+    "itens": [
+     "Cintos de segurança de todos os lugares (trava e recolhimento)",
+     "Buzina",
+     "Triângulo de sinalização",
+     "Macaco",
+     "Chave de roda",
+     "Extintor (quando exigido para o veículo)",
+     "Documento do veículo (CRLV) dentro do carro",
+     "Licenciamento do exercício em dia",
+     "Retrovisor interno",
+     "Retrovisor externo direito",
+     "Retrovisor externo esquerdo",
+     "Travas e fechaduras das portas e do porta-malas",
+     "Alarme e chave / controle remoto",
+     "Chave reserva",
+     "Painel sem luz de advertência acesa (injeção, ABS, airbag, freio)",
+     "Limpadores e lavador do para-brisa",
+     "Desembaçador traseiro",
+     "Vidros elétricos nas quatro portas",
+     "Cadeirinha / fixação Isofix (quando houver)"
+    ]
+   },
+   {
+    "t": "Motor e níveis",
+    "legenda": "S sim / N não / NA não se aplica",
+    "itens": [
+     "Óleo do motor (nível e aspecto)",
+     "Água do radiador / reservatório de expansão",
+     "Água do lavador do para-brisa",
+     "Óleo do freio",
+     "Fluido da direção hidráulica (quando houver)",
+     "Correias e mangueiras",
+     "Partida a frio sem ruído ou fumaça anormal",
+     "Marcha lenta estável",
+     "Sem vazamento no chão do box",
+     "Escapamento sem furo ou fumaça anormal"
+    ]
+   },
+   {
+    "t": "Direção e freios (test drive)",
+    "legenda": "S sim / N não / NA não se aplica",
+    "itens": [
+     "Acelerador com resposta normal",
+     "Embreagem / câmbio passando todas as marchas",
+     "Freio de serviço sem puxar para o lado e sem ruído",
+     "Freio de estacionamento segurando o carro",
+     "Direção alinhada e sem folga",
+     "Suspensão sem batida ou ruído",
+     "Sem trepidação em velocidade de rodovia"
+    ]
+   },
+   {
+    "t": "Interior e conforto",
+    "legenda": "S sim / N não / NA não se aplica",
+    "itens": [
+     "Ar-condicionado gelando e ventilação em todas as velocidades",
+     "Multimídia, som e alto-falantes",
+     "Câmera de ré e sensores de estacionamento",
+     "Comandos do volante e computador de bordo",
+     "Tomadas 12 V / USB e carregador",
+     "Bancos (regulagem, rebatimento, acabamentos)",
+     "Tapetes e forração do porta-malas"
+    ]
+   },
+   {
+    "t": "Documentação e pendências",
+    "legenda": "S sim / N não / NA não se aplica",
+    "itens": [
+     "Placa e chassi conferidos com o CRLV",
+     "Etiquetas dos vidros sem sinal de adulteração",
+     "IPVA do exercício quitado",
+     "Multas consultadas",
+     "Recall pendente consultado no site da montadora",
+     "Laudo cautelar no prontuário",
+     "Manual do proprietário e revisões"
+    ]
+   }
+  ]
+ },
+ "recebimento": {
+  "nome": "Checklist de recebimento do veiculo",
+  "total": 40,
+  "grupos": [
+   {
+    "t": "Lataria e pintura",
+    "legenda": "C conforme / R precisa de reparo / NA nao se aplica",
+    "itens": [
+     "Para-choque dianteiro e traseiro: trincas, folgas, pintura",
+     "Capô, teto e tampa traseira: amassados, desalinhamento",
+     "Portas e laterais: amassados, riscos, diferença de tom de pintura",
+     "Frisos, emblemas e grade",
+     "Sinais de repintura, massa ou desalinhamento de porta (indício de batida)",
+     "Assoalho e estrutura por baixo: ferrugem, amassados, reparo"
+    ]
+   },
+   {
+    "t": "Vidros, faróis e retrovisores",
+    "legenda": "C conforme / R precisa de reparo / NA nao se aplica",
+    "itens": [
+     "Para-brisa e vidros: trincas, lascas, riscos profundos",
+     "Vidros elétricos subindo e descendo nas quatro portas",
+     "Faróis, lanternas, setas, luz de freio e ré funcionando",
+     "Faróis embaçados ou amarelados",
+     "Retrovisores: regulagem elétrica, rebatimento, carcaça"
+    ]
+   },
+   {
+    "t": "Pneus, rodas e freios",
+    "legenda": "C conforme / R precisa de reparo / NA nao se aplica",
+    "itens": [
+     "Profundidade do sulco dos quatro pneus (mínimo 1,6 mm) e marca/medida iguais",
+     "Pneus com bolha, corte, desgaste irregular ou mais de 5 anos de fabricação",
+     "Rodas: empenadas, raspadas, calotas",
+     "Estepe, chave de roda, triângulo e macaco",
+     "Pastilhas, discos e freio de estacionamento"
+    ]
+   },
+   {
+    "t": "Interior",
+    "legenda": "C conforme / R precisa de reparo / NA nao se aplica",
+    "itens": [
+     "Bancos e forração: rasgos, manchas, queimaduras",
+     "Cheiro de mofo, cigarro ou umidade (sinal de infiltração ou enchente)",
+     "Carpete e porta-malas: umidade, ferrugem, marca de água",
+     "Painéis das portas, teto e acabamentos soltos",
+     "Tapetes, manual do proprietário e chave reserva"
+    ]
+   },
+   {
+    "t": "Painel e eletrônica",
+    "legenda": "C conforme / R precisa de reparo / NA nao se aplica",
+    "itens": [
+     "Luzes de advertência no painel depois de ligar (injeção, ABS, airbag, freio)",
+     "Ar-condicionado gelando e ventilação em todas as velocidades",
+     "Multimídia, som, câmera de ré e sensores",
+     "Travas, alarme, chaves e comandos do volante",
+     "Quilometragem registrada e combustível no tanque"
+    ]
+   },
+   {
+    "t": "Mecânica e test drive",
+    "legenda": "C conforme / R precisa de reparo / NA nao se aplica",
+    "itens": [
+     "Partida a frio: ruído, fumaça, marcha lenta",
+     "Níveis e vazamentos: óleo do motor, água, freio, direção, câmbio",
+     "Correias, mangueiras, bateria e terminais",
+     "Test drive: câmbio passando as marchas, embreagem, trepidação",
+     "Test drive: direção alinhada, suspensão sem ruído, freio sem puxar para o lado",
+     "Escapamento e emissão aparente de fumaça"
+    ]
+   },
+   {
+    "t": "Leitura de falhas (scanner)",
+    "legenda": "C conforme / R precisa de reparo / NA nao se aplica",
+    "itens": [
+     "Scanner conectado e relatório de falhas tirado",
+     "Falhas ativas anotadas e orçadas",
+     "Falhas apagadas só depois do registro no prontuário",
+     "Recall pendente consultado no site da montadora"
+    ]
+   },
+   {
+    "t": "Documentação na chegada",
+    "legenda": "C conforme / R precisa de reparo / NA nao se aplica",
+    "itens": [
+     "CRLV / CRV em mãos e conferido com a placa e o chassi",
+     "Chassi e etiquetas dos vidros sem sinal de adulteração",
+     "IPVA, licenciamento e multas conferidos",
+     "Laudo cautelar solicitado"
+    ]
+   }
+  ]
+ }
+}

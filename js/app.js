@@ -13,9 +13,9 @@ const NIVEIS = ['Alta Direção', 'Gerência', 'Operacional', 'Suporte Administr
 
 /* ------------------------------------------------------------------ carga */
 async function carregar() {
-  const nomes = ['manual', 'cargos', 'processo', 'treinamentos', 'documentos', 'downloads'];
+  const nomes = ['manual', 'cargos', 'processo', 'treinamentos', 'documentos', 'downloads', 'checklists'];
   const partes = await Promise.all(
-    nomes.map(n => fetch(`dados/${n}.json?v=5`).then(r => {
+    nomes.map(n => fetch(`dados/${n}.json?v=6`).then(r => {
       if (!r.ok) throw new Error(`${n}.json: ${r.status}`);
       return r.json();
     }))
@@ -34,7 +34,9 @@ function montarMenu() {
     <a href="#/cultura" data-rota="cultura">Cultura e valores</a>
     <a href="#/politicas" data-rota="politicas">Políticas internas<span class="conta">${D.manual.politicas.length}</span></a>
     <div class="secao">Processo de vendas</div>
-    <a href="#/processo" data-rota="processo">Fluxograma geral<span class="conta">${D.processo.total}</span></a>`;
+    <a href="#/processo" data-rota="processo">Fluxograma geral<span class="conta">${D.processo.total}</span></a>
+    <a href="#/checklists" data-rota="checklists">Checklists do veículo<span class="conta">${
+      D.checklists.vistoria.total + D.checklists.recebimento.total}</span></a>`;
 
   NIVEIS.forEach(nivel => {
     const lista = porNivel[nivel] || [];
@@ -555,6 +557,61 @@ function paginaDocumentos() {
   </section>`;
 }
 
+/* ------------------------------------------------------- checklists do veiculo */
+const ARQ_CK = {
+  vistoria: { branco: 'arquivos/Checklist-Vistoria-MotorBR-branco.pdf',
+              exemplo: 'arquivos/Checklist-Vistoria-MotorBR-exemplo.pdf',
+              quando: 'Conferencia de rotina antes de test drive, translado, entrega ao cliente e devolucao.' },
+  recebimento: { branco: 'arquivos/Checklist-Recebimento-MotorBR-branco.pdf', exemplo: '',
+                 quando: 'Avaliacao tecnica na chegada do carro, antes de entrar no estoque.' },
+};
+
+function paginaChecklists() {
+  const ck = D.checklists;
+  const total = ck.vistoria.total + ck.recebimento.total;
+  const bloco = (id) => {
+    const c = ck[id]; const a = ARQ_CK[id];
+    return `
+    <section class="bloco" id="ck-${id}">
+      <h2>${esc(c.nome)}</h2>
+      <hr class="filete">
+      <p class="abertura">${esc(a.quando)} ${c.total} itens em ${c.grupos.length} grupos.</p>
+      <p style="margin-top:var(--e4)">
+        <a class="atalho" href="${a.branco}" download>Baixar folha em branco (PDF)</a>
+        ${a.exemplo ? `<a class="atalho" href="${a.exemplo}" target="_blank" rel="noopener">Ver exemplo preenchido ↗</a>` : ''}
+      </p>
+      ${c.grupos.map((g, i) => `
+        <details class="fase">
+          <summary>
+            <span class="numero">${i + 1}</span>
+            <span class="titulo-fase">${esc(g.t)}
+              <small>${g.itens.length} itens · ${esc(g.legenda)}</small>
+            </span>
+          </summary>
+          <div class="miolo">
+            <ul class="lista-ck">${g.itens.map((it) => `<li>${esc(it)}</li>`).join('')}</ul>
+          </div>
+        </details>`).join('')}
+    </section>`;
+  };
+  return `
+  <p class="trilha"><a href="#/inicio">Início</a> › Checklists do veículo</p>
+  <p class="rotulo">Conferência do veículo</p>
+  <h1>Checklists do veículo</h1>
+  <hr class="filete">
+  <p class="abertura">Os dois modelos de conferência usados na loja, ${total} itens no total.
+     Aqui você consulta os itens e baixa a folha em branco para imprimir. Para preencher e guardar
+     na ficha do carro, use o sistema do fluxograma.</p>
+
+  <div class="aviso" style="margin-top:var(--e5)">
+    <b>Qual usar:</b> <b>Recebimento</b> é a avaliação técnica de quando o carro chega para compra ·
+    <b>Vistoria</b> é a conferência de rotina do carro que já é nosso, antes de ele sair da loja.
+  </div>
+
+  ${bloco('vistoria')}
+  ${bloco('recebimento')}`;
+}
+
 function paginaTreinamentos() {
   return `
   <p class="trilha"><a href="#/inicio">Início</a> › Treinamentos</p>
@@ -629,6 +686,7 @@ function render() {
   else if (rota === 'cultura') alvo.innerHTML = paginaCultura();
   else if (rota === 'politicas') alvo.innerHTML = paginaPoliticas();
   else if (rota === 'processo') alvo.innerHTML = paginaProcesso();
+  else if (rota === 'checklists') alvo.innerHTML = paginaChecklists();
   else if (rota === 'treinamentos') alvo.innerHTML = paginaTreinamentos();
   else if (rota === 'documentos') alvo.innerHTML = paginaDocumentos();
   else if (rota === 'downloads') alvo.innerHTML = paginaDownloads();
