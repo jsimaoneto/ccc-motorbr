@@ -93,6 +93,30 @@ for l in linhas:
 dados = dict(cultura=cultura, politicas=politicas, disciplina=disciplina,
              termo=texto(102))
 
+# O site nao nomeia pessoas: o manual cita o fundador pelo nome completo, aqui ele
+# vira so o cargo. A regra fica no extrator (e nao no JSON) para o nome nao voltar
+# na proxima extracao; o documento original segue como esta.
+CITA_PESSOA = re.compile(
+    r"\b(fundador|fundadora|CEO|diretor-presidente)\s*,\s*"
+    r"(?:[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõçA-Z]+\s+(?:d[aeo]s?\s+)?){1,4}"
+    r"[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç]+\s*,?",
+    re.UNICODE)
+
+
+def sem_nomes(x):
+    if isinstance(x, str):
+        return CITA_PESSOA.sub(r"\1", x)
+    if isinstance(x, list):
+        return [sem_nomes(i) for i in x]
+    if isinstance(x, dict):
+        return {k: sem_nomes(v) for k, v in x.items()}
+    return x
+
+
+dados = sem_nomes(dados)
+assert not CITA_PESSOA.search(json.dumps(dados, ensure_ascii=False)), \
+    "sobrou uma pessoa citada pelo nome no manual.json"
+
 os.makedirs(os.path.dirname(SAIDA), exist_ok=True)
 with io.open(SAIDA, "w", encoding="utf8", newline="\n") as fh:
     json.dump(dados, fh, ensure_ascii=False, indent=2)
