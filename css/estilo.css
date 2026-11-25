@@ -226,6 +226,10 @@ a.cartao .seta { color: var(--laranja-escuro); font-weight: 600; }
 .selo.u { background: #E8F0F9; color: #2E6FB7; }
 .selo.c { background: var(--laranja-fraco); color: var(--laranja-escuro); }
 .selo.z { background: var(--verde-fraco); color: var(--verde); }
+.selo.repete { background: var(--marinho); color: #fff; }
+.item.e-repetido { background: #F8FAFD; border-left: 3px solid var(--marinho); padding-left: var(--e3); }
+.item.e-repetido .marca-item { color: var(--marinho); }
+.desdobra { display: block; font-size: 13px; color: var(--texto-fraco); margin-top: 3px; }
 
 details.fase { background: var(--papel); border: 1px solid var(--linha); border-radius: var(--raio);
   margin-bottom: var(--e3); overflow: hidden; }

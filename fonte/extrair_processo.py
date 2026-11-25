@@ -10,6 +10,7 @@ import ast, io, json, os
 AQUI = os.path.dirname(os.path.abspath(__file__))
 SAIDA = os.path.join(AQUI, "..", "dados", "processo.json")
 GERAR = r"D:\Claude\manual de emrpesas\+MOTORBR\processo-vendas\gerar.py"
+RECOR = r"D:\Claude\manual de emrpesas\+MOTORBR\processo-vendas\recorrencia.json"
 
 # FASES usa dict(...), que literal_eval recusa; entao executo so essa atribuicao.
 fonte = io.open(GERAR, encoding="utf8").read()
@@ -22,15 +23,36 @@ FASES = espaco["FASES"]
 
 ORIGEM = {"T": "Todos", "U": "Usado", "C": "Consignado", "Z": "Zero km"}
 
+# Classificação único x recorrente, mantida em arquivo separado para não quebrar
+# os geradores de documento, que desempacotam cada item em 3 campos.
+recor = json.load(io.open(RECOR, encoding="utf8"))
+pendentes = list(recor["recorrentes"])
+
+
+def cadencia_de(fase, texto):
+    """Devolve a regra de recorrência do item, ou None se ele for de uma vez só."""
+    for regra in pendentes:
+        if regra["fase"] == fase and regra["casa"] in texto:
+            pendentes.remove(regra)
+            fora = {"fase", "casa"}
+            return {k: v for k, v in regra.items() if k not in fora}
+    return None
+
+
 # ---------------------------------------------------------------- fases
-fases, total = [], 0
+fases, total, n_recorrentes = [], 0, 0
 for f in FASES:
     grupos = []
     for subtitulo, itens in f["grupos"]:
         lista = []
         for texto, quem, origens in itens:
-            lista.append(dict(texto=texto, quem=quem,
-                              origens=[ORIGEM[o] for o in origens]))
+            item = dict(texto=texto, quem=quem,
+                        origens=[ORIGEM[o] for o in origens])
+            regra = cadencia_de(f["n"], texto)
+            if regra:
+                item["repete"] = regra
+                n_recorrentes += 1
+            lista.append(item)
             total += 1
         grupos.append(dict(titulo=subtitulo, itens=lista))
     fases.append(dict(n=f["n"], titulo=f["t"], parte=f.get("parte", ""),
@@ -66,12 +88,20 @@ desconhecidos = sorted({p.strip() for f in fases for g in f["grupos"] for i in g
                         for p in i["quem"].split("/") if p.strip() not in ROTULOS})
 assert not desconhecidos, f"rotulo de responsavel fora do mapa: {desconhecidos}"
 assert total == 125, f"esperava 125 itens, achei {total}"
+# Se o texto de um item mudou em gerar.py, a regra dele nao casa mais: avisa em vez
+# de publicar um site que perdeu a recorrencia em silencio.
+assert not pendentes, ("regra de recorrencia que nao casou com nenhum item "
+                       f"(o texto mudou em gerar.py?): {[p['casa'] for p in pendentes]}")
 
-dados = dict(fases=fases, por_cargo=por_cargo, total=total)
+dados = dict(fases=fases, por_cargo=por_cargo, total=total,
+             recorrentes=n_recorrentes, unicos=total - n_recorrentes,
+             eixos=recor["_eixos"], cadencias=recor["_cadencias"],
+             tipos=recor["_tipos"], por_ocasiao=recor["_por_ocasiao"])
 os.makedirs(os.path.dirname(SAIDA), exist_ok=True)
 with io.open(SAIDA, "w", encoding="utf8", newline="\n") as fh:
     json.dump(dados, fh, ensure_ascii=False, indent=1)
 
-print(f"{len(fases)} fases, {total} itens, {len(por_cargo)} cargos -> processo.json")
+print(f"{len(fases)} fases, {total} itens ({total - n_recorrentes} unicos, "
+      f"{n_recorrentes} recorrentes), {len(por_cargo)} cargos -> processo.json")
 for c, itens in sorted(por_cargo.items(), key=lambda x: -len(x[1])):
     print(f"  {c:10s} {len(itens):3d}")

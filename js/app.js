@@ -239,12 +239,31 @@ function fichaFase(f) {
     `<div><b>${k}</b>${esc(v)}</div>`).join('')}</div>`;
 }
 
+/* Como cada cadência aparece escrita no item */
+const CADENCIA = {
+  '2h': 'de 2 em 2 horas', dia: 'todo dia', sexta: 'toda sexta',
+  segunda: 'toda segunda', '15d': 'a cada 15 dias', mes: 'todo mês',
+  marcos: 'em datas marcadas',
+};
+
+function seloRepete(r) {
+  if (!r) return '';
+  const quando = r.cada === 'marcos'
+    ? (r.marcos || []).join(' · ')
+    : CADENCIA[r.cada] || r.cada;
+  return `<span class="selo repete" title="${esc(r.ate ? 'até ' + r.ate : '')}">↻ ${esc(quando)}</span>`;
+}
+
 function linhaItem(item, comQuem = true) {
   const selos = item.origens.map(o =>
     `<span class="selo ${o[0].toLowerCase()}">${esc(o)}</span>`).join('');
-  return `<div class="item">
-    <span class="marca-item" aria-hidden="true">◦</span>
-    <span class="texto-item">${esc(item.texto)}${selos}</span>
+  return `<div class="item${item.repete ? ' e-repetido' : ''}">
+    <span class="marca-item" aria-hidden="true">${item.repete ? '↻' : '◦'}</span>
+    <span class="texto-item">${esc(item.texto)}${selos}${seloRepete(item.repete)}
+      ${item.repete && item.repete.desdobra ? `<span class="desdobra">Na prática são ${item.repete.desdobra.length} cobranças: ${
+        item.repete.desdobra.map(d => `${esc(d.titulo)} (${CADENCIA[d.cada] || d.cada})`).join(' · ')}</span>` : ''}
+      ${item.repete && item.repete.nota ? `<span class="desdobra">${esc(item.repete.nota)}</span>` : ''}
+    </span>
     ${comQuem ? `<span class="quem">${esc(item.quem)}</span>` : ''}
   </div>`;
 }
@@ -265,6 +284,45 @@ function paginaProcesso() {
     <span class="selo c">Consignado</span> deixado pelo proprietário ·
     <span class="selo z">Zero km</span>.
   </div>
+
+  <section class="bloco" style="margin-top:var(--e6)">
+    <div class="grade">
+      <div class="cartao">
+        <div class="destaque">${D.processo.unicos}</div>
+        <div class="legenda"><b>itens de uma vez só.</b> Acontecem uma vez no ciclo daquele
+          veículo ou daquela venda: avaliar a entrada, conferir a procedência, assinar o contrato,
+          entregar as chaves. Marcou, acabou.</div>
+      </div>
+      <div class="cartao" style="border-color:var(--marinho)">
+        <div class="destaque" style="color:var(--marinho)">${D.processo.recorrentes}</div>
+        <div class="legenda"><b>itens que voltam.</b> Marcou hoje, reaparecem quando vence o prazo:
+          ligar o carro no pátio, cobrar o follow-up, mandar o reporte do dia. No site de operação
+          eles ressurgem sozinhos; aqui aparecem marcados com <span class="selo repete">↻</span>.</div>
+      </div>
+    </div>
+    <table class="tabela" style="margin-top:var(--e4)">
+      <thead><tr><th>Eixo</th><th>O que faz o item voltar</th></tr></thead>
+      <tbody>${Object.entries(D.processo.eixos).map(([k, v]) =>
+        `<tr><td><b>${esc({veiculo: 'Veículo', lead: 'Lead', pessoa: 'Rotina do cargo', pos_venda: 'Pós-venda'}[k] || k)}</b></td>
+         <td>${esc(v)}</td></tr>`).join('')}
+      </tbody>
+    </table>
+
+    <h3 style="margin-top:var(--e6)">E um terceiro tipo: por ocasião</h3>
+    <hr class="filete">
+    <p class="abertura">${esc(D.processo.tipos.ocasiao)}</p>
+    <div class="grade" style="margin-top:var(--e4)">
+      ${D.processo.por_ocasiao.map(o => `
+        <div class="cartao">
+          <p class="rotulo">${o.tipo === 'unico' ? 'Uma vez só' : 'A cada ocasião'}</p>
+          <h4>${esc(o.o_que)}</h4>
+          <p class="legenda">${esc(o.onde)}</p>
+          <p style="font-size:15px;margin:var(--e2) 0 0">
+            ${o.gatilhos.map(g => `<span class="selo t">${esc(g)}</span>`).join(' ')}</p>
+          ${o.nota ? `<p class="legenda" style="margin-top:var(--e2)">${esc(o.nota)}</p>` : ''}
+        </div>`).join('')}
+    </div>
+  </section>
 
   <section class="bloco">
     ${D.processo.fases.map(f => `

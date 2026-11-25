@@ -334,7 +334,14 @@
        "quem": "Motorista",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "veiculo",
+        "cada": "dia",
+        "ate": "o veículo voltar para a loja",
+        "so_quando": "veículo fora da loja em serviço",
+        "nota": "cobra todo dia enquanto o carro está na funilaria, mecânica ou estética"
+       }
       },
       {
        "texto": "Na retirada: conferir o serviço executado contra a ordem de serviço e refazer as fotos",
@@ -471,7 +478,29 @@
        "quem": "Motorista",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "veiculo",
+        "cada": "dia",
+        "ate": "o veículo ser entregue",
+        "so_quando": "veículo no pátio",
+        "desdobra": [
+         {
+          "titulo": "Ligar o veículo e verificar",
+          "cada": "dia"
+         },
+         {
+          "titulo": "Verificação completa do veículo",
+          "cada": "sexta"
+         },
+         {
+          "titulo": "Relatório e estratégia dos veículos parados",
+          "cada": "15d",
+          "eixo": "pessoa"
+         }
+        ],
+        "nota": "o item original junta três cadências numa frase só; aqui vira três cobranças separadas"
+       }
       }
      ]
     },
@@ -483,28 +512,48 @@
        "quem": "Social Media",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "pessoa",
+        "cada": "segunda",
+        "ate": "sempre"
+       }
       },
       {
        "texto": "Na véspera: avisar o Motorista quais veículos subir; até 9h30 o veículo está na área de gravação, preparado",
        "quem": "Social Media / Motorista / Serviços Gerais",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "pessoa",
+        "cada": "dia",
+        "ate": "sempre"
+       }
       },
       {
        "texto": "Gravar das 9h30 às 11h30 (meta de cerca de 10 vídeos em 20 minutos) os tipos de vídeo: 1 consultor apresentando, 2 close com música, 3 curiosidades com voz em off, 4 institucional, 5 histórias da vida profissional",
        "quem": "Social Media / Consultor / CEO",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "pessoa",
+        "cada": "dia",
+        "ate": "sempre"
+       }
       },
       {
        "texto": "A partir das 11h30: edição, programação, roteiros; material bruto guardado para vídeos futuros e reciclados",
        "quem": "Social Media",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "pessoa",
+        "cada": "dia",
+        "ate": "sempre"
+       }
       },
       {
        "texto": "Checklist de 10 itens e semáforo: verde publica; amarelo (preço, parcela, cliente identificado) a Gerência aprova em até 4 h úteis; vermelho (promoção, feirão, parceria) o CEO aprova em até 24 h",
@@ -622,7 +671,14 @@
        "quem": "Pré-Vendas",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "lead",
+        "cada": "dia",
+        "ate": "o lead virar atendimento ou ser marcado como perdido",
+        "limite": 3,
+        "nota": "o processo manda 3 contatos em 7 dias; depois do terceiro, o lead vai para perdido com o motivo"
+       }
       },
       {
        "texto": "Passar ao consultor com todo o contexto no CRM, para o cliente não repetir a história",
@@ -719,14 +775,26 @@
        "quem": "Consultor",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "pessoa",
+        "cada": "dia",
+        "ate": "sempre"
+       }
       },
       {
        "texto": "Follow-up ativo dos clientes em negociação; na mesa redonda, ligação ou videochamada quando ajudar",
        "quem": "Consultor",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "lead",
+        "cada": "2h",
+        "cada_morno": "dia",
+        "ate": "a venda fechar ou a negociação ser encerrada",
+        "nota": "de 2 em 2 horas só enquanto o lead está quente e dentro do expediente; morno e frio cobram uma vez por dia"
+       }
       }
      ]
     }
@@ -757,7 +825,12 @@
        "quem": "Consultor",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "pessoa",
+        "cada": "dia",
+        "ate": "sempre"
+       }
       },
       {
        "texto": "Seguro e acessórios: identificar a oportunidade e encaminhar à profissional responsável",
@@ -1150,28 +1223,60 @@
        "quem": "Automação com IA / CEO",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "pos_venda",
+        "cada": "marcos",
+        "marcos": [
+         "primeira terça depois da entrega"
+        ]
+       }
       },
       {
        "texto": "Contatos de 1, 2 e 3 meses e de 1 ano (projeto em andamento; até a automação, manual)",
        "quem": "Automação com IA / CEO",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "pos_venda",
+        "cada": "marcos",
+        "marcos": [
+         "30 dias",
+         "60 dias",
+         "90 dias",
+         "365 dias"
+        ]
+       }
       },
       {
        "texto": "Confirmar que a transferência foi concluída no prazo",
        "quem": "Ger. Administrativo",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "pos_venda",
+        "cada": "marcos",
+        "marcos": [
+         "30 dias"
+        ],
+        "nota": "prazo legal de transferência (CTB, art. 134)"
+       }
       },
       {
        "texto": "NPS, avaliação online e pedido de indicação",
        "quem": "Consultor / Pré-Vendas",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "pos_venda",
+        "cada": "marcos",
+        "marcos": [
+         "7 dias"
+        ]
+       }
       }
      ]
     },
@@ -1190,7 +1295,12 @@
        "quem": "Ger. Administrativo / Ger. Marketing / CEO",
        "origens": [
         "Todos"
-       ]
+       ],
+       "repete": {
+        "eixo": "pessoa",
+        "cada": "mes",
+        "ate": "sempre"
+       }
       }
      ]
     }
@@ -2909,5 +3019,49 @@
    }
   ]
  },
- "total": 125
+ "total": 125,
+ "recorrentes": 15,
+ "unicos": 110,
+ "eixos": {
+  "veiculo": "repete enquanto aquele veículo está no pátio; para quando sai da loja ou é entregue",
+  "lead": "repete enquanto aquela negociação está aberta; para quando fecha ou é marcada como perdida",
+  "pessoa": "rotina do cargo, não depende de veículo nem de cliente; repete sempre",
+  "pos_venda": "disparado pela entrega, em marcos fixos; some depois do último marco"
+ },
+ "cadencias": {
+  "2h": "de 2 em 2 horas, só em dia útil das 8h às 18h",
+  "dia": "uma vez por dia útil",
+  "sexta": "toda sexta-feira",
+  "segunda": "toda segunda-feira",
+  "15d": "a cada 15 dias",
+  "mes": "uma vez por mês",
+  "marcos": "em datas fixas contadas da entrega"
+ },
+ "tipos": {
+  "unico": "uma vez só no ciclo daquele veículo ou daquela venda. Marcou, acabou.",
+  "tempo": "volta sozinho quando vence o prazo, enquanto a condição durar.",
+  "ocasiao": "volta toda vez que acontece um gatilho, sem hora marcada: a vistoria do veículo é refeita antes de cada test drive, translado, entrega e devolução. Não adianta prazo, porque pode acontecer três vezes num dia ou nenhuma na semana."
+ },
+ "por_ocasiao": [
+  {
+   "o_que": "Checklist de vistoria do veículo (78 itens)",
+   "onde": "site do fluxograma, aba Vistoria da ficha do veículo",
+   "gatilhos": [
+    "antes do test drive",
+    "antes do translado",
+    "antes da entrega ao cliente",
+    "na devolução"
+   ],
+   "nota": "não entra na caixa Para hoje por prazo: é o evento que chama a folha, não o relógio"
+  },
+  {
+   "o_que": "Checklist de recebimento do veículo (40 itens)",
+   "onde": "site do fluxograma, aba Recebimento da ficha",
+   "gatilhos": [
+    "chegada do veículo comprado"
+   ],
+   "tipo": "unico",
+   "nota": "avaliação técnica de compra: acontece uma vez, na entrada"
+  }
+ ]
 }
