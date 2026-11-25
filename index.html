@@ -9,9 +9,25 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/estilo.css?v=9">
+<link rel="stylesheet" href="css/estilo.css?v=10">
 </head>
-<body>
+<body class="travado">
+
+<!-- ------------------------------------------------------------- tela de senha -->
+<div id="tela-senha">
+  <form class="caixa-senha" id="form-senha">
+    <img class="logo-login" src="img/logo-motorbr.png" alt="+Motor BR">
+    <div class="marca">ccc<b>+</b>motorbr</div>
+    <p>Manual, cargos e processos da +Motor BR</p>
+    <input type="password" id="campo-senha" placeholder="senha" autocomplete="current-password" autofocus>
+    <button class="botao" type="submit">Entrar</button>
+    <div id="erro-senha">Senha incorreta.</div>
+    <div class="aviso-senha">
+      <b>Atenção:</b> esta senha é apenas um obstáculo visual, não é segurança de verdade. Os arquivos
+      ligados aqui continuam abertos a quem tiver o link direto do Google Drive.
+    </div>
+  </form>
+</div>
 
 <header class="topo">
   <button class="abrir-menu" id="abrir-menu" aria-label="Abrir o menu" aria-expanded="false">☰</button>
@@ -49,6 +65,6 @@
   </div>
 </footer>
 
-<script src="js/app.js?v=9"></script>
+<script src="js/app.js?v=10"></script>
 </body>
 </html>

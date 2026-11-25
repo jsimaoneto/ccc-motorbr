@@ -802,7 +802,35 @@ function ligarEventos() {
   });
 }
 
+/* ------------------------------------------------------------------ senha
+   Mesmo obstáculo e mesma senha do site operacional (motorbrfluxograma): segura
+   quem chega por acaso, não quem quer entrar. Vale por aba: fechou, pede de novo.
+   Os arquivos do Drive continuam abertos a quem tiver o link direto. */
+const SENHA_PADRAO = 'motorbr2026';
+
+async function hash(txt) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(txt));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+function entrar() {
+  sessionStorage.setItem('cccmotorbr_ok', '1');
+  $('#tela-senha').remove();
+  document.body.classList.remove('travado');
+  iniciar();
+}
+
+$('#form-senha').onsubmit = async e => {
+  e.preventDefault();
+  if (await hash($('#campo-senha').value) === await hash(SENHA_PADRAO)) return entrar();
+  $('#erro-senha').style.display = 'block';
+  $('#campo-senha').value = '';
+};
+
+if (sessionStorage.getItem('cccmotorbr_ok')) entrar();
+
 /* ------------------------------------------------------------------ início */
+function iniciar() {
 carregar().then(() => {
   montarMenu();
   montarIndice();
@@ -814,3 +842,4 @@ carregar().then(() => {
     <p class="legenda">Este site lê arquivos JSON; abra por um servidor (ou pelo link publicado),
        não direto do disco.</p>`;
 });
+}

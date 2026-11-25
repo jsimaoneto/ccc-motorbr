@@ -333,3 +333,42 @@ details.fase .miolo { padding: var(--e5); }
 .lista-ck { margin: 0; padding-left: var(--e5); }
 .lista-ck li { margin-bottom: 5px; font-size: 14.5px; }
 .lista-ck li::marker { color: var(--laranja); }
+
+/* ------------------------------------------------------------- tela de senha
+   Mesmo obstáculo do site operacional (motorbrfluxograma): a senha é a mesma e
+   vale por aba do navegador. Não protege os arquivos do Drive, que seguem por link. */
+body.travado > .topo, body.travado > .corpo, body.travado > .rodape { display: none; }
+#tela-senha {
+  position: fixed; inset: 0; z-index: 999; padding: 24px;
+  display: flex; align-items: center; justify-content: center;
+  background:
+    radial-gradient(90% 70% at 80% 10%, rgba(255,90,0,.20) 0%, transparent 55%),
+    radial-gradient(120% 90% at 20% 90%, var(--marinho-claro) 0%, var(--marinho-fundo) 70%);
+}
+.caixa-senha {
+  background: var(--papel); border-radius: 20px; padding: 38px 32px;
+  width: 100%; max-width: 380px; text-align: center;
+  box-shadow: 0 18px 50px rgba(6,18,35,.45);
+}
+.caixa-senha .logo-login { height: 42px; margin-bottom: 16px; }
+.caixa-senha .marca { font-size: 25px; font-weight: 700; letter-spacing: -.02em; color: var(--marinho); }
+.caixa-senha .marca b { color: var(--laranja); }
+.caixa-senha p { color: var(--texto-fraco); font-size: 13px; margin: 4px 0 22px; }
+.caixa-senha input {
+  width: 100%; margin-bottom: 12px; text-align: center; letter-spacing: .15em;
+  padding: 11px 14px; border: 1px solid var(--linha-forte); border-radius: 10px;
+  font: inherit; font-size: 15px; color: var(--texto); background: var(--papel);
+}
+.caixa-senha input:focus { outline: 2px solid var(--laranja); outline-offset: 1px; border-color: transparent; }
+.caixa-senha .botao {
+  width: 100%; padding: 11px 16px; border: 0; border-radius: 10px; cursor: pointer;
+  background: var(--laranja-escuro); color: #fff; font: inherit; font-size: 14.5px; font-weight: 600;
+}
+.caixa-senha .botao:hover { background: var(--laranja); }
+#erro-senha { color: #C0392B; font-size: 12px; margin-top: 10px; display: none; }
+.aviso-senha {
+  margin-top: 20px; padding: 11px 13px; border-radius: 10px; text-align: left;
+  background: var(--laranja-fraco); color: var(--texto-fraco);
+  font-size: 11.5px; line-height: 1.5;
+}
+.aviso-senha b { color: var(--laranja-escuro); }
