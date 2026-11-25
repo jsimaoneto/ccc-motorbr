@@ -1,84 +1,284 @@
 {
- "pasta": "https://drive.google.com/drive/folders/1fpgUZu0NcZXrn_PFRhDkNqL0EgaHSkIR",
- "grupos": [
-  {
-   "titulo": "Manual e processo",
-   "nota": "O documento oficial da empresa e o guia do processo de vendas.",
-   "arquivos": [
-    {"nome": "Manual Organizacional ABNT v1.2", "ext": "docx", "id": "1gD4bT60eMt-NpsvPX1UWTLn_hoioGjPH", "tam": "139 KB"},
-    {"nome": "Manual Organizacional ABNT v1.2", "ext": "pdf", "id": "1rAVAJkQwL3iUNrS_qStI6rQpoNtTFMqQ", "tam": "1,4 MB"},
-    {"nome": "Manual Guia do Processo de Vendas", "ext": "pdf", "id": "1xRVugon3e9zpMnn2F2smfx88G6P7AgId", "tam": "3,2 MB"},
-    {"nome": "Resumo CBO e Checklists de Cargos", "ext": "pdf", "id": "1GyyrwC34TiUqu4Jvx_2XrrTwp5XLatn5", "tam": "4,7 MB"}
-   ]
-  },
-  {
-   "titulo": "Fluxogramas do processo de vendas",
-   "nota": "O geral, o atual e um por cargo que tem item no processo.",
-   "arquivos": [
-    {"nome": "Fluxograma Geral", "ext": "docx", "id": "1j8GQN9AKdjecY4qY166hOJJhblPODYs0"},
-    {"nome": "Fluxograma Atual", "ext": "docx", "id": "1P31N9LEBG4Vofdfmb6_KBAuBNMuINDOT"},
-    {"nome": "Consultor de Vendas", "ext": "docx", "id": "1145eewSYDkzzsabbMnqDkS_Z0_3w6j9d"},
-    {"nome": "Pré-Vendas (SDR)", "ext": "docx", "id": "1eYdvWFZeO-M1C75kwvQTfXvzdG9soEiu"},
-    {"nome": "Diretor-Presidente (CEO)", "ext": "docx", "id": "1PJ_Y-kJ4QXCisVeisFD_eMkZp2Cd0vB3"},
-    {"nome": "Gerente Administrativo", "ext": "docx", "id": "1NSJbEcrp5p6UI7ID_U7EW2mW57p9Wkgi"},
-    {"nome": "Gerente de Marketing", "ext": "docx", "id": "1SmnUTYzuEe9c68B30zin1mzgPqBygYKR"},
-    {"nome": "Motorista", "ext": "docx", "id": "1C3K96S2xoyOpTXE6WOF4WGpWVoTBP64h"},
-    {"nome": "Analista de Financiamento e Documentação", "ext": "docx", "id": "1CFpS2ooRF7B_CzbjbdR2FvvSPSFkIEt_"},
-    {"nome": "Assistente de Consignação e Captação", "ext": "docx", "id": "1ScKq1Dl5ZhkaYXa7DYM5TFd7reUZ-5Mt"},
-    {"nome": "Auxiliar de Serviços Gerais", "ext": "docx", "id": "1mxEKdcRb0UseXe_cYhlvOMaL3f9FC8Xu"},
-    {"nome": "Social Media", "ext": "docx", "id": "1usM2SrklW23_0NHLUDlusE030Nrg2mBe"},
-    {"nome": "Fotógrafo (Social Media)", "ext": "docx", "id": "1Efw6aRKCw-mKTtlWKAS51pFCEFXr66T-"}
-   ]
-  },
-  {
-   "titulo": "Programas de treinamento (v2)",
-   "nota": "Um por cargo: módulos, carga horária, erros comuns e quiz.",
-   "arquivos": [
-    {"nome": "01 · Consultor de Vendas", "ext": "docx", "id": "1g5kzbnwbQNmmfZQTEkTWHAkzqkR1ylEB"},
-    {"nome": "02 · Analista de Financiamento e Documentação", "ext": "docx", "id": "1WeCNJdQr4Kg6dbow-p1qGXs8cboVkC5m"},
-    {"nome": "03 · Assistente de Consignação e Captação", "ext": "docx", "id": "1TenPDFaN_tyzfEVqMncZ7mO-0ooUWG9N"},
-    {"nome": "04 · Pré-Vendas (SDR)", "ext": "docx", "id": "1qIqcMbbidfzRzNN62jIEG0s_skLJCiAK"},
-    {"nome": "05 · Atendente de Recepção", "ext": "docx", "id": "1P_PHvPJxbFZuZ39U2yE76FAODoHVV1y4"},
-    {"nome": "06 · Assistente Administrativo", "ext": "docx", "id": "1-B_3i94Fcrusg0R6l9Lf8vp5bihKOxkB"},
-    {"nome": "07 · Assistente de Recursos Humanos", "ext": "docx", "id": "1IKVSebR2_4l6rSP-TYv8_5OUHOVDelvl"},
-    {"nome": "08 · Motorista", "ext": "docx", "id": "1VjZMzhLt9W8erpV5hSR1eL4QTI-mclwP"},
-    {"nome": "09 · Auxiliar de Serviços Gerais", "ext": "docx", "id": "1ZGkmrgCBUPVTryZUsADFUV5CLkQbWwAu"},
-    {"nome": "10 · Diretor-Presidente (CEO)", "ext": "docx", "id": "1No6SOG0uI2EF6LQNnb1N_-gItfdLmWN0"},
-    {"nome": "11 · Gerente Administrativo", "ext": "docx", "id": "1u7YJwEpR6D6ZXto28p7rx5oMaz26YtAZ"},
-    {"nome": "12 · Gerente de Marketing", "ext": "docx", "id": "1tfW5i_mRtPrcpYp-4PX96WOj66y6pL5s"},
-    {"nome": "13 · Social Media", "ext": "docx", "id": "1lpACcNQKCffIOVKM4MV8qwm_Zp3kxK42"}
-   ]
-  },
-  {
-   "titulo": "Apostilas Aplicação Dia 1",
-   "nota": "O que a pessoa precisa saber no primeiro dia, nos cargos que já têm.",
-   "arquivos": [
-    {"nome": "01 · Consultor de Vendas", "ext": "docx", "id": "1ygfo1Y8b6IEYqiOd8g1HsVL0lIr9Fq7d"},
-    {"nome": "02 · Analista de Financiamento e Documentação", "ext": "docx", "id": "1x1hnT7NLpo5sFAcJQZfKjP6YvTWUj0JF"},
-    {"nome": "03 · Assistente de Consignação e Captação", "ext": "docx", "id": "1Jchlx4j-yXfcRi-mBPnRerHAezBVU8Kv"},
-    {"nome": "05 · Atendente de Recepção", "ext": "docx", "id": "1H2cdyppgHsiBChVkuvpi-nZLBjcUCRo4"},
-    {"nome": "08 · Motorista", "ext": "docx", "id": "1p8tggJ-Ou2tEzs_HDQg0HkN_eXiJaEdI"},
-    {"nome": "11 · Gerente Administrativo", "ext": "docx", "id": "1bLTWC2ZRkq8h31Kcr5ebU_naemAcs-cf"}
-   ]
-  },
-  {
-   "titulo": "Roteiros de vídeo-palestra (estúdio)",
-   "nota": "Material de gravação, não de consulta da equipe.",
-   "arquivos": [
-    {"nome": "Consultor de Vendas", "ext": "docx", "id": "1kh9249hSAlw8ZvOlgy1elesoOob4GuDy"},
-    {"nome": "Analista de Financiamento", "ext": "docx", "id": "1W0MeFXpMiB8Uqk-eZGJErWfCuuZPPAZv"},
-    {"nome": "Consignação e Captação", "ext": "docx", "id": "1K9W4xMHbe0xSqxVG9UwZq0zOlq1Rghys"},
-    {"nome": "Pré-Vendas (SDR)", "ext": "docx", "id": "1eN5U_o2WUJdZps4PKNZvJC12LScS0TH9"},
-    {"nome": "Atendente de Recepção", "ext": "docx", "id": "1u3_d843ZV6BwP8pdxNLzlyoP3NxepUzL"},
-    {"nome": "Assistente Administrativo", "ext": "docx", "id": "1_V2EWHaHF58H35FnevL9zeafZI-5ELgb"},
-    {"nome": "Assistente de RH", "ext": "docx", "id": "17IqMcZl6kF3W_34k9b_H0LPu0HTf_zS5"},
-    {"nome": "Motorista", "ext": "docx", "id": "1XpxHRyrk0eg7S-Fj92jUddKMBgOtu_hi"},
-    {"nome": "Auxiliar de Serviços Gerais", "ext": "docx", "id": "13Hqo6sDv_4Fd82XDMY0LDlzO9wJCBna3"},
-    {"nome": "Diretor-Presidente (CEO)", "ext": "docx", "id": "17tGC4DSwQqNHTlLlUvU4W8kYjj0i67Ry"},
-    {"nome": "Gerente Administrativo", "ext": "docx", "id": "1LhVWCNR8diCUVISjQ_uxZZwk2oEd7A1m"},
-    {"nome": "Gerente de Marketing", "ext": "docx", "id": "1rq4b-2_WwVUwVWddnf13HTnKmfdC234j"},
-    {"nome": "Social Media", "ext": "docx", "id": "1MRIluGzUR5PetHWbIaHT7qNyE6iAXSEw"}
-   ]
-  }
- ]
+  "pasta": "https://drive.google.com/drive/folders/1fpgUZu0NcZXrn_PFRhDkNqL0EgaHSkIR",
+  "grupos": [
+    {
+      "titulo": "Manual e processo",
+      "nota": "O documento oficial da empresa e o guia do processo de vendas.",
+      "arquivos": [
+        {
+          "nome": "Manual Organizacional ABNT v1.2",
+          "ext": "docx",
+          "id": "1gD4bT60eMt-NpsvPX1UWTLn_hoioGjPH",
+          "tam": "139 KB"
+        },
+        {
+          "nome": "Manual Organizacional ABNT v1.2",
+          "ext": "pdf",
+          "id": "1rAVAJkQwL3iUNrS_qStI6rQpoNtTFMqQ",
+          "tam": "1,4 MB"
+        },
+        {
+          "nome": "Manual Guia do Processo de Vendas",
+          "ext": "pdf",
+          "id": "1xRVugon3e9zpMnn2F2smfx88G6P7AgId",
+          "tam": "3,2 MB"
+        },
+        {
+          "nome": "Resumo CBO e Checklists de Cargos",
+          "ext": "pdf",
+          "id": "1GyyrwC34TiUqu4Jvx_2XrrTwp5XLatn5",
+          "tam": "4,7 MB"
+        }
+      ]
+    },
+    {
+      "titulo": "Fluxogramas do processo de vendas",
+      "nota": "O geral, o atual e um por cargo que tem item no processo.",
+      "arquivos": [
+        {
+          "nome": "Fluxograma Geral",
+          "ext": "docx",
+          "id": "1j8GQN9AKdjecY4qY166hOJJhblPODYs0"
+        },
+        {
+          "nome": "Fluxograma Atual",
+          "ext": "docx",
+          "id": "1P31N9LEBG4Vofdfmb6_KBAuBNMuINDOT"
+        },
+        {
+          "nome": "Consultor de Vendas",
+          "ext": "docx",
+          "id": "1dXcrfpWb0ZmCJpQMrxlgW1AXYN51zpYl"
+        },
+        {
+          "nome": "Pré-Vendas (SDR)",
+          "ext": "docx",
+          "id": "1Htj2XphPx7z5wknLP3HUmLJR38kYkekP"
+        },
+        {
+          "nome": "Diretor-Presidente (CEO)",
+          "ext": "docx",
+          "id": "1Y29Dr_2dlWjNxBzdFibBBTtZrhETEdg-"
+        },
+        {
+          "nome": "Gerente Administrativo",
+          "ext": "docx",
+          "id": "1ws4plKHBkniI1BcCCqdkRRa_uu92N1dJ"
+        },
+        {
+          "nome": "Gerente de Marketing",
+          "ext": "docx",
+          "id": "14DNXWQDBCGzoMGK1wT92lFmWTe_EmhBz"
+        },
+        {
+          "nome": "Motorista",
+          "ext": "docx",
+          "id": "1jRhgg_s15rd7rJku4V5Foeh_XLoWEv71"
+        },
+        {
+          "nome": "Analista de Financiamento e Documentação",
+          "ext": "docx",
+          "id": "1RL1o3LFSQ1Rj02dwZCib9Z_5G9-Z3AE8"
+        },
+        {
+          "nome": "Assistente de Consignação e Captação",
+          "ext": "docx",
+          "id": "1KxbBNLfFgovm1f1hjOhedwKG8TLE41dU"
+        },
+        {
+          "nome": "Auxiliar de Serviços Gerais",
+          "ext": "docx",
+          "id": "1pBwP-g-D6qEKipMpEO19MVA1VvRO0HhP"
+        },
+        {
+          "nome": "Social Media",
+          "ext": "docx",
+          "id": "1EzTbcM_j1h0nxxzkGDc1ys3d57-CsYXT"
+        },
+        {
+          "nome": "Fotógrafo (Social Media)",
+          "ext": "docx",
+          "id": "15MNJn768LTG0dv1SbMgos15i59bMOMOQ"
+        }
+      ]
+    },
+    {
+      "titulo": "Programas de treinamento (v2)",
+      "nota": "Um por cargo: módulos, carga horária, erros comuns e quiz.",
+      "arquivos": [
+        {
+          "nome": "01 · Consultor de Vendas",
+          "ext": "docx",
+          "id": "1g5kzbnwbQNmmfZQTEkTWHAkzqkR1ylEB"
+        },
+        {
+          "nome": "02 · Analista de Financiamento e Documentação",
+          "ext": "docx",
+          "id": "1WeCNJdQr4Kg6dbow-p1qGXs8cboVkC5m"
+        },
+        {
+          "nome": "03 · Assistente de Consignação e Captação",
+          "ext": "docx",
+          "id": "1TenPDFaN_tyzfEVqMncZ7mO-0ooUWG9N"
+        },
+        {
+          "nome": "04 · Pré-Vendas (SDR)",
+          "ext": "docx",
+          "id": "1qIqcMbbidfzRzNN62jIEG0s_skLJCiAK"
+        },
+        {
+          "nome": "05 · Atendente de Recepção",
+          "ext": "docx",
+          "id": "1P_PHvPJxbFZuZ39U2yE76FAODoHVV1y4"
+        },
+        {
+          "nome": "06 · Assistente Administrativo",
+          "ext": "docx",
+          "id": "1-B_3i94Fcrusg0R6l9Lf8vp5bihKOxkB"
+        },
+        {
+          "nome": "07 · Assistente de Recursos Humanos",
+          "ext": "docx",
+          "id": "1IKVSebR2_4l6rSP-TYv8_5OUHOVDelvl"
+        },
+        {
+          "nome": "08 · Motorista",
+          "ext": "docx",
+          "id": "1VjZMzhLt9W8erpV5hSR1eL4QTI-mclwP"
+        },
+        {
+          "nome": "09 · Auxiliar de Serviços Gerais",
+          "ext": "docx",
+          "id": "1ZGkmrgCBUPVTryZUsADFUV5CLkQbWwAu"
+        },
+        {
+          "nome": "10 · Diretor-Presidente (CEO)",
+          "ext": "docx",
+          "id": "1No6SOG0uI2EF6LQNnb1N_-gItfdLmWN0"
+        },
+        {
+          "nome": "11 · Gerente Administrativo",
+          "ext": "docx",
+          "id": "1u7YJwEpR6D6ZXto28p7rx5oMaz26YtAZ"
+        },
+        {
+          "nome": "12 · Gerente de Marketing",
+          "ext": "docx",
+          "id": "1tfW5i_mRtPrcpYp-4PX96WOj66y6pL5s"
+        },
+        {
+          "nome": "13 · Social Media",
+          "ext": "docx",
+          "id": "1lpACcNQKCffIOVKM4MV8qwm_Zp3kxK42"
+        }
+      ]
+    },
+    {
+      "titulo": "Apostilas Aplicação Dia 1",
+      "nota": "O que a pessoa precisa saber no primeiro dia, nos cargos que já têm.",
+      "arquivos": [
+        {
+          "nome": "01 · Consultor de Vendas",
+          "ext": "docx",
+          "id": "1ygfo1Y8b6IEYqiOd8g1HsVL0lIr9Fq7d"
+        },
+        {
+          "nome": "02 · Analista de Financiamento e Documentação",
+          "ext": "docx",
+          "id": "1x1hnT7NLpo5sFAcJQZfKjP6YvTWUj0JF"
+        },
+        {
+          "nome": "03 · Assistente de Consignação e Captação",
+          "ext": "docx",
+          "id": "1Jchlx4j-yXfcRi-mBPnRerHAezBVU8Kv"
+        },
+        {
+          "nome": "05 · Atendente de Recepção",
+          "ext": "docx",
+          "id": "1H2cdyppgHsiBChVkuvpi-nZLBjcUCRo4"
+        },
+        {
+          "nome": "08 · Motorista",
+          "ext": "docx",
+          "id": "1p8tggJ-Ou2tEzs_HDQg0HkN_eXiJaEdI"
+        },
+        {
+          "nome": "11 · Gerente Administrativo",
+          "ext": "docx",
+          "id": "1bLTWC2ZRkq8h31Kcr5ebU_naemAcs-cf"
+        }
+      ]
+    },
+    {
+      "titulo": "Roteiros de vídeo-palestra (estúdio)",
+      "nota": "Material de gravação, não de consulta da equipe.",
+      "arquivos": [
+        {
+          "nome": "Consultor de Vendas",
+          "ext": "docx",
+          "id": "1kh9249hSAlw8ZvOlgy1elesoOob4GuDy"
+        },
+        {
+          "nome": "Analista de Financiamento",
+          "ext": "docx",
+          "id": "1W0MeFXpMiB8Uqk-eZGJErWfCuuZPPAZv"
+        },
+        {
+          "nome": "Consignação e Captação",
+          "ext": "docx",
+          "id": "1K9W4xMHbe0xSqxVG9UwZq0zOlq1Rghys"
+        },
+        {
+          "nome": "Pré-Vendas (SDR)",
+          "ext": "docx",
+          "id": "1eN5U_o2WUJdZps4PKNZvJC12LScS0TH9"
+        },
+        {
+          "nome": "Atendente de Recepção",
+          "ext": "docx",
+          "id": "1u3_d843ZV6BwP8pdxNLzlyoP3NxepUzL"
+        },
+        {
+          "nome": "Assistente Administrativo",
+          "ext": "docx",
+          "id": "1_V2EWHaHF58H35FnevL9zeafZI-5ELgb"
+        },
+        {
+          "nome": "Assistente de RH",
+          "ext": "docx",
+          "id": "17IqMcZl6kF3W_34k9b_H0LPu0HTf_zS5"
+        },
+        {
+          "nome": "Motorista",
+          "ext": "docx",
+          "id": "1XpxHRyrk0eg7S-Fj92jUddKMBgOtu_hi"
+        },
+        {
+          "nome": "Auxiliar de Serviços Gerais",
+          "ext": "docx",
+          "id": "13Hqo6sDv_4Fd82XDMY0LDlzO9wJCBna3"
+        },
+        {
+          "nome": "Diretor-Presidente (CEO)",
+          "ext": "docx",
+          "id": "17tGC4DSwQqNHTlLlUvU4W8kYjj0i67Ry"
+        },
+        {
+          "nome": "Gerente Administrativo",
+          "ext": "docx",
+          "id": "1LhVWCNR8diCUVISjQ_uxZZwk2oEd7A1m"
+        },
+        {
+          "nome": "Gerente de Marketing",
+          "ext": "docx",
+          "id": "1rq4b-2_WwVUwVWddnf13HTnKmfdC234j"
+        },
+        {
+          "nome": "Social Media",
+          "ext": "docx",
+          "id": "1MRIluGzUR5PetHWbIaHT7qNyE6iAXSEw"
+        }
+      ]
+    }
+  ]
 }
