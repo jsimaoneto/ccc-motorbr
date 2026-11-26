@@ -1,27 +1,100 @@
 {
- "pasta": "https://drive.google.com/drive/folders/1fpgUZu0NcZXrn_PFRhDkNqL0EgaHSkIR",
- "pasta_docs": "https://drive.google.com/drive/folders/1HBLuIbmXGoi6g99dYp10MQskl7f1uMY8",
- "geral": [
-  {"titulo": "Manual Organizacional ABNT (v1.2)", "tipo": "Google Docs", "id": "1jFfNgIIMjMoY1MO-UAEIPJ4TIKpsJPc1kU_DMoKGDYQ", "nota": "manual completo, 13 cargos"},
-  {"titulo": "Manual Organizacional ABNT (PDF)", "tipo": "PDF", "id": "1rAVAJkQwL3iUNrS_qStI6rQpoNtTFMqQ", "nota": "versão com a paginação certa"},
-  {"titulo": "Manual Guia do Processo de Vendas", "tipo": "PDF", "id": "1xRVugon3e9zpMnn2F2smfx88G6P7AgId", "nota": "as 13 fases impressas"},
-  {"titulo": "Resumo CBO e Checklists de Cargos", "tipo": "PDF", "id": "1GyyrwC34TiUqu4Jvx_2XrrTwp5XLatn5", "nota": "um resumo por cargo"},
-  {"titulo": "Fluxograma Geral do Processo de Vendas", "tipo": "Google Docs", "id": "1t0VlHiFcfw2R60rMklHUEfdmI21G6Bp7xQuppVMqlcQ", "nota": "125 itens em 13 fases"},
-  {"titulo": "Fluxograma Atual do Processo de Vendas", "tipo": "Google Docs", "id": "1gnMLmTxQ2Ydq0LM7RT33-wfrD6Cirqt4RRt8aquU2B8", "nota": "visão do que já está em uso"}
- ],
- "por_cargo": {
-  "consultor":  {"fluxograma": "1PyAfYI3h--ift1wC4ckJvGgSTut5VGe2kBUxtRU1Lt4", "treinamento": "1KN73qhtLLG5jXhGZR4Kidr8LEqgvO3VGchx3DdFgzjc", "roteiro": "1_6orCAOlArCKnjT2f9EqnP6kGbpoU6wTEbk1gasUWHI", "dia1": "1kMZGbo_WwSZ3NwMb8oj5mh8gG7hEHBHdWYIZpbpI1PI"},
-  "financ":     {"fluxograma": "1spzRt6JSiWMq4StqyeHkotO5Qg1OxXajwN-S-mA59t8", "treinamento": "1nbLjT27305SBaMcwrD2CgsfUSMmblPhNpk3kGPApR6c", "roteiro": "1IcMwS9YDMbyZOJNZ3x-VaqHWnWxiLZsxPPUFgU6Ur_M", "dia1": "1sEcarZhpvP5-WUQ036vAbU3fRkJRNP11UrG7K7wkUXI"},
-  "consig":     {"fluxograma": "1X1gRZrYhEifRkwBJrOi_scGBJXVSXxErtVOyohmzgrU", "treinamento": "1wGl0uRtvH1d1hvL34E3cPoGD1R6B4tvDxqiKJTlRiUA", "roteiro": "15nwBETJzmR2DrIRCenQWemS5yUzWiixxOwhn02d-a8c", "dia1": "1rCuY3UT1qtZttnFEFZd_QoCD8gYDdlDwIheQngS4wkc"},
-  "sdr":        {"fluxograma": "1_HlvxPH1tVs5oiQFsdGIufEwUcUbYr8JydbJCJTEVqo", "treinamento": "1g4N2ShUFW6ov5AiICCEztEQCoAjRzx0K9yYVvkjOIho", "roteiro": "1gm4JjfrKkknp5TtXAse_-qchAwgqbo2RUq5latNttT0"},
-  "recep":      {"treinamento": "1bzpbcQIhH2xUJlwlYybCtxUpKSt6BJ-N-NajzD3VbmU", "roteiro": "1jkk6OHXNaC3Lqquhds3ZlsZEPPg6lTvJ6pHKlwA6lG8", "dia1": "17Gnq7PQe3hGJztyVcgYUfftGU4RQeLH-2J9PEezdnRI"},
-  "assadm":     {"treinamento": "10wQP6y52ng9AGd882OCfk4DdGHEdLg_TsQPkLriBYiY", "roteiro": "1Jx_n-zmOqaiXk9LxfdbYMYuD49tFb-PRl9j25HODX1E"},
-  "rh":         {"treinamento": "19F9K9M8UaVqhY5aQhbfW_bXq0qLV1r3sOMnOWxFqH8Y", "roteiro": "1rFMkge3qXFehj-UVb6yNeVxc3fhF6BSZmXOvgiyMDV0"},
-  "motorista":  {"fluxograma": "1Gvp5WtLYkaUdl7mfhxU2dLIWhGinWI2b7Y1Nq1qKxGE", "treinamento": "1p_nnYSnJhV9ctsdESI8zIHzxta8fpb80unwTzI7lQrg", "roteiro": "15nWAn7fuPrEyErxAMLUhK8LXCBfUKP13ws4n5x_sAN4", "dia1": "1rnMzBghaUUwo8RsJeOGnj-22k67RJH-YWSxs9IKQQSc"},
-  "asg":        {"fluxograma": "14DRlbEzxKBkKMofZA7s8cDirGJnBBDFpNKEeiXIbiiE", "treinamento": "1fJNvIre0uTRDljetUYVIBkeNumZXupvGlHEPuMv2Alg", "roteiro": "11lpyANsT3JhICLDbCZGOpyncwOkMulo_9QiNiueG-9c"},
-  "ceo":        {"fluxograma": "1Ipybs42SYdkOPVzCdS0gjcik32pGPlYIk6MgOq8Z_PQ", "treinamento": "1BubS7JigCTLdv-luOhfduV5ABSEB4gG_m2UOhP9zCp0", "roteiro": "1BPNgQ7R5_7p_Vy-n9V3XKYG3KqnmcVzATwr_oXYEzTk"},
-  "gadm":       {"fluxograma": "164BLjYBhGOwNSH0BcSDd_DsU-dQcrgll-FSCpfW0rUw", "treinamento": "12qXTI50VLHWhN1QGP2XhRL8w4ieuaW4fKnQm4iDiRIA", "roteiro": "1icYHEisWYbRSA_trEQutmCelafe3c4ZB1uTdD0xMdt4", "dia1": "1MkioQMoN5-TLoQUwtGl9QPYerFms2pmsX3taVEBetcg"},
-  "gmkt":       {"fluxograma": "1EEfgVq-efdFVqKq5Pq9oyhatktwF-Aqw3-Eu5jZv8iU", "treinamento": "1Lklf0650T8QcTXK-h75VFFunr-_S95DqcnsRkbFfLX4", "roteiro": "1dL4RqE-lqlEnCyTKgKo8tBTW4CGZaWTlgB4xbAJz35A"},
-  "social":     {"fluxograma": "1SRYhn4hoQhCiyjXrd3Wru6uMOECWUt6ekm8OYuZhOnk", "treinamento": "1ivGm78VihDAa3rjKkRO9hc74dEZP_Y99hBZL5z2qHS0", "roteiro": "1jpXumZ2q7ZfXLgR2a5IOyeMsvVrEG_EPENFLuZ0xjl4", "fluxograma_extra": {"id": "1tEOkIwpwDNgwQWfHUEj-uM8V36HxSIVMK8EHm-9OcEY", "titulo": "Fluxograma do Fotógrafo"}}
- }
+  "pasta": "https://drive.google.com/drive/folders/1fpgUZu0NcZXrn_PFRhDkNqL0EgaHSkIR",
+  "pasta_docs": "https://drive.google.com/drive/folders/1HBLuIbmXGoi6g99dYp10MQskl7f1uMY8",
+  "geral": [
+    {
+      "titulo": "Manual Organizacional ABNT (v1.2)",
+      "tipo": "Google Docs",
+      "id": "1jFfNgIIMjMoY1MO-UAEIPJ4TIKpsJPc1kU_DMoKGDYQ",
+      "nota": "manual completo, 13 cargos"
+    },
+    {
+      "titulo": "Manual Organizacional ABNT (PDF)",
+      "tipo": "PDF",
+      "id": "1rAVAJkQwL3iUNrS_qStI6rQpoNtTFMqQ",
+      "nota": "versão com a paginação certa"
+    },
+    {
+      "titulo": "Manual Guia do Processo de Vendas",
+      "tipo": "PDF",
+      "id": "1xRVugon3e9zpMnn2F2smfx88G6P7AgId",
+      "nota": "as 13 fases impressas"
+    },
+    {
+      "titulo": "Resumo CBO e Checklists de Cargos",
+      "tipo": "PDF",
+      "id": "1GyyrwC34TiUqu4Jvx_2XrrTwp5XLatn5",
+      "nota": "um resumo por cargo"
+    },
+    {
+      "titulo": "Fluxograma Geral do Processo de Vendas",
+      "tipo": "Google Docs",
+      "id": "1fWb3Pf1q1fyIy_LDQ-5QKV1pDfWJowhvlg88T8wd16g",
+      "nota": "125 itens em 13 fases"
+    },
+    {
+      "titulo": "Fluxograma Atual do Processo de Vendas",
+      "tipo": "Google Docs",
+      "id": "1whAzBoaYneGevQO-cHRrUEAguT2-kMUYHi12MHmXlHs",
+      "nota": "visão do que já está em uso"
+    }
+  ],
+  "por_cargo": {
+    "consultor": {
+      "fluxograma": "1lc3YMdF-t666BKtBLkw58jOqBS9Dp4YZmpgBRE7F6mQ",
+      "treinamento": "1KN73qhtLLG5jXhGZR4Kidr8LEqgvO3VGchx3DdFgzjc",
+      "dia1": "1kMZGbo_WwSZ3NwMb8oj5mh8gG7hEHBHdWYIZpbpI1PI"
+    },
+    "financ": {
+      "fluxograma": "1A8_LZ0QP6InUBKZQucfvsU30TLPSTtIxGgF-w6GijL4",
+      "treinamento": "1nbLjT27305SBaMcwrD2CgsfUSMmblPhNpk3kGPApR6c",
+      "dia1": "1sEcarZhpvP5-WUQ036vAbU3fRkJRNP11UrG7K7wkUXI"
+    },
+    "consig": {
+      "fluxograma": "1dJ2ii0xUUc-tdWUtewsZMIGyQK9FHlNrXKrLJWP4dXw",
+      "treinamento": "1wGl0uRtvH1d1hvL34E3cPoGD1R6B4tvDxqiKJTlRiUA",
+      "dia1": "1rCuY3UT1qtZttnFEFZd_QoCD8gYDdlDwIheQngS4wkc"
+    },
+    "sdr": {
+      "fluxograma": "1X-7ZA82j4ImqqZFlHRaDXJz8tF1-D5XHcdTI9kH-CTE",
+      "treinamento": "1g4N2ShUFW6ov5AiICCEztEQCoAjRzx0K9yYVvkjOIho"
+    },
+    "recep": {
+      "treinamento": "1bzpbcQIhH2xUJlwlYybCtxUpKSt6BJ-N-NajzD3VbmU",
+      "dia1": "17Gnq7PQe3hGJztyVcgYUfftGU4RQeLH-2J9PEezdnRI"
+    },
+    "assadm": {
+      "treinamento": "10wQP6y52ng9AGd882OCfk4DdGHEdLg_TsQPkLriBYiY"
+    },
+    "rh": {
+      "treinamento": "19F9K9M8UaVqhY5aQhbfW_bXq0qLV1r3sOMnOWxFqH8Y"
+    },
+    "motorista": {
+      "fluxograma": "1ZMgwAIHEbRhYYiaO52aRCFpzpZ5ry7NMl41jxn3jz64",
+      "treinamento": "1p_nnYSnJhV9ctsdESI8zIHzxta8fpb80unwTzI7lQrg",
+      "dia1": "1rnMzBghaUUwo8RsJeOGnj-22k67RJH-YWSxs9IKQQSc"
+    },
+    "asg": {
+      "fluxograma": "1Kl8N3xP8Gd-hriqQ2a21lCgZHtNws6SdCVSIWTXED1k",
+      "treinamento": "1fJNvIre0uTRDljetUYVIBkeNumZXupvGlHEPuMv2Alg"
+    },
+    "ceo": {
+      "fluxograma": "134VJoKaXLlReJ3eZDQil6la06tC7rT3yBJ5vM90BaSQ",
+      "treinamento": "1BubS7JigCTLdv-luOhfduV5ABSEB4gG_m2UOhP9zCp0"
+    },
+    "gadm": {
+      "fluxograma": "1xRMcd_oOwtNCLNgeVm6yJ_wIpIrhjs9NayGyKer3O5o",
+      "treinamento": "12qXTI50VLHWhN1QGP2XhRL8w4ieuaW4fKnQm4iDiRIA",
+      "dia1": "1MkioQMoN5-TLoQUwtGl9QPYerFms2pmsX3taVEBetcg"
+    },
+    "gmkt": {
+      "fluxograma": "15EVgacQNuCGYm8EbCc-c_oGMxX8mywlSobJ1W3j3THA",
+      "treinamento": "1Lklf0650T8QcTXK-h75VFFunr-_S95DqcnsRkbFfLX4"
+    },
+    "social": {
+      "fluxograma": "1_3PJhAgTWkNnAkg6ZBA-n8K7fLC9FTrY-7a5kLe9jCQ",
+      "treinamento": "1ivGm78VihDAa3rjKkRO9hc74dEZP_Y99hBZL5z2qHS0",
+      "fluxograma_extra": "1aKEQS6u0s19xq-P13uzq3UJurHNcgFLGRIjepvJ3CaE"
+    }
+  }
 }

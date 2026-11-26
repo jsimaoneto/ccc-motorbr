@@ -490,7 +490,6 @@ function arquivosDoCargo(id) {
     d.fluxograma_extra && [d.fluxograma_extra.titulo, 'função acumulada', d.fluxograma_extra.id],
     d.treinamento && ['Programa de treinamento', 'módulos, carga e verificação', d.treinamento],
     d.dia1 && ['Apostila Aplicação Dia 1', 'o que fazer no primeiro dia', d.dia1],
-    d.roteiro && ['Roteiro de vídeo-palestra', 'material de gravação do estúdio', d.roteiro],
   ].filter(Boolean);
   if (!linhas.length) return '';
   return `
@@ -587,7 +586,7 @@ function paginaDocumentos() {
     <h2>Por cargo</h2>
     <hr class="filete">
     <table class="tabela">
-      <thead><tr><th>Cargo</th><th>Fluxograma</th><th>Treinamento</th><th>Dia 1</th><th>Roteiro</th></tr></thead>
+      <thead><tr><th>Cargo</th><th>Fluxograma</th><th>Treinamento</th><th>Dia 1</th></tr></thead>
       <tbody>
         ${Object.entries(d.por_cargo).map(([id, a]) => `
           <tr>
@@ -595,7 +594,6 @@ function paginaDocumentos() {
             <td>${a.fluxograma ? `<a href="${docUrl(a.fluxograma)}" target="_blank" rel="noopener">abrir ↗</a>` : '<span class="legenda">—</span>'}</td>
             <td>${a.treinamento ? `<a href="${docUrl(a.treinamento)}" target="_blank" rel="noopener">abrir ↗</a>` : '<span class="legenda">—</span>'}</td>
             <td>${a.dia1 ? `<a href="${docUrl(a.dia1)}" target="_blank" rel="noopener">abrir ↗</a>` : '<span class="legenda">—</span>'}</td>
-            <td>${a.roteiro ? `<a href="${docUrl(a.roteiro)}" target="_blank" rel="noopener">abrir ↗</a>` : '<span class="legenda">—</span>'}</td>
           </tr>`).join('')}
       </tbody>
     </table>
